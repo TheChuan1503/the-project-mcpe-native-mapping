@@ -65,6 +65,12 @@ _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/l
     - [ServerPlayer](#serverplayer)
     - [SurvivalMode](#survivalmode)
     - [UpdatePlayerGameTypePacket](#updateplayergametypepacket)
+  - [1.17.0.02\_arm64-v8a](#117002_arm64-v8a)
+    - [Abilities](#abilities-2)
+    - [Actor](#actor-2)
+    - [ClientInstance](#clientinstance-2)
+    - [GameMode](#gamemode-2)
+    - [GuiData](#guidata-2)
 
 # Table
 ## 1.16.201.01_arm64-v8a
@@ -246,6 +252,8 @@ _此表未经完全验证_
 ### Actor
 - bool **mIsAlive**  
   `+0x3A9`
+- Vec3 **mPos**  
+  `+0x590`
 
   ---
 - void **Actor::addEffect** (const MobEffectInstance* mobEffectInstance)  
@@ -254,7 +262,7 @@ _此表未经完全验证_
   `0x24DA18C`
 - Vec3* **Actor::getPos** ()  
   `0x24D15D4`
-- char* **Actor::getUniqueID** ()  
+- void* **Actor::getUniqueID** ()  
   `0x24CEA00`
 - bool **Actor::isAlive** ()  
   `0x24DD7F4`
@@ -277,7 +285,7 @@ _此表未经完全验证_
 
 ### ClientInstance
 - GuiData* **mGuiData**  
-  `+0x4b0` ?
+  `+0x4B0` ?
 - LocalPlayer* **mLocalPlayer**  
   `+0x118`
 
@@ -448,3 +456,65 @@ _此表未经完全验证_
 ### UpdatePlayerGameTypePacket
 - _void **UpdatePlayerGameTypePacket::UpdatePlayerGameTypePacket** (UpdatePlayerGameTypePacket* this, GameType gameType, ActorUniqueID const& actorUniqueId)_  
   `0x1F00390`
+
+## 1.17.0.02_arm64-v8a
+_此表未经完全验证_
+
+- jint **JNI_OnLoad** (JavaVM\* vm, void\* reserved)  
+  `0x191146C`
+
+### Abilities
+- bool **Abilities::getBool** (AbilitiesIndex index)  
+  `0x2B68E58`
+
+### Actor
+- bool **mIsAlive**  
+  `+0x3C1`
+- Vec3 **mPos**  
+  `+0x5F8`
+
+  ---
+- void **Actor::addEffect** (MobEffectInstance const&)  
+  `0x2850A34`
+- float **Actor::distanceTo** (Actor const&)  
+  `0x283CBE4`
+- Vec3* **Actor::getPos** ()  
+  `0x2833654`
+- void* **Actor::getUniqueId** ()  
+  `0x2830B88`
+- bool **Actor::isAlive** ()  
+  `0x2840110`
+- void **Actor::remove** ()  
+  `0x2836E40`
+- void **Actor::setPos** (Vec3 const&)  
+  `0x2836218`
+
+### ClientInstance
+- GuiData **mGuiData**  
+  `+0x4B0` ?
+- LocalPlayer **mLocalPlayer**  
+  `+0x118`
+
+  ---
+- void **ClientInstance::_updateScreenSizeVariables** (Vec2 const&, float, float, float)  
+  `0x3A2A0FC`
+- GuiData* **ClientInstance::getGuiData** ()  
+  `0x3A302CC` ?
+- LocalPlayer* **ClientInstance::getLocalPlayer** ()  
+  `0x3A24588`
+- bool **ClientInstance::isInGame** ()  
+  `0x3A2D6B8` ?
+- void **ClientInstance::requestLeaveGame** (bool immediateExit, bool suppressConfirmation)  
+  `0x3A1F628`
+- void **ClientInstance::startExternalNetworkWorld** (Social::GameConnectionInfo, std::string const&, bool)  
+  `0x3A24598`
+- void **ClientInstance::update** (bool forceUpdate)  
+  `0x3A215E0`
+
+### GameMode
+- float **GameMode::getMaxPickRange** ()  
+  `0x244B600`
+
+### GuiData
+- void **GuiData::setGuiScale** (float scale)  
+  `0x3881DD4`
