@@ -64,6 +64,7 @@ _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/l
     - [ServerNetworkHandler](#servernetworkhandler)
     - [ServerPlayer](#serverplayer)
     - [SurvivalMode](#survivalmode)
+    - [Timer](#timer-1)
     - [UpdatePlayerGameTypePacket](#updateplayergametypepacket)
   - [1.17.0.02\_arm64-v8a](#117002_arm64-v8a)
     - [Abilities](#abilities-2)
@@ -71,6 +72,14 @@ _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/l
     - [ClientInstance](#clientinstance-2)
     - [GameMode](#gamemode-2)
     - [GuiData](#guidata-2)
+    - [InGamePlayScreen](#ingameplayscreen-1)
+    - [Level](#level-2)
+    - [LevelRendererPlayer](#levelrendererplayer-2)
+    - [LocalPlayer](#localplayer-2)
+    - [Minecraft](#minecraft-2)
+    - [Player](#player-2)
+    - [SurvivalMode](#survivalmode-1)
+    - [Timer](#timer-2)
 
 # Table
 ## 1.16.201.01_arm64-v8a
@@ -229,7 +238,7 @@ _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/l
 
 ### Timer
 - int **mTicksPerSecond**  
-  `+0x48`
+  `+0x0` ?
   
    ---
 - _void **Timer::Timer** (Timer* this)_  
@@ -362,7 +371,7 @@ _此表未经完全验证_
   `0x20D329C`
 
 ### Level
-- void **Level::tick** ()
+- void **Level::tick** ()  
   `0x2E9DCE0`
 
 ### LevelRendererPlayer
@@ -378,6 +387,8 @@ _此表未经完全验证_
   `0x37010B4`
 - void **LocalPlayer::jumpFromGround** ()  
   `0x37011F0`
+- void **LocalPlayer::resetRot** ()  
+  `0x36FACD0`
 - void **LocalPlayer::setPlayerGameType** (GameType type)  
   `0x36FE0E0`
 - void **LocalPlayer::setPlayerGameTypeWithoutServerNotification** (GameType type)  
@@ -453,6 +464,10 @@ _此表未经完全验证_
 - void **SurvivalMode::destroyBlock** (const BlockPos *, unsigned __int8)  
   `0x20EE4BC`
 
+### Timer
+- int **mTicksPerSecond**  
+  `+0x0` ?
+
 ### UpdatePlayerGameTypePacket
 - _void **UpdatePlayerGameTypePacket::UpdatePlayerGameTypePacket** (UpdatePlayerGameTypePacket* this, GameType gameType, ActorUniqueID const& actorUniqueId)_  
   `0x1F00390`
@@ -512,9 +527,89 @@ _此表未经完全验证_
   `0x3A215E0`
 
 ### GameMode
+- void **GameMode::destroyBlock** (BlockPos const& pos, unsigned char face)  
+  `0x2449258`
 - float **GameMode::getMaxPickRange** ()  
   `0x244B600`
 
 ### GuiData
+- UNKNOWN **mScreenSizeData**  
+  `+0x14`
+
+  ---
+- void **GuiData::displayClientMessage** (std::string const& message)  
+  `0x387F328`
+- void* **GuiData::getScreenSizeData** ()  
+  `0x3880DF0`
+- void **GuiData::setActionBarMessage** (std::string const& message)  
+  `0x38821D8`
 - void **GuiData::setGuiScale** (float scale)  
   `0x3881DD4`
+- void **GuiData::setSubtitle** (std::string const& message)  
+  `0x3882114`
+- void **GuiData::setTitle** (std::string const& message)  
+  `0x388208C`
+- void **GuiData::showTipMessage** (std::string const& message)  
+  `0x3880E24`
+
+### InGamePlayScreen
+- float? **InGamePlayScreen::_getPickRange** ()  
+  `0x3906A30`
+- void **InGamePlayScreen::applyInput** (float)  
+  `0x3902A30`
+
+### Level
+- void **Level::tick** ()  
+  `0x32CE0BC`
+
+### LevelRendererPlayer
+- float **LevelRendererPlayer::getFov** (float baseFov, bool useSmoothTransition)  
+  `0x45A39FC`
+
+### LocalPlayer
+- void **LocalPlayer::addLevels** (int levels)  
+  `0x3D0510C`
+- void **LocalPlayer::displayClientMessage** (std::string const& message)  
+  `0x3D015FC`
+- float **LocalPlayer::getPickRange** ()  
+  `0x3D0560C`
+- void **LocalPlayer::jumpFromGround** ()  
+  `0x3D05750`
+- void **LocalPlayer::resetRot** ()  
+  `0x3CFF414`
+- void **LocalPlayer::setPlayerGameType** (GameType type)  
+  `0x3D036BC`
+- void **LocalPlayer::setPlayerGameTypeWithoutServerNotification** (GameType type)  
+  `0x3D03774`
+- void **LocalPlayer::setPos** (Vec3 const& pos)  
+  `0x3CFF3E8`
+- void **LocalPlayer::startRiding** (Actor *)  
+  `0x3D04660`
+
+### Minecraft
+- Timer **mTimer**  
+  `+0xC8`
+
+  ---
+- void **Minecraft::getTimer** ()  
+  `0x2AFC328`
+
+### Player
+- void **Player::attack** (Actor *)  
+  `0x2B7F898`
+- float **Player::getCameraOffset** ()  
+  `0x2B7E65C`
+- GameType **Player::getPlayerGameType** ()  
+  `0x2B8697C`
+- float **Player::getSpeed** ()  
+  `0x2B724BC`
+- void **Player::setPlayerGameType** (GameType type)  
+  `0x2B86124`
+
+### SurvivalMode
+- void **SurvivalMode::destroyBlock** (BlockPos const&, unsigned char)  
+  `0x244BE38`
+
+### Timer
+- int **mTicksPerSecond**  
+  `+0x0` ?
