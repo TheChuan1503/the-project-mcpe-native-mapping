@@ -4,14 +4,25 @@ Minecraft: PE 原生函数与部分字段映射表
 此表自用  
 _This table is for my person use_
 
-所有地址和偏移由 TheChuan1503 分析  
-_All addresses and offsets are analyzed by TheChuan1503_
-
 使用和分享此表必须遵守 [CC BY-NC-4.0](LICENSE.zh) 许可证  
 _Use and share this table under the [CC BY-NC-4.0](LICENSE) license_
 
 本项目用到了 [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/libminecraftpe.so-ida-analysis/)  
 _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/libminecraftpe.so-ida-analysis/)_
+
+基本进度:
+- [x] ~~1.16.201~~
+- [x] 1.16.210
+- [x] 1.17.0
+- [ ] 1.17.41
+- [ ] 1.18.32
+- [ ] 1.19.41
+- [ ] 1.19.83
+- [ ] 1.20.0
+- [ ] ~~1.20.15~~
+- [ ] 1.20.41
+- [ ] 1.20.81
+- [ ] ...
 
 # Content
 - [Minecraft-PE-Native-Function-Mapping-Table](#minecraft-pe-native-function-mapping-table)
@@ -77,9 +88,13 @@ _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/l
     - [LevelRendererPlayer](#levelrendererplayer-2)
     - [LocalPlayer](#localplayer-2)
     - [Minecraft](#minecraft-2)
+    - [MobEffectInstance](#mobeffectinstance-2)
     - [Player](#player-2)
     - [SurvivalMode](#survivalmode-1)
     - [Timer](#timer-2)
+  - [1.17.41.01\_arm64-v8a](#1174101_arm64-v8a)
+    - [Actor](#actor-3)
+    - [MobEffectInstance](#mobeffectinstance-3)
 
 # Table
 ## 1.16.201.01_arm64-v8a
@@ -261,6 +276,8 @@ _此表未经完全验证_
 ### Actor
 - bool **mIsAlive**  
   `+0x3A9`
+- int **mLevel**  
+  `+0x350`
 - Vec3 **mPos**  
   `+0x590`
 
@@ -269,6 +286,8 @@ _此表未经完全验证_
   `0x24ED9C4`
 - float **Actor::distanceTo** (Actor const&)  
   `0x24DA18C`
+- int **Actor::getLevel** ()  
+  `0x24CA2A4`
 - Vec3* **Actor::getPos** ()  
   `0x24D15D4`
 - void* **Actor::getUniqueID** ()  
@@ -374,6 +393,10 @@ _此表未经完全验证_
 - void **Level::tick** ()  
   `0x2E9DCE0`
 
+<!-- ### LevelChunk
+- std::vector<Actor*>*? **LevelChunk::getEntities** ()  
+  `0x2B65DF4` -->
+
 ### LevelRendererPlayer
 - float **LevelRendererPlayer::getFov** (float baseFov, bool useSmoothTransition)  
   `0x3FACD44`
@@ -459,6 +482,8 @@ _此表未经完全验证_
   `0x1E1CDA0` 
 - void **ServerPlayer::setPlayerGameType** (Actor* actor, GameType type)  
   `0x1E1CD08`
+- void **ServerPlayer::tickWorld** (Tick const&)  
+  `0x1E13A74`
 
 ### SurvivalMode
 - void **SurvivalMode::destroyBlock** (const BlockPos *, unsigned __int8)  
@@ -594,6 +619,10 @@ _此表未经完全验证_
 - void **Minecraft::getTimer** ()  
   `0x2AFC328`
 
+### MobEffectInstance
+- _**MobEffectInstance::MobEffectInstance** (MobEffectInstance \* this, unsigned int, int, int, bool, bool, bool)_  
+  `0x24BDD18`
+
 ### Player
 - void **Player::attack** (Actor *)  
   `0x2B7F898`
@@ -613,3 +642,16 @@ _此表未经完全验证_
 ### Timer
 - int **mTicksPerSecond**  
   `+0x0` ?
+
+## 1.17.41.01_arm64-v8a
+_此表未经完全验证_
+- jint **JNI_OnLoad** (JavaVM\* vm, void\* reserved)  
+  `0x37AA618`
+
+### Actor
+- void **Actor::addEffect** (MobEffectInstance const&)  
+  `0x3DE80A0`
+
+### MobEffectInstance
+- _**MobEffectInstance::MobEffectInstance** (MobEffectInstance \* this, unsigned int, int, int, bool, bool, bool)_  
+  `0x57C4018`
