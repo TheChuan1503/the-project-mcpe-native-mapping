@@ -93,8 +93,12 @@ _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/l
     - [SurvivalMode](#survivalmode-1)
     - [Timer](#timer-2)
   - [1.17.41.01\_arm64-v8a](#1174101_arm64-v8a)
+    - [Abilities](#abilities-3)
     - [Actor](#actor-3)
+    - [GameMode](#gamemode-3)
+    - [LocalPlayer](#localplayer-3)
     - [MobEffectInstance](#mobeffectinstance-3)
+    - [Player](#player-3)
 
 # Table
 ## 1.16.201.01_arm64-v8a
@@ -276,7 +280,7 @@ _此表未经完全验证_
 ### Actor
 - bool **mIsAlive**  
   `+0x3A9`
-- int **mLevel**  
+- Level **mLevel**  
   `+0x350`
 - Vec3 **mPos**  
   `+0x590`
@@ -286,7 +290,7 @@ _此表未经完全验证_
   `0x24ED9C4`
 - float **Actor::distanceTo** (Actor const&)  
   `0x24DA18C`
-- int **Actor::getLevel** ()  
+- Level* **Actor::getLevel** ()  
   `0x24CA2A4`
 - Vec3* **Actor::getPos** ()  
   `0x24D15D4`
@@ -510,6 +514,8 @@ _此表未经完全验证_
 ### Actor
 - bool **mIsAlive**  
   `+0x3C1`
+- Level **mLevel**  
+  `+0x368`
 - Vec3 **mPos**  
   `+0x5F8`
 
@@ -518,6 +524,8 @@ _此表未经完全验证_
   `0x2850A34`
 - float **Actor::distanceTo** (Actor const&)  
   `0x283CBE4`
+- Level* **Actor::getLevel** ()  
+  `0x282ADC8`
 - Vec3* **Actor::getPos** ()  
   `0x2833654`
 - void* **Actor::getUniqueId** ()  
@@ -648,10 +656,52 @@ _此表未经完全验证_
 - jint **JNI_OnLoad** (JavaVM\* vm, void\* reserved)  
   `0x37AA618`
 
+### Abilities
+- bool **Abilities::getBool** (AbilitiesIndex index)  
+  `0x4D8F314`
+
 ### Actor
+- bool **mIsAlive**  
+  `+0x3B9` ?
+- Level **mLevel**  
+  `+0x360`
+- Vec3 **mPos**  
+  `+0x620`
+- char **mUniqueId**  
+  `+0x248`
+
+  ---
 - void **Actor::addEffect** (MobEffectInstance const&)  
   `0x3DE80A0`
+- float **Actor::distanceTo** (Actor const&)  
+  `0x3DD5A7C`
+- Level* **Actor::getLevel** ()  
+  `0x3DC28A8`
+- Vec3* **Actor::getPos** ()  
+  `0x3DCBB74`
+- char* **Actor::getUniqueId** ()  
+  `0x3DC8300`
+- bool **Actor::isAlive** ()  
+  `0x3DD94B4` ?
+- void **Actor::remove** ()  
+  `0x3DCFB00`
+- void **Actor::setPos** (Vec3 const& pos)  
+  `0x3DCEA4C`
+- void **Actor::setRot** (Vec2 const& rot)  
+  `0x3DCFFF0`
+
+### GameMode
+- float **GameMode::getMaxPickRange** ()  
+  `0x484C770`
+
+### LocalPlayer
+- void **LocalPlayer::setPos** (Vec3 const& pos)  
+  `0x3CEF174`
 
 ### MobEffectInstance
 - _**MobEffectInstance::MobEffectInstance** (MobEffectInstance \* this, unsigned int, int, int, bool, bool, bool)_  
   `0x57C4018`
+
+### Player
+- void **Player::setPlayerGameType** (GameType type)  
+  `0x4DADD94`
