@@ -102,6 +102,18 @@ _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/l
     - [LocalPlayer](#localplayer-3)
     - [MobEffectInstance](#mobeffectinstance-3)
     - [Player](#player-3)
+  - [1.21.2.02\_arm64-v8a](#121202_arm64-v8a)
+    - [Abilities](#abilities-4)
+    - [Actor](#actor-4)
+    - [ClientInstance](#clientinstance-4)
+    - [GameMode](#gamemode-4)
+    - [ItemStack](#itemstack)
+    - [Level](#level-3)
+    - [LevelRendererPlayer](#levelrendererplayer-3)
+    - [Minecraft](#minecraft-3)
+    - [MinecraftGame](#minecraftgame-1)
+    - [MobEffectInstance](#mobeffectinstance-4)
+    - [Player](#player-4)
 
 # Table
 ## 1.16.201.01_arm64-v8a
@@ -752,3 +764,83 @@ _此表未经完全验证_
   `0x4D9C748`
 - void **Player::setPlayerGameType** (GameType type)  
   `0x4DADD94`
+
+## 1.21.2.02_arm64-v8a
+_此表未经完全验证_
+
+- jint **JNI_OnLoad** (JavaVM\* vm, void\* reserved)  
+  `0xC6F7C9C`
+
+### Abilities
+- bool **Abilities::getBool** (AbilitiesIndex index)  
+  `0xA8B37B0`
+
+### Actor
+- void **Actor::addEffect** (MobEffectInstance const&)  
+  `0xAB127C0`
+- float **Actor::distanceTo** (Actor const&)  
+  `0xAAFED0C`
+- float **Actor::distanceTo** (Vec3 const&)  
+  `0xAAFED5C`
+- Level* **Actor::getLevel** ()  
+  `0xAAED1B4`
+- Vec3* **Actor::getPosition** ()  
+  `0xAAEFB44`
+- bool **Actor::isAlive** ()  
+  `0xAB016EC`
+- void **Actor::setPos** (Vec3 const& pos)  
+  `0xAAF6514`
+- void **Actor::teleportTo** (Vec3 const&, bool, int, int, ActorUniqueID const&)  
+  `0x627F600`
+
+### ClientInstance
+- LocalPlayer* **ClientInstance::getLocalPlayer** ()  
+  `0x62828E4`
+- void **ClientInstance::update** (bool forceUpdate)  
+  `0x6282944`
+
+### GameMode
+- void **GameMode::destroyBlock** (BlockPos const& pos, unsigned char face)  
+  `0xA722810`
+- float **GameMode::getMaxPickRange** ()  
+  `0xA725E10`
+
+### ItemStack
+- void **ItemStack::ItemStack** (std::string_view name, int count, int aux, CompoundTag const\* tag)  
+  `0xB5BF368`
+
+### Level
+- bool **Level::isMultiplayerGame** ()  
+  `0xB15A948`
+- void **Level::tick** ()  
+  `0xDE57D50`
+
+### LevelRendererPlayer
+- float **LevelRendererPlayer::getFov** (float, bool)  
+  `0x73F4264`
+
+### Minecraft
+- Timer **mTimer**
+  `+0xD0`
+
+  ---
+- UNKNOWN* **Minecraft::getEntityRegistry** ()  
+  `0xAB8F828`
+
+### MinecraftGame
+- void **MinecraftGame::onClientLevelExit** ()  
+  `0x61F0BDC`
+
+### MobEffectInstance
+- _**MobEffectInstance::MobEffectInstance** (MobEffectInstance \* this, unsigned int, int, int, bool, bool, bool)_  
+  `0xA77086C`
+
+### Player
+- void **Player::add** (ItemStack const&)  
+  `0xA851770`
+- GameMode **Player::getGameMode** ()  
+  `0xA860B10`
+- float **Player::getSpeed** ()  
+  `0xA849608`
+- void **Player::teleportTo** (Vec3 const&, bool, int, int, ActorUniqueID const&)  
+  `0xA849114`
