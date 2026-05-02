@@ -1,29 +1,14 @@
 # Minecraft-PE-Native-Function-Mapping-Table
-Minecraft: PE 原生函数与部分字段映射表
+Minecraft: PE 部分原生函数与字段映射表
 
 此表自用  
 _This table is for my person use_
 
-使用和分享此表必须遵守 [CC BY-NC-4.0](LICENSE.zh) 许可证  
+使用和分享此表遵守 [CC BY-NC-4.0](LICENSE.zh) 许可证  
 _Use and share this table under the [CC BY-NC-4.0](LICENSE) license_
 
 本项目用到了 [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/libminecraftpe.so-ida-analysis/)  
 _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/libminecraftpe.so-ida-analysis/)_
-
-基本进度:
-- [x] ~~1.16.201~~
-- [x] 1.16.210
-- [x] 1.17.0
-- [ ] ~~1.17.41~~
-- [ ] ~~1.18.32~~
-- [ ] ~~1.19.41~~
-- [ ] ~~1.19.83~~
-- [ ] ~~1.20.0~~
-- [ ] ~~1.20.15~~
-- [ ] ~~1.20.41~~
-- [ ] 1.20.81
-- [ ] 1.21.2
-- [ ] ...
 
 # Content
 - [Minecraft-PE-Native-Function-Mapping-Table](#minecraft-pe-native-function-mapping-table)
@@ -114,6 +99,45 @@ _This project uses [libminecraftpe.so-ida-analysis](https://github.com/1503Dev/l
     - [MinecraftGame](#minecraftgame-1)
     - [MobEffectInstance](#mobeffectinstance-4)
     - [Player](#player-4)
+  - [1.21.111.1\_arm64-v8a](#1211111_arm64-v8a)
+    - [Abilities](#abilities-5)
+    - [Actor](#actor-5)
+    - [ActorEntityAccess](#actorentityaccess)
+    - [AppPlatform](#appplatform)
+    - [BaseActorRenderer](#baseactorrenderer)
+    - [BaseOptions](#baseoptions)
+    - [Block](#block)
+    - [BlockMovementSlowdownMultiplierSystemImpl](#blockmovementslowdownmultipliersystemimpl)
+    - [BlockSource](#blocksource)
+    - [CameraAvoidanceSystem](#cameraavoidancesystem)
+    - [CameraBlendSystem](#camerablendsystem)
+    - [CameraBobSystem](#camerabobsystem)
+    - [CameraPortalDistortionSystem](#cameraportaldistortionsystem)
+    - [CameraVehicleRotationLookSystem](#cameravehiclerotationlooksystem)
+    - [ClientInputCallbacks](#clientinputcallbacks)
+    - [ClientInstance](#clientinstance-5)
+    - [Entitlement](#entitlement)
+    - [FullScreenEffectRenderer](#fullscreeneffectrenderer)
+    - [GameMode](#gamemode-5)
+    - [GameplayUserManager](#gameplayusermanager)
+    - [GuiData](#guidata-4)
+    - [HudPlayerRenderer](#hudplayerrenderer)
+    - [HudVignetteRenderer](#hudvignetterenderer)
+    - [ItemUseSlowdownSystemImpl](#itemuseslowdownsystemimpl)
+    - [LayeredAbilities](#layeredabilities)
+    - [Level](#level-4)
+    - [LevelRenderer](#levelrenderer)
+    - [LevelRendererCamera](#levelrenderercamera)
+    - [LevelRendererPlayer](#levelrendererplayer-4)
+    - [LocalPlayer](#localplayer-4)
+    - [MinecraftGame](#minecraftgame-2)
+    - [Mob](#mob-1)
+    - [MobJump](#mobjump)
+    - [MobMovementGravity](#mobmovementgravity)
+    - [MoveCollisionSystem](#movecollisionsystem)
+    - [NetherNet::SimpleNetworkInterfaceImpl](#nethernetsimplenetworkinterfaceimpl)
+    - [Player](#player-5)
+    - [TileMessage](#tilemessage)
 
 # Table
 ## 1.16.201.01_arm64-v8a
@@ -820,7 +844,7 @@ _此表未经完全验证_
   `0x73F4264`
 
 ### Minecraft
-- Timer **mTimer**
+- Timer **mTimer**  
   `+0xD0`
 
   ---
@@ -844,3 +868,217 @@ _此表未经完全验证_
   `0xA849608`
 - void **Player::teleportTo** (Vec3 const&, bool, int, int, ActorUniqueID const&)  
   `0xA849114`
+
+## 1.21.111.1_arm64-v8a
+_此表大部分内容来自 Apollon Client(by Zeff)_
+
+- jint **JNI_OnLoad** (JavaVM\* vm, void\* reserved)  
+  `0x4FD5CFC`
+
+### Abilities
+- **Abilities::setAbility**  
+  `0xCDF87E0`
+
+### Actor
+- **Actor::_initializeMaxAutoStep**  
+  `0xC956C54`
+- **Actor::getAABBDim**  
+  `0xC93AE58`
+- **Actor::getDimensionBlockSource**  
+  `0xC9318F0`
+- **Actor::getEntityTypeId**  
+  `0xC937698`
+- **Actor::getHealth**  
+  `0xC9437D0`
+- **Actor::getNameTag**  
+  `0xC94C468`
+- **Actor::getYHeadRot**  
+  `0xC95AE58`
+- **Actor::intersects**  
+  `0xC94727C`
+- **Actor::isAttackableGamemode**  
+  `0xC95B500`
+- **Actor::lerpMotion**  
+  `0xC947CDC`
+- **Actor::setClimbing**  
+  `0xC945610`
+- **Actor::setInvisible**  
+  `0xC9597B8`
+- **Actor::setPos**  
+  `Actor::setPos`
+- **Actor::setYHeadRot**  
+  `0xC95AF30`
+- **Actor::teleportTo**  _(未验证)_  
+  `0xC943F04`
+
+### ActorEntityAccess
+- **ActorEntityAccess::addOrRemoveComponent<FlagComponent<MobIsJumpingFlag>>**  
+  `0xCDD8840`
+- **ActorEntityAccess::addOrRemoveComponent<OnGroundFlagComponent>**  
+  `0x6F42DFC`
+
+### AppPlatform
+- **AppPlatform::getMaxPlayers**  
+  `0xE14C3C4`
+
+### BaseActorRenderer
+- **BaseActorRenderer::renderText**  
+  `0x6AEE80C`
+
+### BaseOptions
+- **BaseOptions::getGamma**  
+  `0x6C6B95C`
+
+### Block
+- **Block::getRenderLayer**  
+  `0xD52E0F4`
+- **Block::isAir**  
+  `0xCFA78FC`
+
+### BlockMovementSlowdownMultiplierSystemImpl
+- **BlockMovementSlowdownMultiplierSystemImpl::applySlowdownOnMove**  
+  `0x954C0E4`
+
+### BlockSource
+- **BlockSource::getBlock**  
+  `0xCEE4E74`
+
+### CameraAvoidanceSystem
+- **CameraAvoidanceSystem::tick**  
+  `0xE1DB2A4`
+
+### CameraBlendSystem
+- **CameraBlendSystem::_tick**  
+  `0xE1DC87C`
+
+### CameraBobSystem
+- **CameraBobSystem::tick**  
+  `0x5103870`
+
+### CameraPortalDistortionSystem
+- **CameraPortalDistortionSystem::_tick**  
+  `0xDF56A14`
+
+### CameraVehicleRotationLookSystem
+- **CameraVehicleRotationLookSystem::tick**  
+  `0x5114BB8`
+
+### ClientInputCallbacks
+- **ClientInputCallbacks::handleDestoryOrAttackButtonPress**  
+  `0x6462B60`
+
+### ClientInstance
+- **ClientInstance::getScreenName**  
+  `0x648482C`
+- **ClientInstance::onTick**  
+  `0x6478734`
+- **ClientInstance::playUI**  
+  `0x648AED8`
+
+### Entitlement
+- **Entitlement::isOwned**  
+  `0x76CF620`
+
+### FullScreenEffectRenderer
+- **FullScreenEffectRenderer::render**  
+  `0x7BBEAB4`
+- **FullScreenEffectRenderer::renderHeadlocked**  
+  `0x7BBE1E4`
+
+### GameMode
+- **GameMode::_attack**  
+  `0xCCC075C`
+- **GameMode::destroyBlock**  
+  `0xCCC1260`
+- **GameMode::useItemOn**  
+  `0xCCC3650`
+
+### GameplayUserManager
+- **GameplayUserManager::forEachActivePlayer**  
+  `0xCE9B8F4`
+
+### GuiData
+- **GuiData::_tickItemDrop**  
+  `0x6358EDC`
+
+### HudPlayerRenderer
+- **HudPlayerRenderer::update**  
+  `0x6373FB8`
+
+### HudVignetteRenderer
+- **HudVignetteRenderer::render**  
+  `0x6376084`
+
+### ItemUseSlowdownSystemImpl
+- **ItemUseSlowdownSystemImpl::doItemUseSlowdownSystem**  
+  `0x945D230`
+
+### LayeredAbilities
+- **LayeredAbilities::getLayer**  
+  `0xCDF9450`
+
+### Level
+- **Level::getRuntimeActorList**  
+  `0xD6B0D68`
+
+### LevelRenderer
+- **LevelRenderer::rebuildAllRenderChunkGeometry**  
+  `0x7BF10A8`
+
+### LevelRendererCamera
+- **LevelRendererCamera::_getFogDensitySettingType**  
+  `0x7C08F08`
+
+### LevelRendererPlayer
+- **LevelRendererPlayer::setupFog**  
+  `0x7C00420`
+
+### LocalPlayer
+- **LocalPlayer::displayClientMessage**  
+  `0x6BF196C`
+- **LocalPlayer::normalTick**  
+  `0x6BEDA24`
+- **LocalPlayer::setSprinting**  
+  `0x6BF05B8`
+- **LocalPlayer::swing**  
+  `0x6BF031C`
+
+### MinecraftGame
+- **MinecraftGame::onClientLevelExit** _(未验证)_  
+  `0x64F7B84`
+
+### Mob
+- **Mob::setYBodyRotation**  
+  `0xC86C5D4`
+
+### MobJump
+- **MobJump::setNoJumpDelay**  
+  `0xCDDB410`
+
+### MobMovementGravity
+- **MobMovementGravity::tickLavaGravity**  
+  `0x9DB9528`
+- **MobMovementGravity::tickPlayerWaterGravity**  
+  `0x9DB7558`
+
+### MoveCollisionSystem
+- **MoveCollisionSystem::System**  
+  `0x93D2760`
+
+### NetherNet::SimpleNetworkInterfaceImpl
+- **NetherNet::SimpleNetworkInterfaceImpl::ReadPacket**  
+  `0xE26A234`
+- **NetherNet::SimpleNetworkInterfaceImpl::SendPacket**  
+  `0xE26A008`
+
+### Player
+- **Player::getAbilities**  
+  `0xCDF943C`
+- **Player::isEmoting**  
+  `0xCE072A8`
+- **Player::teleportTo**  
+  `0xCE03D04`
+
+### TileMessage
+- **TileMessage::setSubtitle**  
+  `0x63164C4`
