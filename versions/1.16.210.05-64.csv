@@ -1,0 +1,267 @@
+mangled,demangled,signature,address
+_ZN5Actor15reloadHardcodedENS_20InitializationMethodERK20VariantParameterList,"Actor::reloadHardcoded(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_1173(__int64 a1),0x1173
+_ZN5Actor21reloadHardcodedClientENS_20InitializationMethodERK20VariantParameterList,"Actor::reloadHardcodedClient(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_24CA9E4(__int64 a1),0x24CA9E4
+_ZN5Actor20initializeComponentsENS_20InitializationMethodERK20VariantParameterList,"Actor::initializeComponents(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_24CAB08(__int64 a1),0x24CAB08
+_ZN5Actor16reloadComponentsENS_20InitializationMethodERK20VariantParameterList,"Actor::reloadComponents(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_24CCAFC(__int64 a1),0x24CCAFC
+_ZN5Actor23_serverInitItemStackIdsEv,Actor::_serverInitItemStackIds(void),__int64 __fastcall sub_24CCECC(__int64 a1),0x24CCECC
+_ZN5Actor14_doInitialMoveEv,Actor::_doInitialMove(void),__int64 __fastcall sub_24CD0E8(__int64 a1),0x24CD0E8
+_ZNK5Actor12hasComponentERK12HashedString,Actor::hasComponent(HashedString const&),__int64 __fastcall sub_24CDD08(__int64 a1),0x24CDD08
+_ZN5ActorD2Ev,Actor::~Actor(),__int64 __fastcall sub_24C9334(__int64 a1),0x24C9334
+_ZN5ActorD0Ev,Actor::~Actor(),__int64 __fastcall sub_24C968C(__int64 a1),0x24C968C
+_ZN5Actor5resetEv,Actor::reset(void),__int64 __fastcall sub_24DD5DC(__int64 a1),0x24DD5DC
+_ZN5Actor20getOnDeathExperienceEv,Actor::getOnDeathExperience(void),__int64 __fastcall sub_24D0B8C(__int64 a1),0x24D0B8C
+_ZN5Actor18getOwnerEntityTypeEv,Actor::getOwnerEntityType(void),__int64 __fastcall sub_24E7A7C(__int64 a1),0x24E7A7C
+_ZN5Actor6removeEv,Actor::remove(void),__int64 __fastcall sub_24D48D0(__int64 a1),0x24D48D0
+_ZN5Actor6setPosERK4Vec3,Actor::setPos(Vec3 const&),__int64 __fastcall sub_24D3CF0(__int64 a1),0x24D3CF0
+_ZNK5Actor33isRuntimePredictedMovementEnabledEv,Actor::isRuntimePredictedMovementEnabled(void),__int64 __fastcall sub_24D0F18(__int64 a1),0x24D0F18
+_ZNK5Actor26getPredictedMovementValuesEv,Actor::getPredictedMovementValues(void),__int64 __fastcall sub_24D15D4(__int64 a1),0x24D15D4
+_ZNK5Actor6getPosEv,Actor::getPos(void),__int64 __fastcall sub_24D3F9C(__int64 a1),0x24D3F9C
+_ZNK5Actor9getPosOldEv,Actor::getPosOld(void),__int64 __fastcall sub_24D3FA4(__int64 a1),0x24D3FA4
+_ZNK5Actor18getPosExtrapolatedEf,Actor::getPosExtrapolated(float),__int64 __fastcall sub_24D3FAC(__int64 a1),0x24D3FAC
+_ZNK5Actor12getAttachPosE13ActorLocationf,"Actor::getAttachPos(ActorLocation,float)",__int64 __fastcall sub_24D428C(__int64 a1),0x24D428C
+_ZNK5Actor12getFiringPosEv,Actor::getFiringPos(void),__int64 __fastcall sub_24D4504(__int64 a1),0x24D4504
+_ZN5Actor6setRotERK4Vec2,Actor::setRot(Vec2 const&),__int64 __fastcall sub_24D4D0C(__int64 a1),0x24D4D0C
+_ZN5Actor4moveERK4Vec3,Actor::move(Vec3 const&),__int64 __fastcall sub_24D27C8(__int64 a1),0x24D27C8
+_ZNK5Actor4moveER19IActorMovementProxyRK4Vec3,"Actor::move(IActorMovementProxy &,Vec3 const&)",__int64 __fastcall sub_24D15DC(__int64 a1),0x24D15DC
+_ZNK5Actor29getInterpolatedRidingPositionEf,Actor::getInterpolatedRidingPosition(float),__int64 __fastcall sub_24ECFB0(__int64 a1),0x24ECFB0
+_ZNK5Actor22getInterpolatedBodyRotEf,Actor::getInterpolatedBodyRot(float),__int64 __fastcall sub_24ED0FC(__int64 a1),0x24ED0FC
+_ZNK5Actor22getInterpolatedHeadRotEf,Actor::getInterpolatedHeadRot(float),__int64 __fastcall sub_24ED144(__int64 a1),0x24ED144
+_ZNK5Actor22getInterpolatedBodyYawEf,Actor::getInterpolatedBodyYaw(float),__int64 __fastcall sub_24ED14C(__int64 a1),0x24ED14C
+_ZNK5Actor29getYawSpeedInDegreesPerSecondEv,Actor::getYawSpeedInDegreesPerSecond(void),__int64 __fastcall sub_24D4DE8(__int64 a1),0x24D4DE8
+_ZNK5Actor28getInterpolatedWalkAnimSpeedEf,Actor::getInterpolatedWalkAnimSpeed(float),__int64 __fastcall sub_24D4E10(__int64 a1),0x24D4E10
+_ZNK5Actor27getInterpolatedRidingOffsetEf,Actor::getInterpolatedRidingOffset(float),__int64 __fastcall sub_24D4E2C(__int64 a1),0x24D4E2C
+_ZN5Actor20checkBlockCollisionsERK4AABBSt8functionIFvR11BlockSourceRK5BlockRK8BlockPosRS_EE,"Actor::checkBlockCollisions(AABB const&,std::function<void ()(BlockSource &,Block const&,BlockPos const&,Actor&)>)",__int64 __fastcall sub_24E9438(__int64 a1),0x24E9438
+_ZN5Actor20checkBlockCollisionsEv,Actor::checkBlockCollisions(void),__int64 __fastcall sub_24E909C(__int64 a1),0x24E909C
+_ZNK5Actor12isFireImmuneEv,Actor::isFireImmune(void),__int64 __fastcall sub_24E9374(__int64 a1),0x24E9374
+_ZNK5Actor19breaksFallingBlocksEv,Actor::breaksFallingBlocks(void),__int64 __fastcall sub_24F1AA8(__int64 a1),0x24F1AA8
+_ZN5Actor15blockedByShieldERK17ActorDamageSourceRS_,"Actor::blockedByShield(ActorDamageSource const&,Actor&)",__int64 __fastcall sub_24F1AB0(__int64 a1),0x24F1AB0
+_ZN5Actor10teleportToERK4Vec3bii,"Actor::teleportTo(Vec3 const&,bool,int,int)",__int64 __fastcall sub_24D9B8C(__int64 a1),0x24D9B8C
+_ZN5Actor13tryTeleportToERK4Vec3bbii,"Actor::tryTeleportTo(Vec3 const&,bool,bool,int,int)",__int64 __fastcall sub_24D9CCC(__int64 a1),0x24D9CCC
+_ZN5Actor19chorusFruitTeleportER4Vec3,Actor::chorusFruitTeleport(Vec3 &),__int64 __fastcall sub_24D9FB0(__int64 a1),0x24D9FB0
+_ZN5Actor6lerpToERK4Vec3RK4Vec2i,"Actor::lerpTo(Vec3 const&,Vec2 const&,int)",__int64 __fastcall sub_24DD804(__int64 a1),0x24DD804
+_ZN5Actor10lerpMotionERK4Vec3,Actor::lerpMotion(Vec3 const&),__int64 __fastcall sub_24DE040(__int64 a1),0x24DE040
+_ZN5Actor23tryCreateAddActorPacketEv,Actor::tryCreateAddActorPacket(void),__int64 __fastcall sub_24D4E40(__int64 a1),0x24D4E40
+_ZN5Actor10normalTickEv,Actor::normalTick(void),__int64 __fastcall sub_24D5004(__int64 a1),0x24D5004
+_ZN5Actor8baseTickEv,Actor::baseTick(void),__int64 __fastcall sub_24D567C(__int64 a1),0x24D567C
+_ZN5Actor8rideTickEv,Actor::rideTick(void),__int64 __fastcall sub_7E3D8A8(__int64 a1),0x7E3D8A8
+_ZN5Actor13positionRiderERS_f,"Actor::positionRider(Actor&,float)",__int64 __fastcall sub_24D73B4(__int64 a1),0x24D73B4
+_ZN5Actor15getRidingHeightEv,Actor::getRidingHeight(void),__int64 __fastcall sub_24D7C8C(__int64 a1),0x24D7C8C
+_ZN5Actor11startRidingERS_,Actor::startRiding(Actor&),__int64 __fastcall sub_24D88B0(__int64 a1),0x24D88B0
+_ZN5Actor8addRiderERS_,Actor::addRider(Actor&),__int64 __fastcall sub_24D7C94(__int64 a1),0x24D7C94
+_ZN5Actor17flagRiderToRemoveERS_,Actor::flagRiderToRemove(Actor&),__int64 __fastcall sub_24D82F4(__int64 a1),0x24D82F4
+_ZNK5Actor10getExitTipERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9InputMode,"Actor::getExitTip(std::string const&,InputMode)",__int64 __fastcall sub_24D8364(__int64 a1),0x24D8364
+_ZNK5Actor10intersectsERK4Vec3S2_,"Actor::intersects(Vec3 const&,Vec3 const&)",__int64 __fastcall sub_24DD644(__int64 a1),0x24DD644
+_ZN5Actor6isFreeERK4Vec3f,"Actor::isFree(Vec3 const&,float)",__int64 __fastcall sub_24D0D44(__int64 a1),0x24D0D44
+_ZN5Actor6isFreeERK4Vec3,Actor::isFree(Vec3 const&),__int64 __fastcall sub_24D0DF4(__int64 a1),0x24D0DF4
+_ZNK5Actor8isInWallEv,Actor::isInWall(void),__int64 __fastcall sub_24D071C(__int64 a1),0x24D071C
+_ZNK5Actor11isInvisibleEv,Actor::isInvisible(void),__int64 __fastcall sub_24E7708(__int64 a1),0x24E7708
+_ZNK5Actor14canShowNameTagEv,Actor::canShowNameTag(void),__int64 __fastcall sub_24E7730(__int64 a1),0x24E7730
+_ZNK5Actor18canExistInPeacefulEv,Actor::canExistInPeaceful(void),__int64 __fastcall sub_24E7700(__int64 a1),0x24E7700
+_ZN5Actor17setNameTagVisibleEb,Actor::setNameTagVisible(bool),__int64 __fastcall sub_24E7758(__int64 a1),0x24E7758
+_ZNK5Actor10getNameTagB5cxx11Ev,Actor::getNameTag(void),__int64 __fastcall sub_24E7768(__int64 a1),0x24E7768
+_ZNK5Actor16getNameTagAsHashEv,Actor::getNameTagAsHash(void),__int64 __fastcall sub_24E7774(__int64 a1),0x24E7774
+_ZNK5Actor19getFormattedNameTagB5cxx11Ev,Actor::getFormattedNameTag(void),__int64 __fastcall sub_24E777C(__int64 a1),0x24E777C
+_ZN5Actor22filterFormattedNameTagERK18UIProfanityContext,Actor::filterFormattedNameTag(UIProfanityContext const&),__int64 __fastcall sub_24E77B0(__int64 a1),0x24E77B0
+_ZN5Actor10setNameTagERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Actor::setNameTag(std::string const&),__int64 __fastcall sub_24E7888(__int64 a1),0x24E7888
+_ZNK5Actor20getAlwaysShowNameTagEv,Actor::getAlwaysShowNameTag(void),__int64 __fastcall sub_24E79C4(__int64 a1),0x24E79C4
+_ZN5Actor11setScoreTagERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Actor::setScoreTag(std::string const&),__int64 __fastcall sub_24E79CC(__int64 a1),0x24E79CC
+_ZNK5Actor11getScoreTagB5cxx11Ev,Actor::getScoreTag(void),__int64 __fastcall sub_24E7A04(__int64 a1),0x24E7A04
+_ZNK5Actor9isInWaterEv,Actor::isInWater(void),__int64 __fastcall sub_24D090C(__int64 a1),0x24D090C
+_ZNK5Actor15hasEnteredWaterEv,Actor::hasEnteredWater(void),__int64 __fastcall sub_24D0914(__int64 a1),0x24D0914
+_ZNK5Actor17isImmersedInWaterEv,Actor::isImmersedInWater(void),__int64 __fastcall sub_24D07D4(__int64 a1),0x24D07D4
+_ZNK5Actor15isInWaterOrRainEv,Actor::isInWaterOrRain(void),__int64 __fastcall sub_24D091C(__int64 a1),0x24D091C
+_ZNK5Actor8isInLavaEv,Actor::isInLava(void),__int64 __fastcall sub_24D0C24(__int64 a1),0x24D0C24
+_ZNK5Actor13isUnderLiquidE12MaterialType,Actor::isUnderLiquid(MaterialType),__int64 __fastcall sub_24D38F4(__int64 a1),0x24D38F4
+_ZNK5Actor11isOverWaterEv,Actor::isOverWater(void),__int64 __fastcall sub_24D39C0(__int64 a1),0x24D39C0
+_ZN5Actor34setBlockMovementSlowdownMultiplierERK4Vec3,Actor::setBlockMovementSlowdownMultiplier(Vec3 const&),__int64 __fastcall sub_24D3858(__int64 a1),0x24D3858
+_ZN5Actor36resetBlockMovementSlowdownMultiplierEv,Actor::resetBlockMovementSlowdownMultiplier(void),__int64 __fastcall sub_24D38D4(__int64 a1),0x24D38D4
+_ZNK5Actor15getCameraOffsetEv,Actor::getCameraOffset(void),__int64 __fastcall sub_24D9844(__int64 a1),0x24D9844
+_ZN5Actor19getShadowHeightOffsEv,Actor::getShadowHeightOffs(void),__int64 __fastcall sub_24DD7DC(__int64 a1),0x24DD7DC
+_ZNK5Actor15getShadowRadiusEv,Actor::getShadowRadius(void),__int64 __fastcall sub_24DD7EC(__int64 a1),0x24DD7EC
+_ZN5Actor17getHeadLookVectorEf,Actor::getHeadLookVector(float),__int64 __fastcall sub_1E56F34(__int64 a1),0x1E56F34
+_ZNK5Actor15canSeeInvisibleEv,Actor::canSeeInvisible(void),__int64 __fastcall sub_1E56F38(__int64 a1),0x1E56F38
+_ZNK5Actor6canSeeERKS_,Actor::canSee(Actor const&),__int64 __fastcall sub_24E8E6C(__int64 a1),0x24E8E6C
+_ZNK5Actor6canSeeERK4Vec3,Actor::canSee(Vec3 const&),__int64 __fastcall sub_24E8F3C(__int64 a1),0x24E8F3C
+_ZN5Actor8isSkyLitEf,Actor::isSkyLit(float),__int64 __fastcall sub_24D4540(__int64 a1),0x24D4540
+_ZNK5Actor13getBrightnessEf,Actor::getBrightness(float),__int64 __fastcall sub_24D46A0(__int64 a1),0x24D46A0
+_ZN5Actor22interactPreventDefaultEv,Actor::interactPreventDefault(void),__int64 __fastcall sub_24E76F8(__int64 a1),0x24E76F8
+_ZN5Actor11playerTouchER6Player,Actor::playerTouch(Player &),__int64 __fastcall sub_1305(__int64 a1),0x1305
+_ZN5Actor19onAboveBubbleColumnEb,Actor::onAboveBubbleColumn(bool),__int64 __fastcall sub_24DA28C(__int64 a1),0x24DA28C
+_ZN5Actor20onInsideBubbleColumnEb,Actor::onInsideBubbleColumn(bool),__int64 __fastcall sub_24DA310(__int64 a1),0x24DA310
+_ZNK5Actor10isImmobileEv,Actor::isImmobile(void),__int64 __fastcall sub_24E7A10(__int64 a1),0x24E7A10
+_ZN5Actor8isSilentEv,Actor::isSilent(void),__int64 __fastcall sub_24E7A4C(__int64 a1),0x24E7A4C
+_ZN5Actor10isPickableEv,Actor::isPickable(void),__int64 __fastcall sub_24DD6B0(__int64 a1),0x24DD6B0
+_ZNK5Actor10isFishableEv,Actor::isFishable(void),__int64 __fastcall sub_24DD6B8(__int64 a1),0x24DD6B8
+_ZNK5Actor10isSleepingEv,Actor::isSleeping(void),__int64 __fastcall sub_24DD6C0(__int64 a1),0x24DD6C0
+_ZN5Actor11isShootableEv,Actor::isShootable(void),__int64 __fastcall sub_24DD6C8(__int64 a1),0x24DD6C8
+_ZN5Actor11setSneakingEb,Actor::setSneaking(bool),__int64 __fastcall sub_24DEFD0(__int64 a1),0x24DEFD0
+_ZNK5Actor10isBlockingEv,Actor::isBlocking(void),__int64 __fastcall sub_24DF02C(__int64 a1),0x24DF02C
+_ZNK5Actor15isDamageBlockedERK17ActorDamageSource,Actor::isDamageBlocked(ActorDamageSource const&),__int64 __fastcall sub_24DF034(__int64 a1),0x24DF034
+_ZNK5Actor7isAliveEv,Actor::isAlive(void),__int64 __fastcall sub_24DD7F4(__int64 a1),0x24DD7F4
+_ZNK5Actor8isOnFireEv,Actor::isOnFire(void),__int64 __fastcall sub_24E76B0(__int64 a1),0x24E76B0
+_ZNK5Actor12isOnHotBlockEv,Actor::isOnHotBlock(void),__int64 __fastcall sub_24E76F0(__int64 a1),0x24E76F0
+_ZN5Actor21isCreativeModeAllowedEv,Actor::isCreativeModeAllowed(void),__int64 __fastcall sub_24DD7B4(__int64 a1),0x24DD7B4
+_ZNK5Actor12isSurfaceMobEv,Actor::isSurfaceMob(void),__int64 __fastcall sub_24DD7BC(__int64 a1),0x24DD7BC
+_ZNK5Actor12isTargetableEv,Actor::isTargetable(void),__int64 __fastcall sub_24DD7C4(__int64 a1),0x24DD7C4
+_ZNK5Actor13isLocalPlayerEv,Actor::isLocalPlayer(void),__int64 __fastcall sub_24DD7CC(__int64 a1),0x24DD7CC
+_ZNK5Actor8isPlayerEv,Actor::isPlayer(void),__int64 __fastcall sub_24DD7D4(__int64 a1),0x24DD7D4
+_ZNK5Actor9canAttackEPS_b,"Actor::canAttack(Actor*,bool)",__int64 __fastcall sub_24CF8A4(__int64 a1),0x24CF8A4
+_ZN5Actor9setTargetEPS_,Actor::setTarget(Actor*),__int64 __fastcall sub_24CF978(__int64 a1),0x24CF978
+_ZN5Actor16findAttackTargetEv,Actor::findAttackTarget(void),__int64 __fastcall sub_24CFD88(__int64 a1),0x24CFD88
+_ZNK5Actor13isValidTargetEPS_,Actor::isValidTarget(Actor*),__int64 __fastcall sub_24CFD90(__int64 a1),0x24CFD90
+_ZN5Actor6attackERS_,Actor::attack(Actor&),__int64 __fastcall sub_24CFD98(__int64 a1),0x24CFD98
+_ZN5Actor19performRangedAttackERS_f,"Actor::performRangedAttack(Actor&,float)",__int64 __fastcall sub_24CFDDC(__int64 a1),0x24CFDDC
+_ZNK5Actor18adjustDamageAmountERi,Actor::adjustDamageAmount(int &),__int64 __fastcall sub_1303(__int64 a1),0x1303
+_ZNK5Actor17getEquipmentCountEv,Actor::getEquipmentCount(void),__int64 __fastcall sub_24D0238(__int64 a1),0x24D0238
+_ZN5Actor8setOwnerE13ActorUniqueID,Actor::setOwner(ActorUniqueID),__int64 __fastcall sub_24D0638(__int64 a1),0x24D0638
+_ZN5Actor10setSittingEb,Actor::setSitting(bool),__int64 __fastcall sub_24D06D4(__int64 a1),0x24D06D4
+_ZN5Actor6onTameEv,Actor::onTame(void),__int64 __fastcall sub_7812(__int64 a1),0x7812
+_ZN5Actor12onFailedTameEv,Actor::onFailedTame(void),__int64 __fastcall sub_1306(__int64 a1),0x1306
+_ZNK5Actor16getInventorySizeEv,Actor::getInventorySize(void),__int64 __fastcall sub_24DBD64(__int64 a1),0x24DBD64
+_ZNK5Actor13getEquipSlotsEv,Actor::getEquipSlots(void),__int64 __fastcall sub_24DBDA4(__int64 a1),0x24DBDA4
+_ZNK5Actor13getChestSlotsEv,Actor::getChestSlots(void),__int64 __fastcall sub_24DBE34(__int64 a1),0x24DBE34
+_ZN5Actor11setStandingEb,Actor::setStanding(bool),__int64 __fastcall sub_24DBB50(__int64 a1),0x24DBB50
+_ZNK5Actor12canPowerJumpEv,Actor::canPowerJump(void),__int64 __fastcall sub_24DBBD0(__int64 a1),0x24DBBD0
+_ZN5Actor15setCanPowerJumpEb,Actor::setCanPowerJump(bool),__int64 __fastcall sub_24DBBF8(__int64 a1),0x24DBBF8
+_ZNK5Actor9isJumpingEv,Actor::isJumping(void),__int64 __fastcall sub_21C42F4(__int64 a1),0x21C42F4
+_ZNK5Actor11isEnchantedEv,Actor::isEnchanted(void),__int64 __fastcall sub_24DBC08(__int64 a1),0x24DBC08
+_ZN5Actor10rideJumpedEv,Actor::rideJumped(void),__int64 __fastcall sub_620(__int64 a1),0x620
+_ZN5Actor10rideLandedERK4Vec3S2_,"Actor::rideLanded(Vec3 const&,Vec3 const&)",__int64 __fastcall sub_1307(__int64 a1),0x1307
+_ZNK5Actor12shouldRenderEv,Actor::shouldRender(void),__int64 __fastcall sub_24DD6D4(__int64 a1),0x24DD6D4
+_ZNK5Actor16isInvulnerableToERK17ActorDamageSource,Actor::isInvulnerableTo(ActorDamageSource const&),__int64 __fastcall sub_24DA73C(__int64 a1),0x24DA73C
+_ZNK5Actor19getBlockDamageCauseERK5Block,Actor::getBlockDamageCause(Block const&),__int64 __fastcall sub_24EC3F4(__int64 a1),0x24EC3F4
+_ZN5Actor12actuallyHurtEiRK17ActorDamageSourceb,"Actor::actuallyHurt(int,ActorDamageSource const&,bool)",__int64 __fastcall sub_24DE058(__int64 a1),0x24DE058
+_ZN5Actor11animateHurtEv,Actor::animateHurt(void),__int64 __fastcall sub_1309(__int64 a1),0x1309
+_ZN5Actor10doFireHurtEi,Actor::doFireHurt(int),__int64 __fastcall sub_24DA830(__int64 a1),0x24DA830
+_ZN5Actor14onLightningHitEv,Actor::onLightningHit(void),__int64 __fastcall sub_7E3DB78(__int64 a1),0x7E3DB78
+_ZN5Actor15onBounceStartedERK8BlockPosRK5Block,"Actor::onBounceStarted(BlockPos const&,Block const&)",__int64 __fastcall sub_1174(__int64 a1),0x1174
+_ZN5Actor4feedEi,Actor::feed(int),__int64 __fastcall sub_24DD488(__int64 a1),0x24DD488
+_ZN5Actor17handleEntityEventE10ActorEventi,"Actor::handleEntityEvent(ActorEvent,int)",__int64 __fastcall sub_24DBF70(__int64 a1),0x24DBF70
+_ZN5Actor13getPickRadiusEv,Actor::getPickRadius(void),__int64 __fastcall sub_24DD840(__int64 a1),0x24DD840
+_ZNK5Actor18getActorRendererIdEv,Actor::getActorRendererId(void),__int64 __fastcall sub_24DD8A0(__int64 a1),0x24DD8A0
+_ZN5Actor15spawnAtLocationEii,"Actor::spawnAtLocation(int,int)",__int64 __fastcall sub_24E65F4(__int64 a1),0x24E65F4
+_ZN5Actor15spawnAtLocationEiif,"Actor::spawnAtLocation(int,int,float)",__int64 __fastcall sub_24E6604(__int64 a1),0x24E6604
+_ZN5Actor15spawnAtLocationERK5Blocki,"Actor::spawnAtLocation(Block const&,int)",__int64 __fastcall sub_24E692C(__int64 a1),0x24E692C
+_ZN5Actor15spawnAtLocationERK5Blockif,"Actor::spawnAtLocation(Block const&,int,float)",__int64 __fastcall sub_24E693C(__int64 a1),0x24E693C
+_ZN5Actor15spawnAtLocationERK9ItemStackf,"Actor::spawnAtLocation(ItemStack const&,float)",__int64 __fastcall sub_24E6D10(__int64 a1),0x24E6D10
+_ZN5Actor7despawnEv,Actor::despawn(void),__int64 __fastcall sub_24E6DBC(__int64 a1),0x24E6DBC
+_ZN5Actor6killedERS_,Actor::killed(Actor&),__int64 __fastcall sub_24E6EC0(__int64 a1),0x24E6EC0
+_ZN5Actor14awardKillScoreERS_i,"Actor::awardKillScore(Actor&,int)",__int64 __fastcall sub_1308(__int64 a1),0x1308
+_ZN5Actor8setArmorE9ArmorSlotRK9ItemStack,"Actor::setArmor(ArmorSlot,ItemStack const&)",__int64 __fastcall sub_24DE1A8(__int64 a1),0x24DE1A8
+_ZNK5Actor8getArmorE9ArmorSlot,Actor::getArmor(ArmorSlot),__int64 __fastcall sub_24DE3A0(__int64 a1),0x24DE3A0
+_ZNK5Actor26getArmorMaterialTypeInSlotE9ArmorSlot,Actor::getArmorMaterialTypeInSlot(ArmorSlot),__int64 __fastcall sub_24DE3DC(__int64 a1),0x24DE3DC
+_ZNK5Actor33getArmorMaterialTextureTypeInSlotE9ArmorSlot,Actor::getArmorMaterialTextureTypeInSlot(ArmorSlot),__int64 __fastcall sub_24DE3E4(__int64 a1),0x24DE3E4
+_ZNK5Actor19getArmorColorInSlotE9ArmorSloti,"Actor::getArmorColorInSlot(ArmorSlot,int)",__int64 __fastcall sub_24DE3EC(__int64 a1),0x24DE3EC
+_ZNK5Actor15getEquippedSlotE13EquipmentSlot,Actor::getEquippedSlot(EquipmentSlot),__int64 __fastcall sub_24DEF7C(__int64 a1),0x24DEF7C
+_ZN5Actor15setEquippedSlotE13EquipmentSlotRK9ItemStack,"Actor::setEquippedSlot(EquipmentSlot,ItemStack const&)",__int64 __fastcall sub_1310(__int64 a1),0x1310
+_ZNK5Actor14getCarriedItemEv,Actor::getCarriedItem(void),__int64 __fastcall sub_24DE3F4(__int64 a1),0x24DE3F4
+_ZN5Actor14setCarriedItemERK9ItemStack,Actor::setCarriedItem(ItemStack const&),__int64 __fastcall sub_24DE410(__int64 a1),0x24DE410
+_ZN5Actor14setOffhandSlotERK9ItemStack,Actor::setOffhandSlot(ItemStack const&),__int64 __fastcall sub_24DE790(__int64 a1),0x24DE790
+_ZNK5Actor16getEquippedTotemEv,Actor::getEquippedTotem(void),__int64 __fastcall sub_24DEB90(__int64 a1),0x24DEB90
+_ZN5Actor12consumeTotemEv,Actor::consumeTotem(void),__int64 __fastcall sub_24DEC74(__int64 a1),0x24DEC74
+_ZN5Actor4saveER11CompoundTag,Actor::save(CompoundTag &),__int64 __fastcall sub_24DF100(__int64 a1),0x24DF100
+_ZN5Actor13saveWithoutIdER11CompoundTag,Actor::saveWithoutId(CompoundTag &),__int64 __fastcall sub_24E02D0(__int64 a1),0x24E02D0
+_ZN5Actor4loadERK11CompoundTagR14DataLoadHelper,"Actor::load(CompoundTag const&,DataLoadHelper &)",__int64 __fastcall sub_24E2544(__int64 a1),0x24E2544
+_ZN5Actor9loadLinksERK11CompoundTagRSt6vectorI9ActorLinkSaIS4_EER14DataLoadHelper,"Actor::loadLinks(CompoundTag const&,std::vector<ActorLink> &,DataLoadHelper &)",__int64 __fastcall sub_24E6398(__int64 a1),0x24E6398
+_ZNK5Actor15getEntityTypeIdEv,Actor::getEntityTypeId(void),__int64 __fastcall sub_24E65D0(__int64 a1),0x24E65D0
+_ZNK5Actor19queryEntityRendererEv,Actor::queryEntityRenderer(void),__int64 __fastcall sub_7E3DC70(__int64 a1),0x7E3DC70
+_ZNK5Actor17getSourceUniqueIDEv,Actor::getSourceUniqueID(void),__int64 __fastcall sub_24E7A74(__int64 a1),0x24E7A74
+_ZN5Actor9setOnFireEi,Actor::setOnFire(int),__int64 __fastcall sub_24E9670(__int64 a1),0x24E9670
+_ZN5Actor14extinguishFireEv,Actor::extinguishFire(void),__int64 __fastcall sub_24E96D0(__int64 a1),0x24E96D0
+_ZN5Actor16thawFreezeEffectEv,Actor::thawFreezeEffect(void),__int64 __fastcall sub_24E9764(__int64 a1),0x24E9764
+_ZNK5Actor18getHandleWaterAABBEv,Actor::getHandleWaterAABB(void),__int64 __fastcall sub_24ED1A4(__int64 a1),0x24ED1A4
+_ZN5Actor18handleInsidePortalERK8BlockPos,Actor::handleInsidePortal(BlockPos const&),__int64 __fastcall sub_24ED208(__int64 a1),0x24ED208
+_ZNK5Actor17getPortalCooldownEv,Actor::getPortalCooldown(void),__int64 __fastcall sub_24ED298(__int64 a1),0x24ED298
+_ZNK5Actor17getPortalWaitTimeEv,Actor::getPortalWaitTime(void),__int64 __fastcall sub_24ED2A0(__int64 a1),0x24ED2A0
+_ZNK5Actor14getDimensionIdEv,Actor::getDimensionId(void),__int64 __fastcall sub_24ED2B0(__int64 a1),0x24ED2B0
+_ZNK5Actor19canChangeDimensionsEv,Actor::canChangeDimensions(void),__int64 __fastcall sub_24ED2B8(__int64 a1),0x24ED2B8
+_ZN5Actor15changeDimensionE11AutomaticIDI9DimensioniEb,"Actor::changeDimension(AutomaticID<Dimension,int>,bool)",__int64 __fastcall sub_24ED2C0(__int64 a1),0x24ED2C0
+_ZN5Actor15changeDimensionERK21ChangeDimensionPacket,Actor::changeDimension(ChangeDimensionPacket const&),__int64 __fastcall sub_1312(__int64 a1),0x1312
+_ZNK5Actor20getControllingPlayerEv,Actor::getControllingPlayer(void),__int64 __fastcall sub_24ED588(__int64 a1),0x24ED588
+_ZN5Actor15checkFallDamageEfb,"Actor::checkFallDamage(float,bool)",__int64 __fastcall sub_24D940C(__int64 a1),0x24D940C
+_ZN5Actor15causeFallDamageEff,"Actor::causeFallDamage(float,float)",__int64 __fastcall sub_24D972C(__int64 a1),0x24D972C
+_ZN5Actor26handleFallDistanceOnServerEffb,"Actor::handleFallDistanceOnServer(float,float,bool)",__int64 __fastcall sub_24D97BC(__int64 a1),0x24D97BC
+_ZN5Actor21playSynchronizedSoundE15LevelSoundEventRK4Vec3RK5Blockb,"Actor::playSynchronizedSound(LevelSoundEvent,Vec3 const&,Block const&,bool)",__int64 __fastcall sub_24E7DD4(__int64 a1),0x24E7DD4
+_ZN5Actor21playSynchronizedSoundE15LevelSoundEventRK4Vec3ib,"Actor::playSynchronizedSound(LevelSoundEvent,Vec3 const&,int,bool)",__int64 __fastcall sub_24E7E28(__int64 a1),0x24E7E28
+_ZN5Actor19onSynchedDataUpdateEi,Actor::onSynchedDataUpdate(int),__int64 __fastcall sub_24E7EE8(__int64 a1),0x24E7EE8
+_ZNK5Actor11canAddRiderERS_,Actor::canAddRider(Actor&),__int64 __fastcall sub_24E986C(__int64 a1),0x24E986C
+_ZNK5Actor13canPickupItemERK9ItemStack,Actor::canPickupItem(ItemStack const&),__int64 __fastcall sub_24E9AF4(__int64 a1),0x24E9AF4
+_ZNK5Actor22canBePulledIntoVehicleEv,Actor::canBePulledIntoVehicle(void),__int64 __fastcall sub_24E9BAC(__int64 a1),0x24E9BAC
+_ZNK5Actor9inCaravanEv,Actor::inCaravan(void),__int64 __fastcall sub_24E9C34(__int64 a1),0x24E9C34
+_ZN5Actor15isLeashableTypeEv,Actor::isLeashableType(void),__int64 __fastcall sub_1E56F4C(__int64 a1),0x1E56F4C
+_ZN5Actor9tickLeashEv,Actor::tickLeash(void),__int64 __fastcall sub_24EA354(__int64 a1),0x24EA354
+_ZN5Actor24sendMotionPacketIfNeededEv,Actor::sendMotionPacketIfNeeded(void),__int64 __fastcall sub_24EA5D4(__int64 a1),0x24EA5D4
+_ZNK5Actor23canSynchronizeNewEntityEv,Actor::canSynchronizeNewEntity(void),__int64 __fastcall sub_24EAA48(__int64 a1),0x24EAA48
+_ZN5Actor10stopRidingEbbb,"Actor::stopRiding(bool,bool,bool)",__int64 __fastcall sub_24D89A4(__int64 a1),0x24D89A4
+_ZN5Actor13startSwimmingEv,Actor::startSwimming(void),__int64 __fastcall sub_7E3DD58(__int64 a1),0x7E3DD58
+_ZN5Actor12stopSwimmingEv,Actor::stopSwimming(void),__int64 __fastcall sub_24D8C44(__int64 a1),0x24D8C44
+_ZNK5Actor14buildDebugInfoERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Actor::buildDebugInfo(std::string &),__int64 __fastcall sub_1304(__int64 a1),0x1304
+_ZNK5Actor25getCommandPermissionLevelEv,Actor::getCommandPermissionLevel(void),__int64 __fastcall sub_24D78B8(__int64 a1),0x24D78B8
+_ZN5Actor19getMutableAttributeERK9Attribute,Actor::getMutableAttribute(Attribute const&),__int64 __fastcall sub_24ED660(__int64 a1),0x24ED660
+_ZNK5Actor12getAttributeERK9Attribute,Actor::getAttribute(Attribute const&),__int64 __fastcall sub_24ED668(__int64 a1),0x24ED668
+_ZNK5Actor12getDeathTimeEv,Actor::getDeathTime(void),__int64 __fastcall sub_24ED710(__int64 a1),0x24ED710
+_ZN5Actor4healEi,Actor::heal(int),__int64 __fastcall sub_24ED784(__int64 a1),0x24ED784
+_ZNK5Actor21isInvertedHealAndHarmEv,Actor::isInvertedHealAndHarm(void),__int64 __fastcall sub_24ED864(__int64 a1),0x24ED864
+_ZNK5Actor13canBeAffectedEi,Actor::canBeAffected(int),__int64 __fastcall sub_24EE0D8(__int64 a1),0x24EE0D8
+_ZNK5Actor13canBeAffectedERK17MobEffectInstance,Actor::canBeAffected(MobEffectInstance const&),__int64 __fastcall sub_24EE0A4(__int64 a1),0x24EE0A4
+_ZNK5Actor20canBeAffectedByArrowERK17MobEffectInstance,Actor::canBeAffectedByArrow(MobEffectInstance const&),__int64 __fastcall sub_24EE1E4(__int64 a1),0x24EE1E4
+_ZN5Actor13onEffectAddedER17MobEffectInstance,Actor::onEffectAdded(MobEffectInstance &),__int64 __fastcall sub_24EE360(__int64 a1),0x24EE360
+_ZN5Actor15onEffectUpdatedERK17MobEffectInstance,Actor::onEffectUpdated(MobEffectInstance const&),__int64 __fastcall sub_7E3DDC0(__int64 a1),0x7E3DDC0
+_ZN5Actor15onEffectRemovedER17MobEffectInstance,Actor::onEffectRemoved(MobEffectInstance &),__int64 __fastcall sub_7E3DDC8(__int64 a1),0x7E3DDC8
+_ZN5Actor21getAnimationComponentEv,Actor::getAnimationComponent(void),__int64 __fastcall sub_24EEE88(__int64 a1),0x24EEE88
+_ZN5Actor22openContainerComponentER6Player,Actor::openContainerComponent(Player &),__int64 __fastcall sub_24EF2E0(__int64 a1),0x24EF2E0
+_ZN5Actor5swingEv,Actor::swing(void),__int64 __fastcall sub_1175(__int64 a1),0x1175
+_ZN5Actor7useItemER13ItemStackBase13ItemUseMethodb,"Actor::useItem(ItemStackBase &,ItemUseMethod,bool)",__int64 __fastcall sub_24EF384(__int64 a1),0x24EF384
+_ZNK5Actor15hasOutputSignalEh,Actor::hasOutputSignal(uchar),__int64 __fastcall sub_24EF228(__int64 a1),0x24EF228
+_ZNK5Actor15getOutputSignalEv,Actor::getOutputSignal(void),__int64 __fastcall sub_24EF230(__int64 a1),0x24EF230
+_ZN5Actor12getDebugTextERSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS6_EE,Actor::getDebugText(std::vector<std::string> &),__int64 __fastcall sub_24EF574(__int64 a1),0x24EF574
+_ZNK5Actor24getMapDecorationRotationEv,Actor::getMapDecorationRotation(void),__int64 __fastcall sub_24F04C0(__int64 a1),0x24F04C0
+_ZNK5Actor17getRiderYRotationERKS_,Actor::getRiderYRotation(Actor const&),__int64 __fastcall sub_24F04C8(__int64 a1),0x24F04C8
+_ZNK5Actor11getYHeadRotEv,Actor::getYHeadRot(void),__int64 __fastcall sub_24F04D0(__int64 a1),0x24F04D0
+_ZN5Actor14isWorldBuilderEv,Actor::isWorldBuilder(void),__int64 __fastcall sub_24F04D8(__int64 a1),0x24F04D8
+_ZNK5Actor10isCreativeEv,Actor::isCreative(void),__int64 __fastcall sub_24F04E0(__int64 a1),0x24F04E0
+_ZNK5Actor11isAdventureEv,Actor::isAdventure(void),__int64 __fastcall sub_24F04E8(__int64 a1),0x24F04E8
+_ZN5Actor3addER9ItemStack,Actor::add(ItemStack &),__int64 __fastcall sub_24F04F0(__int64 a1),0x24F04F0
+_ZN5Actor4dropERK9ItemStackb,"Actor::drop(ItemStack const&,bool)",__int64 __fastcall sub_24F05A0(__int64 a1),0x24F05A0
+_ZN5Actor14getInteractionER6PlayerR16ActorInteractionRK4Vec3,"Actor::getInteraction(Player &,ActorInteraction &,Vec3 const&)",__int64 __fastcall sub_24F0E6C(__int64 a1),0x24F0E6C
+_ZNK5Actor15canDestroyBlockERK5Block,Actor::canDestroyBlock(Block const&),__int64 __fastcall sub_24D325C(__int64 a1),0x24D325C
+_ZN5Actor11setAuxValueEi,Actor::setAuxValue(int),__int64 __fastcall sub_621(__int64 a1),0x621
+_ZN5Actor7setSizeEff,"Actor::setSize(float,float)",__int64 __fastcall sub_24D4AEC(__int64 a1),0x24D4AEC
+_ZNK5Actor11getLifeSpanEv,Actor::getLifeSpan(void),__int64 __fastcall sub_24F21BC(__int64 a1),0x24F21BC
+_ZN5Actor8onOrphanEv,Actor::onOrphan(void),__int64 __fastcall sub_24F2548(__int64 a1),0x24F2548
+_ZN5Actor6wobbleEv,Actor::wobble(void),__int64 __fastcall sub_24F2764(__int64 a1),0x24F2764
+_ZN5Actor7wasHurtEv,Actor::wasHurt(void),__int64 __fastcall sub_24DA574(__int64 a1),0x24DA574
+_ZN5Actor15startSpinAttackEv,Actor::startSpinAttack(void),__int64 __fastcall sub_21C4304(__int64 a1),0x21C4304
+_ZN5Actor14stopSpinAttackEv,Actor::stopSpinAttack(void),__int64 __fastcall sub_1176(__int64 a1),0x1176
+_ZN5Actor19setDamageNearbyMobsEb,Actor::setDamageNearbyMobs(bool),__int64 __fastcall sub_24DB870(__int64 a1),0x24DB870
+_ZN5Actor22renderDebugServerStateERK7Options,Actor::renderDebugServerState(Options const&),__int64 __fastcall sub_1311(__int64 a1),0x1311
+_ZN5Actor15reloadLootTableEv,Actor::reloadLootTable(void),__int64 __fastcall sub_24EC43C(__int64 a1),0x24EC43C
+_ZN5Actor15reloadLootTableERK24EquipmentTableDefinition,Actor::reloadLootTable(EquipmentTableDefinition const&),__int64 __fastcall sub_24EC488(__int64 a1),0x24EC488
+_ZNK5Actor27getDeletionDelayTimeSecondsEv,Actor::getDeletionDelayTimeSeconds(void),__int64 __fastcall sub_1E56F58(__int64 a1),0x1E56F58
+_ZN5Actor4killEv,Actor::kill(void),__int64 __fastcall sub_24EC890(__int64 a1),0x24EC890
+_ZN5Actor3dieERK17ActorDamageSource,Actor::die(ActorDamageSource const&),__int64 __fastcall sub_24EC9D8(__int64 a1),0x24EC9D8
+_ZNK5Actor10shouldTickEv,Actor::shouldTick(void),__int64 __fastcall sub_24F28B8(__int64 a1),0x24F28B8
+_ZN5Actor19createMovementProxyEv,Actor::createMovementProxy(void),__int64 __fastcall sub_24EC314(__int64 a1),0x24EC314
+_ZN5Actor11getNextStepEf,Actor::getNextStep(float),__int64 __fastcall sub_24D28B4(__int64 a1),0x24D28B4
+_ZN5Actor35updateEntitySpecificMolangVariablesER12RenderParams,Actor::updateEntitySpecificMolangVariables(RenderParams &),__int64 __fastcall sub_1313(__int64 a1),0x1313
+_ZN5Actor22shouldTryMakeStepSoundEv,Actor::shouldTryMakeStepSound(void),__int64 __fastcall sub_24D28AC(__int64 a1),0x24D28AC
+_ZNK5Actor16canMakeStepSoundEv,Actor::canMakeStepSound(void),__int64 __fastcall sub_24D28A4(__int64 a1),0x24D28A4
+_ZN5Actor10outOfWorldEv,Actor::outOfWorld(void),__int64 __fastcall sub_24D9400(__int64 a1),0x24D9400
+_ZN5Actor5_hurtERK17ActorDamageSourceibb,"Actor::_hurt(ActorDamageSource const&,int,bool,bool)",__int64 __fastcall sub_24DA5FC(__int64 a1),0x24DA5FC
+_ZN5Actor8markHurtEv,Actor::markHurt(void),__int64 __fastcall sub_24DA394(__int64 a1),0x24DA394
+_ZN5Actor22readAdditionalSaveDataERK11CompoundTagR14DataLoadHelper,"Actor::readAdditionalSaveData(CompoundTag const&,DataLoadHelper &)",__int64 __fastcall sub_24CEA6C(__int64 a1),0x24CEA6C
+_ZN5Actor21addAdditionalSaveDataER11CompoundTag,Actor::addAdditionalSaveData(CompoundTag &),__int64 __fastcall sub_24CF31C(__int64 a1),0x24CF31C
+_ZN5Actor14_playStepSoundERK8BlockPosRK5Block,"Actor::_playStepSound(BlockPos const&,Block const&)",__int64 __fastcall sub_24E7AD8(__int64 a1),0x24E7AD8
+_ZN5Actor13_playFlySoundERK8BlockPosRK5Block,"Actor::_playFlySound(BlockPos const&,Block const&)",__int64 __fastcall sub_24E7CE4(__int64 a1),0x24E7CE4
+_ZNK5Actor13_makeFlySoundEv,Actor::_makeFlySound(void),__int64 __fastcall sub_24E7DCC(__int64 a1),0x24E7DCC
+_ZN5Actor17checkInsideBlocksEf,Actor::checkInsideBlocks(float),__int64 __fastcall sub_24EAA84(__int64 a1),0x24EAA84
+_ZN5Actor15pushOutOfBlocksERK4Vec3,Actor::pushOutOfBlocks(Vec3 const&),__int64 __fastcall sub_24EABE0(__int64 a1),0x24EABE0
+_ZN5Actor16updateWaterStateEv,Actor::updateWaterState(void),__int64 __fastcall sub_24EB12C(__int64 a1),0x24EB12C
+_ZN5Actor19doWaterSplashEffectEv,Actor::doWaterSplashEffect(void),__int64 __fastcall sub_7E3DF58(__int64 a1),0x7E3DF58
+_ZN5Actor17spawnTrailBubblesEv,Actor::spawnTrailBubbles(void),__int64 __fastcall sub_24EB900(__int64 a1),0x24EB900
+_ZN5Actor17updateInsideBlockEv,Actor::updateInsideBlock(void),__int64 __fastcall sub_24EBEF8(__int64 a1),0x24EBEF8
+_ZN5Actor12getLootTableEv,Actor::getLootTable(void),__int64 __fastcall sub_24F0448(__int64 a1),0x24F0448
+_ZN5Actor19getDefaultLootTableEv,Actor::getDefaultLootTable(void),__int64 __fastcall sub_1E56F60(__int64 a1),0x1E56F60
+_ZN5Actor12_removeRiderERK13ActorUniqueIDbbb,"Actor::_removeRider(ActorUniqueID const&,bool,bool,bool)",__int64 __fastcall sub_24D841C(__int64 a1),0x24D841C
+_ZN5Actor14_onSizeUpdatedEv,Actor::_onSizeUpdated(void),__int64 __fastcall sub_1302(__int64 a1),0x1302
+_ZN5Actor20_doAutoAttackOnTouchERS_,Actor::_doAutoAttackOnTouch(Actor&),__int64 __fastcall sub_7811(__int64 a1),0x7811
