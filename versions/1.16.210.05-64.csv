@@ -265,3 +265,1163 @@ _ZN5Actor19getDefaultLootTableEv,Actor::getDefaultLootTable(void),__int64 __fast
 _ZN5Actor12_removeRiderERK13ActorUniqueIDbbb,"Actor::_removeRider(ActorUniqueID const&,bool,bool,bool)",__int64 __fastcall sub_24D841C(__int64 a1),0x24D841C
 _ZN5Actor14_onSizeUpdatedEv,Actor::_onSizeUpdated(void),__int64 __fastcall sub_1302(__int64 a1),0x1302
 _ZN5Actor20_doAutoAttackOnTouchERS_,Actor::_doAutoAttackOnTouch(Actor&),__int64 __fastcall sub_7811(__int64 a1),0x7811
+_ZN6Player15reloadHardcodedEN5Actor20InitializationMethodERK20VariantParameterList,"Player::reloadHardcoded(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_2825D7C(__int64 a1),0x2825D7C
+_ZN3Mob21reloadHardcodedClientEN5Actor20InitializationMethodERK20VariantParameterList,"Mob::reloadHardcodedClient(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_2499460(__int64 a1),0x2499460
+_ZN6Player20initializeComponentsEN5Actor20InitializationMethodERK20VariantParameterList,"Player::initializeComponents(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_2825C2C(__int64 a1),0x2825C2C
+_ZN5Actor16reloadComponentsENS_20InitializationMethodERK20VariantParameterList,"Actor::reloadComponents(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_24CCAFC(__int64 a1),0x24CCAFC
+_ZN6Player23_serverInitItemStackIdsEv,Player::_serverInitItemStackIds(void),__int64 __fastcall sub_1769(__int64 a1),0x1769
+_ZN3Mob14_doInitialMoveEv,Mob::_doInitialMove(void),__int64 __fastcall sub_24AB04C(__int64 a1),0x24AB04C
+_ZNK3Mob12hasComponentERK12HashedString,Mob::hasComponent(HashedString const&),__int64 __fastcall sub_249A3F4(__int64 a1),0x249A3F4
+_ZN6PlayerD2Ev,Player::~Player(),__int64 __fastcall sub_2825DE0(__int64 a1),0x2825DE0
+_ZN6PlayerD0Ev,Player::~Player(),__int64 __fastcall sub_28266E0(__int64 a1),0x28266E0
+_ZN5Actor5resetEv,Actor::reset(void),__int64 __fastcall sub_24DD5DC(__int64 a1),0x24DD5DC
+_ZN5Actor20getOnDeathExperienceEv,Actor::getOnDeathExperience(void),__int64 __fastcall sub_24D0B8C(__int64 a1),0x24D0B8C
+_ZN5Actor18getOwnerEntityTypeEv,Actor::getOwnerEntityType(void),__int64 __fastcall sub_24E7A7C(__int64 a1),0x24E7A7C
+_ZN6Player6removeEv,Player::remove(void),__int64 __fastcall sub_2838D4C(__int64 a1),0x2838D4C
+_ZN5Actor6setPosERK4Vec3,Actor::setPos(Vec3 const&),__int64 __fastcall sub_24D3CF0(__int64 a1),0x24D3CF0
+_ZNK5Actor33isRuntimePredictedMovementEnabledEv,Actor::isRuntimePredictedMovementEnabled(void),__int64 __fastcall sub_24D0F18(__int64 a1),0x24D0F18
+_ZNK5Actor26getPredictedMovementValuesEv,Actor::getPredictedMovementValues(void),__int64 __fastcall sub_24D15D4(__int64 a1),0x24D15D4
+_ZNK5Actor6getPosEv,Actor::getPos(void),__int64 __fastcall sub_24D3F9C(__int64 a1),0x24D3F9C
+_ZNK5Actor9getPosOldEv,Actor::getPosOld(void),__int64 __fastcall sub_24D3FA4(__int64 a1),0x24D3FA4
+_ZNK5Actor18getPosExtrapolatedEf,Actor::getPosExtrapolated(float),__int64 __fastcall sub_24D3FAC(__int64 a1),0x24D3FAC
+_ZNK6Player12getAttachPosE13ActorLocationf,"Player::getAttachPos(ActorLocation,float)",__int64 __fastcall sub_283E7C4(__int64 a1),0x283E7C4
+_ZNK5Actor12getFiringPosEv,Actor::getFiringPos(void),__int64 __fastcall sub_24D4504(__int64 a1),0x24D4504
+_ZN5Actor6setRotERK4Vec2,Actor::setRot(Vec2 const&),__int64 __fastcall sub_24D4D0C(__int64 a1),0x24D4D0C
+_ZN6Player4moveERK4Vec3,Player::move(Vec3 const&),__int64 __fastcall sub_282B500(__int64 a1),0x282B500
+_ZNK6Player4moveER19IActorMovementProxyRK4Vec3,"Player::move(IActorMovementProxy &,Vec3 const&)",__int64 __fastcall sub_282B488(__int64 a1),0x282B488
+_ZNK5Actor29getInterpolatedRidingPositionEf,Actor::getInterpolatedRidingPosition(float),__int64 __fastcall sub_24ECFB0(__int64 a1),0x24ECFB0
+_ZNK3Mob22getInterpolatedBodyRotEf,Mob::getInterpolatedBodyRot(float),__int64 __fastcall sub_24A9A6C(__int64 a1),0x24A9A6C
+_ZNK3Mob22getInterpolatedHeadRotEf,Mob::getInterpolatedHeadRot(float),__int64 __fastcall sub_24A9A84(__int64 a1),0x24A9A84
+_ZNK3Mob22getInterpolatedBodyYawEf,Mob::getInterpolatedBodyYaw(float),__int64 __fastcall sub_24A9A9C(__int64 a1),0x24A9A9C
+_ZNK3Mob29getYawSpeedInDegreesPerSecondEv,Mob::getYawSpeedInDegreesPerSecond(void),__int64 __fastcall sub_24A3B24(__int64 a1),0x24A3B24
+_ZNK5Actor28getInterpolatedWalkAnimSpeedEf,Actor::getInterpolatedWalkAnimSpeed(float),__int64 __fastcall sub_24D4E10(__int64 a1),0x24D4E10
+_ZNK5Actor27getInterpolatedRidingOffsetEf,Actor::getInterpolatedRidingOffset(float),__int64 __fastcall sub_24D4E2C(__int64 a1),0x24D4E2C
+_ZN5Actor20checkBlockCollisionsERK4AABBSt8functionIFvR11BlockSourceRK5BlockRK8BlockPosRS_EE,"Actor::checkBlockCollisions(AABB const&,std::function<void ()(BlockSource &,Block const&,BlockPos const&,Actor&)>)",__int64 __fastcall sub_24E9438(__int64 a1),0x24E9438
+_ZN5Actor20checkBlockCollisionsEv,Actor::checkBlockCollisions(void),__int64 __fastcall sub_24E909C(__int64 a1),0x24E909C
+_ZNK5Actor12isFireImmuneEv,Actor::isFireImmune(void),__int64 __fastcall sub_24E9374(__int64 a1),0x24E9374
+_ZNK5Actor19breaksFallingBlocksEv,Actor::breaksFallingBlocks(void),__int64 __fastcall sub_24F1AA8(__int64 a1),0x24F1AA8
+_ZN3Mob15blockedByShieldERK17ActorDamageSourceR5Actor,"Mob::blockedByShield(ActorDamageSource const&,Actor &)",__int64 __fastcall sub_24A8274(__int64 a1),0x24A8274
+_ZN6Player10teleportToERK4Vec3bii,"Player::teleportTo(Vec3 const&,bool,int,int)",__int64 __fastcall sub_2826790(__int64 a1),0x2826790
+_ZN5Actor13tryTeleportToERK4Vec3bbii,"Actor::tryTeleportTo(Vec3 const&,bool,bool,int,int)",__int64 __fastcall sub_24D9CCC(__int64 a1),0x24D9CCC
+_ZN5Actor19chorusFruitTeleportER4Vec3,Actor::chorusFruitTeleport(Vec3 &),__int64 __fastcall sub_24D9FB0(__int64 a1),0x24D9FB0
+_ZN3Mob6lerpToERK4Vec3RK4Vec2i,"Mob::lerpTo(Vec3 const&,Vec2 const&,int)",__int64 __fastcall sub_249C314(__int64 a1),0x249C314
+_ZN5Actor10lerpMotionERK4Vec3,Actor::lerpMotion(Vec3 const&),__int64 __fastcall sub_24DE040(__int64 a1),0x24DE040
+_ZN6Player23tryCreateAddActorPacketEv,Player::tryCreateAddActorPacket(void),__int64 __fastcall sub_283C01C(__int64 a1),0x283C01C
+_ZN6Player10normalTickEv,Player::normalTick(void),__int64 __fastcall sub_2828DB8(__int64 a1),0x2828DB8
+_ZN3Mob8baseTickEv,Mob::baseTick(void),__int64 __fastcall sub_249B0FC(__int64 a1),0x249B0FC
+_ZN6Player8rideTickEv,Player::rideTick(void),__int64 __fastcall sub_283A53C(__int64 a1),0x283A53C
+_ZN5Actor13positionRiderERS_f,"Actor::positionRider(Actor&,float)",__int64 __fastcall sub_24D73B4(__int64 a1),0x24D73B4
+_ZN6Player15getRidingHeightEv,Player::getRidingHeight(void),__int64 __fastcall sub_2832DD8(__int64 a1),0x2832DD8
+_ZN3Mob11startRidingER5Actor,Mob::startRiding(Actor &),__int64 __fastcall sub_24A2FE0(__int64 a1),0x24A2FE0
+_ZN3Mob8addRiderER5Actor,Mob::addRider(Actor &),__int64 __fastcall sub_24A2ED0(__int64 a1),0x24A2ED0
+_ZN5Actor17flagRiderToRemoveERS_,Actor::flagRiderToRemove(Actor&),__int64 __fastcall sub_24D82F4(__int64 a1),0x24D82F4
+_ZNK5Actor10getExitTipERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9InputMode,"Actor::getExitTip(std::string const&,InputMode)",__int64 __fastcall sub_24D8364(__int64 a1),0x24D8364
+_ZNK5Actor10intersectsERK4Vec3S2_,"Actor::intersects(Vec3 const&,Vec3 const&)",__int64 __fastcall sub_24DD644(__int64 a1),0x24DD644
+_ZN5Actor6isFreeERK4Vec3f,"Actor::isFree(Vec3 const&,float)",__int64 __fastcall sub_24D0D44(__int64 a1),0x24D0D44
+_ZN5Actor6isFreeERK4Vec3,Actor::isFree(Vec3 const&),__int64 __fastcall sub_24D0DF4(__int64 a1),0x24D0DF4
+_ZNK5Actor8isInWallEv,Actor::isInWall(void),__int64 __fastcall sub_24D071C(__int64 a1),0x24D071C
+_ZNK5Actor11isInvisibleEv,Actor::isInvisible(void),__int64 __fastcall sub_24E7708(__int64 a1),0x24E7708
+_ZNK5Actor14canShowNameTagEv,Actor::canShowNameTag(void),__int64 __fastcall sub_24E7730(__int64 a1),0x24E7730
+_ZNK5Actor18canExistInPeacefulEv,Actor::canExistInPeaceful(void),__int64 __fastcall sub_24E7700(__int64 a1),0x24E7700
+_ZN5Actor17setNameTagVisibleEb,Actor::setNameTagVisible(bool),__int64 __fastcall sub_24E7758(__int64 a1),0x24E7758
+_ZNK5Actor10getNameTagB5cxx11Ev,Actor::getNameTag(void),__int64 __fastcall sub_24E7768(__int64 a1),0x24E7768
+_ZNK5Actor16getNameTagAsHashEv,Actor::getNameTagAsHash(void),__int64 __fastcall sub_24E7774(__int64 a1),0x24E7774
+_ZNK6Player19getFormattedNameTagB5cxx11Ev,Player::getFormattedNameTag(void),__int64 __fastcall sub_283D54C(__int64 a1),0x283D54C
+_ZN5Actor22filterFormattedNameTagERK18UIProfanityContext,Actor::filterFormattedNameTag(UIProfanityContext const&),__int64 __fastcall sub_24E77B0(__int64 a1),0x24E77B0
+_ZN5Actor10setNameTagERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Actor::setNameTag(std::string const&),__int64 __fastcall sub_24E7888(__int64 a1),0x24E7888
+_ZNK6Player20getAlwaysShowNameTagEv,Player::getAlwaysShowNameTag(void),__int64 __fastcall sub_283D550(__int64 a1),0x283D550
+_ZN5Actor11setScoreTagERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Actor::setScoreTag(std::string const&),__int64 __fastcall sub_24E79CC(__int64 a1),0x24E79CC
+_ZNK5Actor11getScoreTagB5cxx11Ev,Actor::getScoreTag(void),__int64 __fastcall sub_24E7A04(__int64 a1),0x24E7A04
+_ZNK5Actor9isInWaterEv,Actor::isInWater(void),__int64 __fastcall sub_24D090C(__int64 a1),0x24D090C
+_ZNK5Actor15hasEnteredWaterEv,Actor::hasEnteredWater(void),__int64 __fastcall sub_24D0914(__int64 a1),0x24D0914
+_ZNK5Actor17isImmersedInWaterEv,Actor::isImmersedInWater(void),__int64 __fastcall sub_24D07D4(__int64 a1),0x24D07D4
+_ZNK5Actor15isInWaterOrRainEv,Actor::isInWaterOrRain(void),__int64 __fastcall sub_24D091C(__int64 a1),0x24D091C
+_ZNK5Actor8isInLavaEv,Actor::isInLava(void),__int64 __fastcall sub_24D0C24(__int64 a1),0x24D0C24
+_ZNK5Actor13isUnderLiquidE12MaterialType,Actor::isUnderLiquid(MaterialType),__int64 __fastcall sub_24D38F4(__int64 a1),0x24D38F4
+_ZNK5Actor11isOverWaterEv,Actor::isOverWater(void),__int64 __fastcall sub_24D39C0(__int64 a1),0x24D39C0
+_ZN5Actor34setBlockMovementSlowdownMultiplierERK4Vec3,Actor::setBlockMovementSlowdownMultiplier(Vec3 const&),__int64 __fastcall sub_24D3858(__int64 a1),0x24D3858
+_ZN5Actor36resetBlockMovementSlowdownMultiplierEv,Actor::resetBlockMovementSlowdownMultiplier(void),__int64 __fastcall sub_24D38D4(__int64 a1),0x24D38D4
+_ZNK6Player15getCameraOffsetEv,Player::getCameraOffset(void),__int64 __fastcall sub_2832D5C(__int64 a1),0x2832D5C
+_ZN5Actor19getShadowHeightOffsEv,Actor::getShadowHeightOffs(void),__int64 __fastcall sub_24DD7DC(__int64 a1),0x24DD7DC
+_ZNK5Actor15getShadowRadiusEv,Actor::getShadowRadius(void),__int64 __fastcall sub_24DD7EC(__int64 a1),0x24DD7EC
+_ZN5Actor17getHeadLookVectorEf,Actor::getHeadLookVector(float),__int64 __fastcall sub_1E56F34(__int64 a1),0x1E56F34
+_ZNK5Actor15canSeeInvisibleEv,Actor::canSeeInvisible(void),__int64 __fastcall sub_1E56F38(__int64 a1),0x1E56F38
+_ZNK5Actor6canSeeERKS_,Actor::canSee(Actor const&),__int64 __fastcall sub_24E8E6C(__int64 a1),0x24E8E6C
+_ZNK5Actor6canSeeERK4Vec3,Actor::canSee(Vec3 const&),__int64 __fastcall sub_24E8F3C(__int64 a1),0x24E8F3C
+_ZN5Actor8isSkyLitEf,Actor::isSkyLit(float),__int64 __fastcall sub_24D4540(__int64 a1),0x24D4540
+_ZNK5Actor13getBrightnessEf,Actor::getBrightness(float),__int64 __fastcall sub_24D46A0(__int64 a1),0x24D46A0
+_ZN5Actor22interactPreventDefaultEv,Actor::interactPreventDefault(void),__int64 __fastcall sub_24E76F8(__int64 a1),0x24E76F8
+_ZN5Actor11playerTouchER6Player,Actor::playerTouch(Player &),__int64 __fastcall sub_1305(__int64 a1),0x1305
+_ZN5Actor19onAboveBubbleColumnEb,Actor::onAboveBubbleColumn(bool),__int64 __fastcall sub_24DA28C(__int64 a1),0x24DA28C
+_ZN5Actor20onInsideBubbleColumnEb,Actor::onInsideBubbleColumn(bool),__int64 __fastcall sub_24DA310(__int64 a1),0x24DA310
+_ZNK6Player10isImmobileEv,Player::isImmobile(void),__int64 __fastcall sub_282BEA0(__int64 a1),0x282BEA0
+_ZN5Actor8isSilentEv,Actor::isSilent(void),__int64 __fastcall sub_24E7A4C(__int64 a1),0x24E7A4C
+_ZN3Mob10isPickableEv,Mob::isPickable(void),__int64 __fastcall sub_2489B94(__int64 a1),0x2489B94
+_ZNK5Actor10isFishableEv,Actor::isFishable(void),__int64 __fastcall sub_24DD6B8(__int64 a1),0x24DD6B8
+_ZNK6Player10isSleepingEv,Player::isSleeping(void),__int64 __fastcall sub_2827880(__int64 a1),0x2827880
+_ZN6Player11isShootableEv,Player::isShootable(void),__int64 __fastcall sub_282D6CC(__int64 a1),0x282D6CC
+_ZN5Actor11setSneakingEb,Actor::setSneaking(bool),__int64 __fastcall sub_24DEFD0(__int64 a1),0x24DEFD0
+_ZNK6Player10isBlockingEv,Player::isBlocking(void),__int64 __fastcall sub_282B220(__int64 a1),0x282B220
+_ZNK6Player15isDamageBlockedERK17ActorDamageSource,Player::isDamageBlocked(ActorDamageSource const&),__int64 __fastcall sub_282B35C(__int64 a1),0x282B35C
+_ZNK3Mob7isAliveEv,Mob::isAlive(void),__int64 __fastcall sub_24A1C7C(__int64 a1),0x24A1C7C
+_ZNK5Actor8isOnFireEv,Actor::isOnFire(void),__int64 __fastcall sub_24E76B0(__int64 a1),0x24E76B0
+_ZNK5Actor12isOnHotBlockEv,Actor::isOnHotBlock(void),__int64 __fastcall sub_24E76F0(__int64 a1),0x24E76F0
+_ZN6Player21isCreativeModeAllowedEv,Player::isCreativeModeAllowed(void),__int64 __fastcall sub_282D6D4(__int64 a1),0x282D6D4
+_ZNK3Mob12isSurfaceMobEv,Mob::isSurfaceMob(void),__int64 __fastcall sub_24A9440(__int64 a1),0x24A9440
+_ZNK5Actor12isTargetableEv,Actor::isTargetable(void),__int64 __fastcall sub_24DD7C4(__int64 a1),0x24DD7C4
+_ZNK6Player13isLocalPlayerEv,Player::isLocalPlayer(void),__int64 __fastcall sub_283995C(__int64 a1),0x283995C
+_ZNK6Player8isPlayerEv,Player::isPlayer(void),__int64 __fastcall sub_283996C(__int64 a1),0x283996C
+_ZNK5Actor9canAttackEPS_b,"Actor::canAttack(Actor*,bool)",__int64 __fastcall sub_24CF8A4(__int64 a1),0x24CF8A4
+_ZN3Mob9setTargetEP5Actor,Mob::setTarget(Actor *),__int64 __fastcall sub_24A8430(__int64 a1),0x24A8430
+_ZN5Actor16findAttackTargetEv,Actor::findAttackTarget(void),__int64 __fastcall sub_24CFD88(__int64 a1),0x24CFD88
+_ZNK5Actor13isValidTargetEPS_,Actor::isValidTarget(Actor*),__int64 __fastcall sub_24CFD90(__int64 a1),0x24CFD90
+_ZN6Player6attackER5Actor,Player::attack(Actor &),__int64 __fastcall sub_2834044(__int64 a1),0x2834044
+_ZN5Actor19performRangedAttackERS_f,"Actor::performRangedAttack(Actor&,float)",__int64 __fastcall sub_24CFDDC(__int64 a1),0x24CFDDC
+_ZNK6Player18adjustDamageAmountERi,Player::adjustDamageAmount(int &),__int64 __fastcall sub_283402C(__int64 a1),0x283402C
+_ZNK5Actor17getEquipmentCountEv,Actor::getEquipmentCount(void),__int64 __fastcall sub_24D0238(__int64 a1),0x24D0238
+_ZN5Actor8setOwnerE13ActorUniqueID,Actor::setOwner(ActorUniqueID),__int64 __fastcall sub_24D0638(__int64 a1),0x24D0638
+_ZN5Actor10setSittingEb,Actor::setSitting(bool),__int64 __fastcall sub_24D06D4(__int64 a1),0x24D06D4
+_ZN5Actor6onTameEv,Actor::onTame(void),__int64 __fastcall sub_7812(__int64 a1),0x7812
+_ZN5Actor12onFailedTameEv,Actor::onFailedTame(void),__int64 __fastcall sub_1306(__int64 a1),0x1306
+_ZNK5Actor16getInventorySizeEv,Actor::getInventorySize(void),__int64 __fastcall sub_24DBD64(__int64 a1),0x24DBD64
+_ZNK5Actor13getEquipSlotsEv,Actor::getEquipSlots(void),__int64 __fastcall sub_24DBDA4(__int64 a1),0x24DBDA4
+_ZNK5Actor13getChestSlotsEv,Actor::getChestSlots(void),__int64 __fastcall sub_24DBE34(__int64 a1),0x24DBE34
+_ZN5Actor11setStandingEb,Actor::setStanding(bool),__int64 __fastcall sub_24DBB50(__int64 a1),0x24DBB50
+_ZNK3Mob12canPowerJumpEv,Mob::canPowerJump(void),__int64 __fastcall sub_24AA1BC(__int64 a1),0x24AA1BC
+_ZN5Actor15setCanPowerJumpEb,Actor::setCanPowerJump(bool),__int64 __fastcall sub_24DBBF8(__int64 a1),0x24DBBF8
+_ZNK6Player9isJumpingEv,Player::isJumping(void),__int64 __fastcall sub_2828D10(__int64 a1),0x2828D10
+_ZNK5Actor11isEnchantedEv,Actor::isEnchanted(void),__int64 __fastcall sub_24DBC08(__int64 a1),0x24DBC08
+_ZN5Actor10rideJumpedEv,Actor::rideJumped(void),__int64 __fastcall sub_620(__int64 a1),0x620
+_ZN5Actor10rideLandedERK4Vec3S2_,"Actor::rideLanded(Vec3 const&,Vec3 const&)",__int64 __fastcall sub_1307(__int64 a1),0x1307
+_ZNK5Actor12shouldRenderEv,Actor::shouldRender(void),__int64 __fastcall sub_24DD6D4(__int64 a1),0x24DD6D4
+_ZNK6Player16isInvulnerableToERK17ActorDamageSource,Player::isInvulnerableTo(ActorDamageSource const&),__int64 __fastcall sub_7E6BEA8(__int64 a1),0x7E6BEA8
+_ZNK3Mob19getBlockDamageCauseERK5Block,Mob::getBlockDamageCause(Block const&),__int64 __fastcall sub_24A8A64(__int64 a1),0x24A8A64
+_ZN6Player12actuallyHurtEiRK17ActorDamageSourceb,"Player::actuallyHurt(int,ActorDamageSource const&,bool)",__int64 __fastcall sub_2826718(__int64 a1),0x2826718
+_ZN3Mob11animateHurtEv,Mob::animateHurt(void),__int64 __fastcall sub_24A1C6C(__int64 a1),0x24A1C6C
+_ZN3Mob10doFireHurtEi,Mob::doFireHurt(int),__int64 __fastcall sub_249C8EC(__int64 a1),0x249C8EC
+_ZN5Actor14onLightningHitEv,Actor::onLightningHit(void),__int64 __fastcall sub_7E6BED0(__int64 a1),0x7E6BED0
+_ZN6Player15onBounceStartedERK8BlockPosRK5Block,"Player::onBounceStarted(BlockPos const&,Block const&)",__int64 __fastcall sub_282A10C(__int64 a1),0x282A10C
+_ZN6Player4feedEi,Player::feed(int),__int64 __fastcall sub_282A610(__int64 a1),0x282A610
+_ZN6Player17handleEntityEventE10ActorEventi,"Player::handleEntityEvent(ActorEvent,int)",__int64 __fastcall sub_2839568(__int64 a1),0x2839568
+_ZN5Actor13getPickRadiusEv,Actor::getPickRadius(void),__int64 __fastcall sub_24DD840(__int64 a1),0x24DD840
+_ZNK6Player18getActorRendererIdEv,Player::getActorRendererId(void),__int64 __fastcall sub_283EC68(__int64 a1),0x283EC68
+_ZN5Actor15spawnAtLocationEii,"Actor::spawnAtLocation(int,int)",__int64 __fastcall sub_24E65F4(__int64 a1),0x24E65F4
+_ZN5Actor15spawnAtLocationEiif,"Actor::spawnAtLocation(int,int,float)",__int64 __fastcall sub_24E6604(__int64 a1),0x24E6604
+_ZN5Actor15spawnAtLocationERK5Blocki,"Actor::spawnAtLocation(Block const&,int)",__int64 __fastcall sub_24E692C(__int64 a1),0x24E692C
+_ZN5Actor15spawnAtLocationERK5Blockif,"Actor::spawnAtLocation(Block const&,int,float)",__int64 __fastcall sub_24E693C(__int64 a1),0x24E693C
+_ZN5Actor15spawnAtLocationERK9ItemStackf,"Actor::spawnAtLocation(ItemStack const&,float)",__int64 __fastcall sub_24E6D10(__int64 a1),0x24E6D10
+_ZN5Actor7despawnEv,Actor::despawn(void),__int64 __fastcall sub_24E6DBC(__int64 a1),0x24E6DBC
+_ZN5Actor6killedERS_,Actor::killed(Actor&),__int64 __fastcall sub_24E6EC0(__int64 a1),0x24E6EC0
+_ZN6Player14awardKillScoreER5Actori,"Player::awardKillScore(Actor &,int)",__int64 __fastcall sub_282D6BC(__int64 a1),0x282D6BC
+_ZN6Player8setArmorE9ArmorSlotRK9ItemStack,"Player::setArmor(ArmorSlot,ItemStack const&)",__int64 __fastcall sub_7E6BF40(__int64 a1),0x7E6BF40
+_ZNK5Actor8getArmorE9ArmorSlot,Actor::getArmor(ArmorSlot),__int64 __fastcall sub_24DE3A0(__int64 a1),0x24DE3A0
+_ZNK3Mob26getArmorMaterialTypeInSlotE9ArmorSlot,Mob::getArmorMaterialTypeInSlot(ArmorSlot),__int64 __fastcall sub_24A5B00(__int64 a1),0x24A5B00
+_ZNK3Mob33getArmorMaterialTextureTypeInSlotE9ArmorSlot,Mob::getArmorMaterialTextureTypeInSlot(ArmorSlot),__int64 __fastcall sub_24A5BAC(__int64 a1),0x24A5BAC
+_ZNK3Mob19getArmorColorInSlotE9ArmorSloti,"Mob::getArmorColorInSlot(ArmorSlot,int)",__int64 __fastcall sub_24A5C10(__int64 a1),0x24A5C10
+_ZNK5Actor15getEquippedSlotE13EquipmentSlot,Actor::getEquippedSlot(EquipmentSlot),__int64 __fastcall sub_24DEF7C(__int64 a1),0x24DEF7C
+_ZN3Mob15setEquippedSlotE13EquipmentSlotRK9ItemStack,"Mob::setEquippedSlot(EquipmentSlot,ItemStack const&)",__int64 __fastcall sub_24A4F30(__int64 a1),0x24A4F30
+_ZNK6Player14getCarriedItemEv,Player::getCarriedItem(void),__int64 __fastcall sub_283899C(__int64 a1),0x283899C
+_ZN6Player14setCarriedItemERK9ItemStack,Player::setCarriedItem(ItemStack const&),__int64 __fastcall sub_28389C8(__int64 a1),0x28389C8
+_ZN6Player14setOffhandSlotERK9ItemStack,Player::setOffhandSlot(ItemStack const&),__int64 __fastcall sub_7E6BF88(__int64 a1),0x7E6BF88
+_ZNK6Player16getEquippedTotemEv,Player::getEquippedTotem(void),__int64 __fastcall sub_283C5EC(__int64 a1),0x283C5EC
+_ZN6Player12consumeTotemEv,Player::consumeTotem(void),__int64 __fastcall sub_283C72C(__int64 a1),0x283C72C
+_ZN5Actor4saveER11CompoundTag,Actor::save(CompoundTag &),__int64 __fastcall sub_24DF100(__int64 a1),0x24DF100
+_ZN5Actor13saveWithoutIdER11CompoundTag,Actor::saveWithoutId(CompoundTag &),__int64 __fastcall sub_24E02D0(__int64 a1),0x24E02D0
+_ZN5Actor4loadERK11CompoundTagR14DataLoadHelper,"Actor::load(CompoundTag const&,DataLoadHelper &)",__int64 __fastcall sub_24E2544(__int64 a1),0x24E2544
+_ZN5Actor9loadLinksERK11CompoundTagRSt6vectorI9ActorLinkSaIS4_EER14DataLoadHelper,"Actor::loadLinks(CompoundTag const&,std::vector<ActorLink> &,DataLoadHelper &)",__int64 __fastcall sub_24E6398(__int64 a1),0x24E6398
+_ZNK6Player15getEntityTypeIdEv,Player::getEntityTypeId(void),__int64 __fastcall sub_1E56F44(__int64 a1),0x1E56F44
+_ZNK5Actor19queryEntityRendererEv,Actor::queryEntityRenderer(void),__int64 __fastcall sub_7E6BFC8(__int64 a1),0x7E6BFC8
+_ZNK5Actor17getSourceUniqueIDEv,Actor::getSourceUniqueID(void),__int64 __fastcall sub_24E7A74(__int64 a1),0x24E7A74
+_ZN3Mob9setOnFireEi,Mob::setOnFire(int),__int64 __fastcall sub_24A5E9C(__int64 a1),0x24A5E9C
+_ZN5Actor14extinguishFireEv,Actor::extinguishFire(void),__int64 __fastcall sub_24E96D0(__int64 a1),0x24E96D0
+_ZN5Actor16thawFreezeEffectEv,Actor::thawFreezeEffect(void),__int64 __fastcall sub_24E9764(__int64 a1),0x24E9764
+_ZNK5Actor18getHandleWaterAABBEv,Actor::getHandleWaterAABB(void),__int64 __fastcall sub_24ED1A4(__int64 a1),0x24ED1A4
+_ZN5Actor18handleInsidePortalERK8BlockPos,Actor::handleInsidePortal(BlockPos const&),__int64 __fastcall sub_24ED208(__int64 a1),0x24ED208
+_ZNK6Player17getPortalCooldownEv,Player::getPortalCooldown(void),__int64 __fastcall sub_283A63C(__int64 a1),0x283A63C
+_ZNK6Player17getPortalWaitTimeEv,Player::getPortalWaitTime(void),__int64 __fastcall sub_283A644(__int64 a1),0x283A644
+_ZNK5Actor14getDimensionIdEv,Actor::getDimensionId(void),__int64 __fastcall sub_24ED2B0(__int64 a1),0x24ED2B0
+_ZNK5Actor19canChangeDimensionsEv,Actor::canChangeDimensions(void),__int64 __fastcall sub_24ED2B8(__int64 a1),0x24ED2B8
+_ZN5Actor15changeDimensionE11AutomaticIDI9DimensioniEb,"Actor::changeDimension(AutomaticID<Dimension,int>,bool)",__int64 __fastcall sub_24ED2C0(__int64 a1),0x24ED2C0
+_ZN5Actor15changeDimensionERK21ChangeDimensionPacket,Actor::changeDimension(ChangeDimensionPacket const&),__int64 __fastcall sub_1312(__int64 a1),0x1312
+_ZNK5Actor20getControllingPlayerEv,Actor::getControllingPlayer(void),__int64 __fastcall sub_24ED588(__int64 a1),0x24ED588
+_ZN5Actor15checkFallDamageEfb,"Actor::checkFallDamage(float,bool)",__int64 __fastcall sub_24D940C(__int64 a1),0x24D940C
+_ZN3Mob15causeFallDamageEff,"Mob::causeFallDamage(float,float)",__int64 __fastcall sub_249EA78(__int64 a1),0x249EA78
+_ZN5Actor26handleFallDistanceOnServerEffb,"Actor::handleFallDistanceOnServer(float,float,bool)",__int64 __fastcall sub_24D97BC(__int64 a1),0x24D97BC
+_ZN5Actor21playSynchronizedSoundE15LevelSoundEventRK4Vec3RK5Blockb,"Actor::playSynchronizedSound(LevelSoundEvent,Vec3 const&,Block const&,bool)",__int64 __fastcall sub_24E7DD4(__int64 a1),0x24E7DD4
+_ZN5Actor21playSynchronizedSoundE15LevelSoundEventRK4Vec3ib,"Actor::playSynchronizedSound(LevelSoundEvent,Vec3 const&,int,bool)",__int64 __fastcall sub_24E7E28(__int64 a1),0x24E7E28
+_ZN6Player19onSynchedDataUpdateEi,Player::onSynchedDataUpdate(int),__int64 __fastcall sub_2828BA0(__int64 a1),0x2828BA0
+_ZNK6Player11canAddRiderER5Actor,Player::canAddRider(Actor &),__int64 __fastcall sub_283D940(__int64 a1),0x283D940
+_ZNK5Actor13canPickupItemERK9ItemStack,Actor::canPickupItem(ItemStack const&),__int64 __fastcall sub_24E9AF4(__int64 a1),0x24E9AF4
+_ZNK6Player22canBePulledIntoVehicleEv,Player::canBePulledIntoVehicle(void),__int64 __fastcall sub_283CF74(__int64 a1),0x283CF74
+_ZNK3Mob9inCaravanEv,Mob::inCaravan(void),__int64 __fastcall sub_24A8184(__int64 a1),0x24A8184
+_ZN5Actor15isLeashableTypeEv,Actor::isLeashableType(void),__int64 __fastcall sub_1E56F4C(__int64 a1),0x1E56F4C
+_ZN5Actor9tickLeashEv,Actor::tickLeash(void),__int64 __fastcall sub_24EA354(__int64 a1),0x24EA354
+_ZN6Player24sendMotionPacketIfNeededEv,Player::sendMotionPacketIfNeeded(void),__int64 __fastcall sub_1762(__int64 a1),0x1762
+_ZNK5Actor23canSynchronizeNewEntityEv,Actor::canSynchronizeNewEntity(void),__int64 __fastcall sub_24EAA48(__int64 a1),0x24EAA48
+_ZN3Mob10stopRidingEbbb,"Mob::stopRiding(bool,bool,bool)",__int64 __fastcall sub_24A3010(__int64 a1),0x24A3010
+_ZN6Player13startSwimmingEv,Player::startSwimming(void),__int64 __fastcall sub_283CC4C(__int64 a1),0x283CC4C
+_ZN6Player12stopSwimmingEv,Player::stopSwimming(void),__int64 __fastcall sub_283CC84(__int64 a1),0x283CC84
+_ZNK3Mob14buildDebugInfoERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Mob::buildDebugInfo(std::string &),__int64 __fastcall sub_24A916C(__int64 a1),0x24A916C
+_ZNK6Player25getCommandPermissionLevelEv,Player::getCommandPermissionLevel(void),__int64 __fastcall sub_282DE14(__int64 a1),0x282DE14
+_ZN5Actor19getMutableAttributeERK9Attribute,Actor::getMutableAttribute(Attribute const&),__int64 __fastcall sub_24ED660(__int64 a1),0x24ED660
+_ZNK5Actor12getAttributeERK9Attribute,Actor::getAttribute(Attribute const&),__int64 __fastcall sub_24ED668(__int64 a1),0x24ED668
+_ZNK3Mob12getDeathTimeEv,Mob::getDeathTime(void),__int64 __fastcall sub_24A5CA8(__int64 a1),0x24A5CA8
+_ZN5Actor4healEi,Actor::heal(int),__int64 __fastcall sub_24ED784(__int64 a1),0x24ED784
+_ZNK5Actor21isInvertedHealAndHarmEv,Actor::isInvertedHealAndHarm(void),__int64 __fastcall sub_24ED864(__int64 a1),0x24ED864
+_ZNK5Actor13canBeAffectedEi,Actor::canBeAffected(int),__int64 __fastcall sub_24EE0D8(__int64 a1),0x24EE0D8
+_ZNK5Actor13canBeAffectedERK17MobEffectInstance,Actor::canBeAffected(MobEffectInstance const&),__int64 __fastcall sub_24EE0A4(__int64 a1),0x24EE0A4
+_ZNK5Actor20canBeAffectedByArrowERK17MobEffectInstance,Actor::canBeAffectedByArrow(MobEffectInstance const&),__int64 __fastcall sub_24EE1E4(__int64 a1),0x24EE1E4
+_ZN5Actor13onEffectAddedER17MobEffectInstance,Actor::onEffectAdded(MobEffectInstance &),__int64 __fastcall sub_24EE360(__int64 a1),0x24EE360
+_ZN5Actor15onEffectUpdatedERK17MobEffectInstance,Actor::onEffectUpdated(MobEffectInstance const&),__int64 __fastcall sub_7E6C118(__int64 a1),0x7E6C118
+_ZN5Actor15onEffectRemovedER17MobEffectInstance,Actor::onEffectRemoved(MobEffectInstance &),__int64 __fastcall sub_7E6C120(__int64 a1),0x7E6C120
+_ZN6Player21getAnimationComponentEv,Player::getAnimationComponent(void),__int64 __fastcall sub_283E888(__int64 a1),0x283E888
+_ZN5Actor22openContainerComponentER6Player,Actor::openContainerComponent(Player &),__int64 __fastcall sub_24EF2E0(__int64 a1),0x24EF2E0
+_ZN3Mob5swingEv,Mob::swing(void),__int64 __fastcall sub_24A43E0(__int64 a1),0x24A43E0
+_ZN6Player7useItemER13ItemStackBase13ItemUseMethodb,"Player::useItem(ItemStackBase &,ItemUseMethod,bool)",__int64 __fastcall sub_282AC54(__int64 a1),0x282AC54
+_ZNK5Actor15hasOutputSignalEh,Actor::hasOutputSignal(uchar),__int64 __fastcall sub_24EF228(__int64 a1),0x24EF228
+_ZNK5Actor15getOutputSignalEv,Actor::getOutputSignal(void),__int64 __fastcall sub_24EF230(__int64 a1),0x24EF230
+_ZN5Actor12getDebugTextERSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS6_EE,Actor::getDebugText(std::vector<std::string> &),__int64 __fastcall sub_24EF574(__int64 a1),0x24EF574
+_ZNK6Player24getMapDecorationRotationEv,Player::getMapDecorationRotation(void),__int64 __fastcall sub_2826714(__int64 a1),0x2826714
+_ZNK5Actor17getRiderYRotationERKS_,Actor::getRiderYRotation(Actor const&),__int64 __fastcall sub_24F04C8(__int64 a1),0x24F04C8
+_ZNK3Mob11getYHeadRotEv,Mob::getYHeadRot(void),__int64 __fastcall sub_24A3918(__int64 a1),0x24A3918
+_ZN6Player14isWorldBuilderEv,Player::isWorldBuilder(void),__int64 __fastcall sub_283C070(__int64 a1),0x283C070
+_ZNK6Player10isCreativeEv,Player::isCreative(void),__int64 __fastcall sub_2826A60(__int64 a1),0x2826A60
+_ZNK6Player11isAdventureEv,Player::isAdventure(void),__int64 __fastcall sub_2826B94(__int64 a1),0x2826B94
+_ZN6Player3addER9ItemStack,Player::add(ItemStack &),__int64 __fastcall sub_282DA44(__int64 a1),0x282DA44
+_ZN6Player4dropERK9ItemStackb,"Player::drop(ItemStack const&,bool)",__int64 __fastcall sub_2838588(__int64 a1),0x2838588
+_ZN5Actor14getInteractionER6PlayerR16ActorInteractionRK4Vec3,"Actor::getInteraction(Player &,ActorInteraction &,Vec3 const&)",__int64 __fastcall sub_24F0E6C(__int64 a1),0x24F0E6C
+_ZNK5Actor15canDestroyBlockERK5Block,Actor::canDestroyBlock(Block const&),__int64 __fastcall sub_24D325C(__int64 a1),0x24D325C
+_ZN5Actor11setAuxValueEi,Actor::setAuxValue(int),__int64 __fastcall sub_621(__int64 a1),0x621
+_ZN6Player7setSizeEff,"Player::setSize(float,float)",__int64 __fastcall sub_2828D88(__int64 a1),0x2828D88
+_ZNK5Actor11getLifeSpanEv,Actor::getLifeSpan(void),__int64 __fastcall sub_24F21BC(__int64 a1),0x24F21BC
+_ZN5Actor8onOrphanEv,Actor::onOrphan(void),__int64 __fastcall sub_24F2548(__int64 a1),0x24F2548
+_ZN5Actor6wobbleEv,Actor::wobble(void),__int64 __fastcall sub_24F2764(__int64 a1),0x24F2764
+_ZN5Actor7wasHurtEv,Actor::wasHurt(void),__int64 __fastcall sub_24DA574(__int64 a1),0x24DA574
+_ZN6Player15startSpinAttackEv,Player::startSpinAttack(void),__int64 __fastcall sub_283CCB8(__int64 a1),0x283CCB8
+_ZN6Player14stopSpinAttackEv,Player::stopSpinAttack(void),__int64 __fastcall sub_283CCF4(__int64 a1),0x283CCF4
+_ZN5Actor19setDamageNearbyMobsEb,Actor::setDamageNearbyMobs(bool),__int64 __fastcall sub_24DB870(__int64 a1),0x24DB870
+_ZN3Mob22renderDebugServerStateERK7Options,Mob::renderDebugServerState(Options const&),__int64 __fastcall sub_1288(__int64 a1),0x1288
+_ZN5Actor15reloadLootTableEv,Actor::reloadLootTable(void),__int64 __fastcall sub_24EC43C(__int64 a1),0x24EC43C
+_ZN5Actor15reloadLootTableERK24EquipmentTableDefinition,Actor::reloadLootTable(EquipmentTableDefinition const&),__int64 __fastcall sub_24EC488(__int64 a1),0x24EC488
+_ZNK5Actor27getDeletionDelayTimeSecondsEv,Actor::getDeletionDelayTimeSeconds(void),__int64 __fastcall sub_1E56F58(__int64 a1),0x1E56F58
+_ZN3Mob4killEv,Mob::kill(void),__int64 __fastcall sub_249D87C(__int64 a1),0x249D87C
+_ZN6Player3dieERK17ActorDamageSource,Player::die(ActorDamageSource const&),__int64 __fastcall sub_282D228(__int64 a1),0x282D228
+_ZNK5Actor10shouldTickEv,Actor::shouldTick(void),__int64 __fastcall sub_24F28B8(__int64 a1),0x24F28B8
+_ZN6Player19createMovementProxyEv,Player::createMovementProxy(void),__int64 __fastcall sub_2837EE0(__int64 a1),0x2837EE0
+_ZN5Actor11getNextStepEf,Actor::getNextStep(float),__int64 __fastcall sub_24D28B4(__int64 a1),0x24D28B4
+_ZN3Mob35updateEntitySpecificMolangVariablesER12RenderParams,Mob::updateEntitySpecificMolangVariables(RenderParams &),__int64 __fastcall sub_24AA2D0(__int64 a1),0x24AA2D0
+_ZN5Actor22shouldTryMakeStepSoundEv,Actor::shouldTryMakeStepSound(void),__int64 __fastcall sub_24D28AC(__int64 a1),0x24D28AC
+_ZNK5Actor16canMakeStepSoundEv,Actor::canMakeStepSound(void),__int64 __fastcall sub_24D28A4(__int64 a1),0x24D28A4
+_ZN3Mob10outOfWorldEv,Mob::outOfWorld(void),__int64 __fastcall sub_24A346C(__int64 a1),0x24A346C
+_ZN6Player5_hurtERK17ActorDamageSourceibb,"Player::_hurt(ActorDamageSource const&,int,bool,bool)",__int64 __fastcall sub_2832E8C(__int64 a1),0x2832E8C
+_ZN5Actor8markHurtEv,Actor::markHurt(void),__int64 __fastcall sub_24DA394(__int64 a1),0x24DA394
+_ZN6Player22readAdditionalSaveDataERK11CompoundTagR14DataLoadHelper,"Player::readAdditionalSaveData(CompoundTag const&,DataLoadHelper &)",__int64 __fastcall sub_282DF08(__int64 a1),0x282DF08
+_ZN6Player21addAdditionalSaveDataER11CompoundTag,Player::addAdditionalSaveData(CompoundTag &),__int64 __fastcall sub_7E6C278(__int64 a1),0x7E6C278
+_ZN3Mob14_playStepSoundERK8BlockPosRK5Block,"Mob::_playStepSound(BlockPos const&,Block const&)",__int64 __fastcall sub_249D5F8(__int64 a1),0x249D5F8
+_ZN5Actor13_playFlySoundERK8BlockPosRK5Block,"Actor::_playFlySound(BlockPos const&,Block const&)",__int64 __fastcall sub_24E7CE4(__int64 a1),0x24E7CE4
+_ZNK5Actor13_makeFlySoundEv,Actor::_makeFlySound(void),__int64 __fastcall sub_24E7DCC(__int64 a1),0x24E7DCC
+_ZN5Actor17checkInsideBlocksEf,Actor::checkInsideBlocks(float),__int64 __fastcall sub_24EAA84(__int64 a1),0x24EAA84
+_ZN5Actor15pushOutOfBlocksERK4Vec3,Actor::pushOutOfBlocks(Vec3 const&),__int64 __fastcall sub_24EABE0(__int64 a1),0x24EABE0
+_ZN5Actor16updateWaterStateEv,Actor::updateWaterState(void),__int64 __fastcall sub_24EB12C(__int64 a1),0x24EB12C
+_ZN5Actor19doWaterSplashEffectEv,Actor::doWaterSplashEffect(void),__int64 __fastcall sub_7E6C2B0(__int64 a1),0x7E6C2B0
+_ZN5Actor17spawnTrailBubblesEv,Actor::spawnTrailBubbles(void),__int64 __fastcall sub_24EB900(__int64 a1),0x24EB900
+_ZN5Actor17updateInsideBlockEv,Actor::updateInsideBlock(void),__int64 __fastcall sub_24EBEF8(__int64 a1),0x24EBEF8
+_ZN5Actor12getLootTableEv,Actor::getLootTable(void),__int64 __fastcall sub_24F0448(__int64 a1),0x24F0448
+_ZN5Actor19getDefaultLootTableEv,Actor::getDefaultLootTable(void),__int64 __fastcall sub_1E56F60(__int64 a1),0x1E56F60
+_ZN3Mob12_removeRiderERK13ActorUniqueIDbbb,"Mob::_removeRider(ActorUniqueID const&,bool,bool,bool)",__int64 __fastcall sub_24AA0C0(__int64 a1),0x24AA0C0
+_ZN6Player14_onSizeUpdatedEv,Player::_onSizeUpdated(void),__int64 __fastcall sub_283D558(__int64 a1),0x283D558
+_ZN5Actor20_doAutoAttackOnTouchERS_,Actor::_doAutoAttackOnTouch(Actor&),__int64 __fastcall sub_7811(__int64 a1),0x7811
+_ZN3Mob9knockbackEP5Actorifffff,"Mob::knockback(Actor *,int,float,float,float,float,float)",__int64 __fastcall sub_249D6A4(__int64 a1),0x249D6A4
+_ZN3Mob16resolveDeathLootEiRK17ActorDamageSource,"Mob::resolveDeathLoot(int,ActorDamageSource const&)",__int64 __fastcall sub_249E5D8(__int64 a1),0x249E5D8
+_ZN3Mob9spawnAnimEv,Mob::spawnAnim(void),__int64 __fastcall sub_1283(__int64 a1),0x1283
+_ZN6Player11setSleepingEb,Player::setSleeping(bool),__int64 __fastcall sub_282788C(__int64 a1),0x282788C
+_ZN3Mob12setSprintingEb,Mob::setSprinting(bool),__int64 __fastcall sub_24A3E28(__int64 a1),0x24A3E28
+_ZN3Mob16playAmbientSoundEv,Mob::playAmbientSound(void),__int64 __fastcall sub_249AFA4(__int64 a1),0x249AFA4
+_ZN3Mob15getAmbientSoundEv,Mob::getAmbientSound(void),__int64 __fastcall sub_249B034(__int64 a1),0x249B034
+_ZN3Mob28getAmbientSoundPostponeTicksEv,Mob::getAmbientSoundPostponeTicks(void),__int64 __fastcall sub_249A9D0(__int64 a1),0x249A9D0
+_ZN3Mob33getAmbientSoundPostponeTicksRangeEv,Mob::getAmbientSoundPostponeTicksRange(void),__int64 __fastcall sub_249AA2C(__int64 a1),0x249AA2C
+_ZN3Mob17getItemInHandIconERK9ItemStacki,"Mob::getItemInHandIcon(ItemStack const&,int)",__int64 __fastcall sub_24A7D7C(__int64 a1),0x24A7D7C
+_ZNK6Player8getSpeedEv,Player::getSpeed(void),__int64 __fastcall sub_2826BFC(__int64 a1),0x2826BFC
+_ZN6Player8setSpeedEf,Player::setSpeed(float),__int64 __fastcall sub_2838EC8(__int64 a1),0x2838EC8
+_ZNK3Mob12getJumpPowerEv,Mob::getJumpPower(void),__int64 __fastcall sub_24A3A84(__int64 a1),0x24A3A84
+_ZN3Mob11hurtEffectsERK17ActorDamageSourceibb,"Mob::hurtEffects(ActorDamageSource const&,int,bool,bool)",__int64 __fastcall sub_249CC88(__int64 a1),0x249CC88
+_ZN3Mob25getMeleeWeaponDamageBonusEPS_,Mob::getMeleeWeaponDamageBonus(Mob*),__int64 __fastcall sub_249C938(__int64 a1),0x249C938
+_ZN3Mob22getMeleeKnockbackBonusEv,Mob::getMeleeKnockbackBonus(void),__int64 __fastcall sub_249C9C0(__int64 a1),0x249C9C0
+_ZN6Player6travelEfff,"Player::travel(float,float,float)",__int64 __fastcall sub_282B894(__int64 a1),0x282B894
+_ZNK6Player6travelER17IMobMovementProxyfff,"Player::travel(IMobMovementProxy &,float,float,float)",__int64 __fastcall sub_282B610(__int64 a1),0x282B610
+_ZN3Mob18applyFinalFrictionEfb,"Mob::applyFinalFriction(float,bool)",__int64 __fastcall sub_24A0CFC(__int64 a1),0x24A0CFC
+_ZN3Mob14updateWalkAnimEv,Mob::updateWalkAnim(void),__int64 __fastcall sub_24A0D58(__int64 a1),0x24A0D58
+_ZN6Player6aiStepEv,Player::aiStep(void),__int64 __fastcall sub_282CA04(__int64 a1),0x282CA04
+_ZNK6Player6aiStepER17IMobMovementProxy,Player::aiStep(IMobMovementProxy &),__int64 __fastcall sub_282C258(__int64 a1),0x282C258
+_ZN3Mob10pushActorsEv,Mob::pushActors(void),__int64 __fastcall sub_24A8C70(__int64 a1),0x24A8C70
+_ZN3Mob6lookAtEP5Actorff,"Mob::lookAt(Actor *,float,float)",__int64 __fastcall sub_24A30DC(__int64 a1),0x24A30DC
+_ZN3Mob19isLookingAtAnEntityEv,Mob::isLookingAtAnEntity(void),__int64 __fastcall sub_24A3240(__int64 a1),0x24A3240
+_ZN3Mob15checkSpawnRulesEb,Mob::checkSpawnRules(bool),__int64 __fastcall sub_24A3250(__int64 a1),0x24A3250
+_ZNK3Mob21checkSpawnObstructionEv,Mob::checkSpawnObstruction(void),__int64 __fastcall sub_24A33F8(__int64 a1),0x24A33F8
+_ZN3Mob13getAttackAnimEf,Mob::getAttackAnim(float),__int64 __fastcall sub_24A34F4(__int64 a1),0x24A34F4
+_ZN6Player18getItemUseDurationEv,Player::getItemUseDuration(void),__int64 __fastcall sub_282B110(__int64 a1),0x282B110
+_ZN6Player25getItemUseStartupProgressEv,Player::getItemUseStartupProgress(void),__int64 __fastcall sub_282B118(__int64 a1),0x282B118
+_ZN6Player26getItemUseIntervalProgressEv,Player::getItemUseIntervalProgress(void),__int64 __fastcall sub_282B184(__int64 a1),0x282B184
+_ZN3Mob22getItemuseIntervalAxisEv,Mob::getItemuseIntervalAxis(void),__int64 __fastcall sub_24A382C(__int64 a1),0x24A382C
+_ZNK3Mob17getTimeAlongSwingEv,Mob::getTimeAlongSwing(void),__int64 __fastcall sub_1E56F68(__int64 a1),0x1E56F68
+_ZN3Mob3ateEv,Mob::ate(void),__int64 __fastcall sub_1286(__int64 a1),0x1286
+_ZN3Mob14getMaxHeadXRotEv,Mob::getMaxHeadXRot(void),__int64 __fastcall sub_24A30D0(__int64 a1),0x24A30D0
+_ZN3Mob16getLastHurtByMobEv,Mob::getLastHurtByMob(void),__int64 __fastcall sub_24A8318(__int64 a1),0x24A8318
+_ZN3Mob16setLastHurtByMobEPS_,Mob::setLastHurtByMob(Mob*),__int64 __fastcall sub_24A83B4(__int64 a1),0x24A83B4
+_ZN3Mob19getLastHurtByPlayerEv,Mob::getLastHurtByPlayer(void),__int64 __fastcall sub_24A84EC(__int64 a1),0x24A84EC
+_ZN3Mob19setLastHurtByPlayerEP6Player,Mob::setLastHurtByPlayer(Player *),__int64 __fastcall sub_24A853C(__int64 a1),0x24A853C
+_ZN3Mob14getLastHurtMobEv,Mob::getLastHurtMob(void),__int64 __fastcall sub_24A86D8(__int64 a1),0x24A86D8
+_ZN3Mob14setLastHurtMobEP5Actor,Mob::setLastHurtMob(Actor *),__int64 __fastcall sub_24A8640(__int64 a1),0x24A8640
+_ZN3Mob10isAlliedToEPS_,Mob::isAlliedTo(Mob*),__int64 __fastcall sub_24A87D8(__int64 a1),0x24A87D8
+_ZN3Mob12doHurtTargetEP5Actor,Mob::doHurtTarget(Actor *),__int64 __fastcall sub_24A87E0(__int64 a1),0x24A87E0
+_ZN3Mob22canBeControlledByRiderEv,Mob::canBeControlledByRider(void),__int64 __fastcall sub_24A7DEC(__int64 a1),0x24A7DEC
+_ZN3Mob12leaveCaravanEv,Mob::leaveCaravan(void),__int64 __fastcall sub_24A7DF4(__int64 a1),0x24A7DF4
+_ZN3Mob11joinCaravanEPS_,Mob::joinCaravan(Mob*),__int64 __fastcall sub_24A8014(__int64 a1),0x24A8014
+_ZNK3Mob14hasCaravanTailEv,Mob::hasCaravanTail(void),__int64 __fastcall sub_24A8148(__int64 a1),0x24A8148
+_ZNK3Mob14getCaravanHeadEv,Mob::getCaravanHead(void),__int64 __fastcall sub_24A81C0(__int64 a1),0x24A81C0
+_ZN3Mob13getArmorValueEv,Mob::getArmorValue(void),__int64 __fastcall sub_24A4864(__int64 a1),0x24A4864
+_ZNK3Mob23getArmorCoverPercentageEv,Mob::getArmorCoverPercentage(void),__int64 __fastcall sub_24A494C(__int64 a1),0x24A494C
+_ZN3Mob9hurtArmorERK17ActorDamageSourcei,"Mob::hurtArmor(ActorDamageSource const&,int)",__int64 __fastcall sub_24A50A0(__int64 a1),0x24A50A0
+_ZN3Mob9hurtArmorERK17ActorDamageSourceiRKSt6bitsetILm4EE,"Mob::hurtArmor(ActorDamageSource const&,int,std::bitset<4ul> const&)",__int64 __fastcall sub_24A50F8(__int64 a1),0x24A50F8
+_ZN3Mob13hurtArmorSlotERK17ActorDamageSourcei9ArmorSlot,"Mob::hurtArmorSlot(ActorDamageSource const&,int,ArmorSlot)",__int64 __fastcall sub_24A5824(__int64 a1),0x24A5824
+_ZN3Mob15setDamagedArmorE9ArmorSlotRK9ItemStack,"Mob::setDamagedArmor(ArmorSlot,ItemStack const&)",__int64 __fastcall sub_24A5894(__int64 a1),0x24A5894
+_ZN3Mob15sendArmorDamageERKSt6bitsetILm4EE,Mob::sendArmorDamage(std::bitset<4ul> const&),__int64 __fastcall sub_1287(__int64 a1),0x1287
+_ZN3Mob9sendArmorERKSt6bitsetILm4EE,Mob::sendArmor(std::bitset<4ul> const&),__int64 __fastcall sub_24A5974(__int64 a1),0x24A5974
+_ZN3Mob16containerChangedEi,Mob::containerChanged(int),__int64 __fastcall sub_24A66F0(__int64 a1),0x24A66F0
+_ZN3Mob15updateEquipmentEv,Mob::updateEquipment(void),__int64 __fastcall sub_24A69CC(__int64 a1),0x24A69CC
+_ZN3Mob14clearEquipmentEv,Mob::clearEquipment(void),__int64 __fastcall sub_24A6B78(__int64 a1),0x24A6B78
+_ZNK3Mob11getAllArmorEv,Mob::getAllArmor(void),__int64 __fastcall sub_24A4A30(__int64 a1),0x24A4A30
+_ZNK3Mob13getAllArmorIDEv,Mob::getAllArmorID(void),__int64 __fastcall sub_24A4A5C(__int64 a1),0x24A4A5C
+_ZNK6Player10getAllHandEv,Player::getAllHand(void),__int64 __fastcall sub_282D6E4(__int64 a1),0x282D6E4
+_ZNK6Player15getAllEquipmentEv,Player::getAllEquipment(void),__int64 __fastcall sub_282D838(__int64 a1),0x282D838
+_ZN3Mob16getArmorTypeHashEv,Mob::getArmorTypeHash(void),__int64 __fastcall sub_24A5CB0(__int64 a1),0x24A5CB0
+_ZN6Player20dropEquipmentOnDeathERK17ActorDamageSourcei,"Player::dropEquipmentOnDeath(ActorDamageSource const&,int)",__int64 __fastcall sub_283896C(__int64 a1),0x283896C
+_ZN6Player20dropEquipmentOnDeathEv,Player::dropEquipmentOnDeath(void),__int64 __fastcall sub_2838938(__int64 a1),0x2838938
+_ZN6Player32clearVanishEnchantedItemsOnDeathEv,Player::clearVanishEnchantedItemsOnDeath(void),__int64 __fastcall sub_1763(__int64 a1),0x1763
+_ZN6Player13sendInventoryEb,Player::sendInventory(bool),__int64 __fastcall sub_1764(__int64 a1),0x1764
+_ZN3Mob25getDamageAfterMagicAbsorbERK17ActorDamageSourcei,"Mob::getDamageAfterMagicAbsorb(ActorDamageSource const&,int)",__int64 __fastcall sub_24A465C(__int64 a1),0x24A465C
+_ZN3Mob13createAIGoalsEv,Mob::createAIGoals(void),__int64 __fastcall sub_249A4D8(__int64 a1),0x249A4D8
+_ZN3Mob6onBornER5ActorS1_,"Mob::onBorn(Actor &,Actor &)",__int64 __fastcall sub_1284(__int64 a1),0x1284
+_ZN3Mob11setItemSlotE13EquipmentSlotRK9ItemStack,"Mob::setItemSlot(EquipmentSlot,ItemStack const&)",__int64 __fastcall sub_24A4760(__int64 a1),0x24A4760
+_ZN3Mob23setTransitioningSittingEb,Mob::setTransitioningSitting(bool),__int64 __fastcall sub_24A3978(__int64 a1),0x24A3978
+_ZN3Mob15attackAnimationEP5Actorf,"Mob::attackAnimation(Actor *,float)",__int64 __fastcall sub_24A9018(__int64 a1),0x24A9018
+_ZN3Mob13getAttackTimeEv,Mob::getAttackTime(void),__int64 __fastcall sub_24A90AC(__int64 a1),0x24A90AC
+_ZN3Mob19_getWalkTargetValueERK8BlockPos,Mob::_getWalkTargetValue(BlockPos const&),__int64 __fastcall sub_24A90B4(__int64 a1),0x24A90B4
+_ZNK6Player23canExistWhenDisallowMobEv,Player::canExistWhenDisallowMob(void),__int64 __fastcall sub_283D534(__int64 a1),0x283D534
+_ZNK6Player8useNewAiEv,Player::useNewAi(void),__int64 __fastcall sub_1E56F70(__int64 a1),0x1E56F70
+_ZN3Mob12ascendLadderEv,Mob::ascendLadder(void),__int64 __fastcall sub_24AAF18(__int64 a1),0x24AAF18
+_ZN3Mob17ascendScaffoldingEv,Mob::ascendScaffolding(void),__int64 __fastcall sub_24AAF38(__int64 a1),0x24AAF38
+_ZN3Mob20ascendBlockByJumpingEv,Mob::ascendBlockByJumping(void),__int64 __fastcall sub_24AAF58(__int64 a1),0x24AAF58
+_ZN3Mob18descendScaffoldingEv,Mob::descendScaffolding(void),__int64 __fastcall sub_24AAF78(__int64 a1),0x24AAF78
+_ZNK3Mob30canAscendCurrentBlockByJumpingEv,Mob::canAscendCurrentBlockByJumping(void),__int64 __fastcall sub_24AAFA8(__int64 a1),0x24AAFA8
+_ZN3Mob13dropContainerEv,Mob::dropContainer(void),__int64 __fastcall sub_24A9BF0(__int64 a1),0x24A9BF0
+_ZN6Player15initBodyControlEv,Player::initBodyControl(void),__int64 __fastcall sub_2825BE8(__int64 a1),0x2825BE8
+_ZN6Player14jumpFromGroundEv,Player::jumpFromGround(void),__int64 __fastcall sub_282BC1C(__int64 a1),0x282BC1C
+_ZNK6Player14jumpFromGroundER17IMobMovementProxy,Player::jumpFromGround(IMobMovementProxy &),__int64 __fastcall sub_282BDDC(__int64 a1),0x282BDDC
+_ZN6Player8updateAiEv,Player::updateAi(void),__int64 __fastcall sub_1755(__int64 a1),0x1755
+_ZN3Mob15newServerAiStepEv,Mob::newServerAiStep(void),__int64 __fastcall sub_24A2728(__int64 a1),0x24A2728
+_ZN3Mob16_serverAiMobStepEv,Mob::_serverAiMobStep(void),__int64 __fastcall sub_1285(__int64 a1),0x1285
+_ZN3Mob30getDamageAfterEnchantReductionERK17ActorDamageSourcei,"Mob::getDamageAfterEnchantReduction(ActorDamageSource const&,int)",__int64 __fastcall sub_24A4444(__int64 a1),0x24A4444
+_ZN3Mob25getDamageAfterArmorAbsorbERK17ActorDamageSourcei,"Mob::getDamageAfterArmorAbsorb(ActorDamageSource const&,int)",__int64 __fastcall sub_24A4508(__int64 a1),0x24A4508
+_ZN3Mob8dropBagsEv,Mob::dropBags(void),__int64 __fastcall sub_24A9CE4(__int64 a1),0x24A9CE4
+_ZN3Mob9tickDeathEv,Mob::tickDeath(void),__int64 __fastcall sub_249C1A4(__int64 a1),0x249C1A4
+_ZN6Player13updateGlidingEv,Player::updateGliding(void),__int64 __fastcall sub_283CB2C(__int64 a1),0x283CB2C
+_ZNK3Mob26_allowAscendingScaffoldingEv,Mob::_allowAscendingScaffolding(void),__int64 __fastcall sub_24AB044(__int64 a1),0x24AB044
+_ZN6Player13prepareRegionER11ChunkSource,Player::prepareRegion(ChunkSource &),__int64 __fastcall sub_2826F5C(__int64 a1),0x2826F5C
+_ZN6Player13destroyRegionEv,Player::destroyRegion(void),__int64 __fastcall sub_28276AC(__int64 a1),0x28276AC
+_ZN6Player13suspendRegionEv,Player::suspendRegion(void),__int64 __fastcall sub_2827734(__int64 a1),0x2827734
+_ZN6Player15resendAllChunksEv,Player::resendAllChunks(void),__int64 __fastcall sub_1751(__int64 a1),0x1751
+_ZN6Player24_fireWillChangeDimensionEv,Player::_fireWillChangeDimension(void),__int64 __fastcall sub_2827790(__int64 a1),0x2827790
+_ZN6Player21_fireDimensionChangedEv,Player::_fireDimensionChanged(void),__int64 __fastcall sub_28277F4(__int64 a1),0x28277F4
+_ZN6Player26changeDimensionWithCreditsE11AutomaticIDI9DimensioniE,"Player::changeDimensionWithCredits(AutomaticID<Dimension,int>)",__int64 __fastcall sub_1752(__int64 a1),0x1752
+_ZN6Player9tickWorldERK4Tick,Player::tickWorld(Tick const&),__int64 __fastcall sub_2839980(__int64 a1),0x2839980
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C630(__int64 a1),0x7E6C630
+_ZNK6Player17getTickingOffsetsEv,Player::getTickingOffsets(void),__int64 __fastcall sub_283A520(__int64 a1),0x283A520
+_ZN6Player8moveViewEv,Player::moveView(void),__int64 __fastcall sub_2828BBC(__int64 a1),0x2828BBC
+_ZN6Player7setNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Player::setName(std::string const&),__int64 __fastcall sub_2828A74(__int64 a1),0x2828A74
+_ZN6Player18checkMovementStatsERK4Vec3,Player::checkMovementStats(Vec3 const&),__int64 __fastcall sub_1753(__int64 a1),0x1753
+_ZNK6Player26getCurrentStructureFeatureEv,Player::getCurrentStructureFeature(void),__int64 __fastcall sub_1E56F78(__int64 a1),0x1E56F78
+_ZNK6Player17isAutoJumpEnabledEv,Player::isAutoJumpEnabled(void),__int64 __fastcall sub_1E56F80(__int64 a1),0x1E56F80
+_ZN6Player7respawnEv,Player::respawn(void),__int64 __fastcall sub_2838008(__int64 a1),0x2838008
+_ZN6Player8resetRotEv,Player::resetRot(void),__int64 __fastcall sub_1754(__int64 a1),0x1754
+_ZN6Player8resetPosEb,Player::resetPos(bool),__int64 __fastcall sub_282BFC4(__int64 a1),0x282BFC4
+_ZN6Player13isInTrialModeEv,Player::isInTrialMode(void),__int64 __fastcall sub_282D6DC(__int64 a1),0x282D6DC
+_ZN6Player11hasResourceEi,Player::hasResource(int),__int64 __fastcall sub_2838ED0(__int64 a1),0x2838ED0
+_ZN6Player17completeUsingItemEv,Player::completeUsingItem(void),__int64 __fastcall sub_7E6C690(__int64 a1),0x7E6C690
+_ZN6Player14setPermissionsE22CommandPermissionLevel,Player::setPermissions(CommandPermissionLevel),__int64 __fastcall sub_282DE70(__int64 a1),0x282DE70
+_ZN6Player15startDestroyingEv,Player::startDestroying(void),__int64 __fastcall sub_1E56F88(__int64 a1),0x1E56F88
+_ZN6Player14stopDestroyingEv,Player::stopDestroying(void),__int64 __fastcall sub_1E56F98(__int64 a1),0x1E56F98
+_ZN6Player13openPortfolioEv,Player::openPortfolio(void),__int64 __fastcall sub_1756(__int64 a1),0x1756
+_ZN6Player8openBookEibiP10BlockActor,"Player::openBook(int,bool,int,BlockActor *)",__int64 __fastcall sub_1757(__int64 a1),0x1757
+_ZN6Player11openTradingERK13ActorUniqueIDb,"Player::openTrading(ActorUniqueID const&,bool)",__int64 __fastcall sub_1761(__int64 a1),0x1761
+_ZN6Player22canOpenContainerScreenEv,Player::canOpenContainerScreen(void),__int64 __fastcall sub_28312E4(__int64 a1),0x28312E4
+_ZN6Player14openChalkboardER20ChalkboardBlockActorb,"Player::openChalkboard(ChalkboardBlockActor &,bool)",__int64 __fastcall sub_1760(__int64 a1),0x1760
+_ZN6Player21openNpcInteractScreenER5Actor,Player::openNpcInteractScreen(Actor &),__int64 __fastcall sub_1758(__int64 a1),0x1758
+_ZN6Player13openInventoryEv,Player::openInventory(void),__int64 __fastcall sub_1759(__int64 a1),0x1759
+_ZN6Player18displayChatMessageERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_,"Player::displayChatMessage(std::string const&,std::string const&)",__int64 __fastcall sub_622(__int64 a1),0x622
+_ZN6Player20displayClientMessageERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Player::displayClientMessage(std::string const&),__int64 __fastcall sub_623(__int64 a1),0x623
+_ZN6Player24displayTextObjectMessageERK14TextObjectRoot,Player::displayTextObjectMessage(TextObjectRoot const&),__int64 __fastcall sub_1772(__int64 a1),0x1772
+_ZN6Player31displayTextObjectWhisperMessageERK18ResolvedTextObjectRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_,"Player::displayTextObjectWhisperMessage(ResolvedTextObject const&,std::string const&,std::string const&)",__int64 __fastcall sub_1773(__int64 a1),0x1773
+_ZN6Player21displayWhisperMessageERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_S7_,"Player::displayWhisperMessage(std::string const&,std::string const&,std::string const&,std::string const&)",__int64 __fastcall sub_1774(__int64 a1),0x1774
+_ZN6Player15startSleepInBedERK8BlockPos,Player::startSleepInBed(BlockPos const&),__int64 __fastcall sub_282789C(__int64 a1),0x282789C
+_ZN6Player14stopSleepInBedEbb,"Player::stopSleepInBed(bool,bool)",__int64 __fastcall sub_282802C(__int64 a1),0x282802C
+_ZN6Player18canStartSleepInBedEv,Player::canStartSleepInBed(void),__int64 __fastcall sub_2828328(__int64 a1),0x2828328
+_ZNK6Player13getSleepTimerEv,Player::getSleepTimer(void),__int64 __fastcall sub_2828350(__int64 a1),0x2828350
+_ZNK6Player25getPreviousTickSleepTimerEv,Player::getPreviousTickSleepTimer(void),__int64 __fastcall sub_2828358(__int64 a1),0x2828358
+_ZN6Player8openSignERK8BlockPos,Player::openSign(BlockPos const&),__int64 __fastcall sub_1765(__int64 a1),0x1765
+_ZN6Player9playEmoteERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Player::playEmote(std::string const&),__int64 __fastcall sub_1766(__int64 a1),0x1766
+_ZNK6Player15isHostingPlayerEv,Player::isHostingPlayer(void),__int64 __fastcall sub_2839964(__int64 a1),0x2839964
+_ZNK6Player9isLoadingEv,Player::isLoading(void),__int64 __fastcall sub_7E6C750(__int64 a1),0x7E6C750
+_ZNK6Player19isPlayerInitializedEv,Player::isPlayerInitialized(void),__int64 __fastcall sub_2826918(__int64 a1),0x2826918
+_ZN6Player11stopLoadingEv,Player::stopLoading(void),__int64 __fastcall sub_624(__int64 a1),0x624
+_ZN6Player19registerTrackedBossE13ActorUniqueID,Player::registerTrackedBoss(ActorUniqueID),__int64 __fastcall sub_2826920(__int64 a1),0x2826920
+_ZN6Player21unRegisterTrackedBossE13ActorUniqueID,Player::unRegisterTrackedBoss(ActorUniqueID),__int64 __fastcall sub_282698C(__int64 a1),0x282698C
+_ZN6Player17setPlayerGameTypeE8GameType,Player::setPlayerGameType(GameType),__int64 __fastcall sub_283A66C(__int64 a1),0x283A66C
+_ZN6Player23initHUDContainerManagerEv,Player::initHUDContainerManager(void),__int64 __fastcall sub_283AEF8(__int64 a1),0x283AEF8
+_ZN6Player5_critER5Actor,Player::_crit(Actor &),__int64 __fastcall sub_283B440(__int64 a1),0x283B440
+_ZNK6Player11getEventingEv,Player::getEventing(void),__int64 __fastcall sub_283CA8C(__int64 a1),0x283CA8C
+_ZNK6Player9getUserIdEv,Player::getUserId(void),__int64 __fastcall sub_283CAAC(__int64 a1),0x283CAAC
+_ZNK6Player15sendEventPacketER11EventPacket,Player::sendEventPacket(EventPacket &),__int64 __fastcall sub_283CAB4(__int64 a1),0x283CAB4
+_ZN6Player13addExperienceEi,Player::addExperience(int),__int64 __fastcall sub_283B8FC(__int64 a1),0x283B8FC
+_ZN6Player9addLevelsEi,Player::addLevels(int),__int64 __fastcall sub_283BB94(__int64 a1),0x283BB94
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C7B8(__int64 a1),0x7E6C7B8
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C7C0(__int64 a1),0x7E6C7C0
+_ZN6Player16inventoryChangedER9ContaineriRK9ItemStackS4_b,"Player::inventoryChanged(Container &,int,ItemStack const&,ItemStack const&,bool)",__int64 __fastcall sub_283C1F0(__int64 a1),0x283C1F0
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C7D0(__int64 a1),0x7E6C7D0
+_ZN6Player22deleteContainerManagerEv,Player::deleteContainerManager(void),__int64 __fastcall sub_282BEE0(__int64 a1),0x282BEE0
+_ZN6Player22setFieldOfViewModifierEf,Player::setFieldOfViewModifier(float),__int64 __fastcall sub_28266FC(__int64 a1),0x28266FC
+_ZN6Player20is2DPositionRelevantE11AutomaticIDI9DimensioniERK8BlockPos,"Player::is2DPositionRelevant(AutomaticID<Dimension,int>,BlockPos const&)",__int64 __fastcall sub_2826704(__int64 a1),0x2826704
+_ZN6Player16isEntityRelevantERK5Actor,Player::isEntityRelevant(Actor const&),__int64 __fastcall sub_282670C(__int64 a1),0x282670C
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C7F8(__int64 a1),0x7E6C7F8
+_ZN6Player12onSuspensionEv,Player::onSuspension(void),__int64 __fastcall sub_1767(__int64 a1),0x1767
+_ZN6Player20onLinkedSlotsChangedEv,Player::onLinkedSlotsChanged(void),__int64 __fastcall sub_1768(__int64 a1),0x1768
+_ZN6Player13startCooldownEPK4Item,Player::startCooldown(Item const*),__int64 __fastcall sub_283D430(__int64 a1),0x283D430
+_ZNK6Player19getItemCooldownLeftERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Player::getItemCooldownLeft(std::string const&),__int64 __fastcall sub_283D4EC(__int64 a1),0x283D4EC
+_ZNK6Player16isItemInCooldownERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Player::isItemInCooldown(std::string const&),__int64 __fastcall sub_283D510(__int64 a1),0x283D510
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C828(__int64 a1),0x7E6C828
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C830(__int64 a1),0x7E6C830
+_ZNK6Player17sendNetworkPacketER6Packet,Player::sendNetworkPacket(Packet &),__int64 __fastcall sub_1775(__int64 a1),0x1775
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C840(__int64 a1),0x7E6C840
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C848(__int64 a1),0x7E6C848
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C850(__int64 a1),0x7E6C850
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7E6C858(__int64 a1),0x7E6C858
+_ZN6Player23reportMovementTelemetryE17MovementEventType,Player::reportMovementTelemetry(MovementEventType),__int64 __fastcall sub_1770(__int64 a1),0x1770
+_ZN6Player24onMovePlayerPacketNormalERK4Vec3RK4Vec2f,"Player::onMovePlayerPacketNormal(Vec3 const&,Vec2 const&,float)",__int64 __fastcall sub_28370EC(__int64 a1),0x28370EC
+_ZN3Mob15reloadHardcodedEN5Actor20InitializationMethodERK20VariantParameterList,"Mob::reloadHardcoded(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_249948C(__int64 a1),0x249948C
+_ZN3Mob21reloadHardcodedClientEN5Actor20InitializationMethodERK20VariantParameterList,"Mob::reloadHardcodedClient(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_2499460(__int64 a1),0x2499460
+_ZN3Mob20initializeComponentsEN5Actor20InitializationMethodERK20VariantParameterList,"Mob::initializeComponents(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_2499648(__int64 a1),0x2499648
+_ZN5Actor16reloadComponentsENS_20InitializationMethodERK20VariantParameterList,"Actor::reloadComponents(Actor::InitializationMethod,VariantParameterList const&)",__int64 __fastcall sub_24CCAFC(__int64 a1),0x24CCAFC
+_ZN5Actor23_serverInitItemStackIdsEv,Actor::_serverInitItemStackIds(void),__int64 __fastcall sub_24CCECC(__int64 a1),0x24CCECC
+_ZN3Mob14_doInitialMoveEv,Mob::_doInitialMove(void),__int64 __fastcall sub_24AB04C(__int64 a1),0x24AB04C
+_ZNK3Mob12hasComponentERK12HashedString,Mob::hasComponent(HashedString const&),__int64 __fastcall sub_249A3F4(__int64 a1),0x249A3F4
+_ZN3MobD2Ev,Mob::~Mob(),__int64 __fastcall sub_24B1D20(__int64 a1),0x24B1D20
+_ZN3MobD0Ev,Mob::~Mob(),__int64 __fastcall sub_249A39C(__int64 a1),0x249A39C
+_ZN5Actor5resetEv,Actor::reset(void),__int64 __fastcall sub_24DD5DC(__int64 a1),0x24DD5DC
+_ZN5Actor20getOnDeathExperienceEv,Actor::getOnDeathExperience(void),__int64 __fastcall sub_24D0B8C(__int64 a1),0x24D0B8C
+_ZN5Actor18getOwnerEntityTypeEv,Actor::getOwnerEntityType(void),__int64 __fastcall sub_24E7A7C(__int64 a1),0x24E7A7C
+_ZN5Actor6removeEv,Actor::remove(void),__int64 __fastcall sub_24D48D0(__int64 a1),0x24D48D0
+_ZN5Actor6setPosERK4Vec3,Actor::setPos(Vec3 const&),__int64 __fastcall sub_24D3CF0(__int64 a1),0x24D3CF0
+_ZNK5Actor33isRuntimePredictedMovementEnabledEv,Actor::isRuntimePredictedMovementEnabled(void),__int64 __fastcall sub_24D0F18(__int64 a1),0x24D0F18
+_ZNK5Actor26getPredictedMovementValuesEv,Actor::getPredictedMovementValues(void),__int64 __fastcall sub_24D15D4(__int64 a1),0x24D15D4
+_ZNK5Actor6getPosEv,Actor::getPos(void),__int64 __fastcall sub_24D3F9C(__int64 a1),0x24D3F9C
+_ZNK5Actor9getPosOldEv,Actor::getPosOld(void),__int64 __fastcall sub_24D3FA4(__int64 a1),0x24D3FA4
+_ZNK5Actor18getPosExtrapolatedEf,Actor::getPosExtrapolated(float),__int64 __fastcall sub_24D3FAC(__int64 a1),0x24D3FAC
+_ZNK5Actor12getAttachPosE13ActorLocationf,"Actor::getAttachPos(ActorLocation,float)",__int64 __fastcall sub_24D428C(__int64 a1),0x24D428C
+_ZNK5Actor12getFiringPosEv,Actor::getFiringPos(void),__int64 __fastcall sub_24D4504(__int64 a1),0x24D4504
+_ZN5Actor6setRotERK4Vec2,Actor::setRot(Vec2 const&),__int64 __fastcall sub_24D4D0C(__int64 a1),0x24D4D0C
+_ZN5Actor4moveERK4Vec3,Actor::move(Vec3 const&),__int64 __fastcall sub_24D27C8(__int64 a1),0x24D27C8
+_ZNK5Actor4moveER19IActorMovementProxyRK4Vec3,"Actor::move(IActorMovementProxy &,Vec3 const&)",__int64 __fastcall sub_24D15DC(__int64 a1),0x24D15DC
+_ZNK5Actor29getInterpolatedRidingPositionEf,Actor::getInterpolatedRidingPosition(float),__int64 __fastcall sub_24ECFB0(__int64 a1),0x24ECFB0
+_ZNK3Mob22getInterpolatedBodyRotEf,Mob::getInterpolatedBodyRot(float),__int64 __fastcall sub_24A9A6C(__int64 a1),0x24A9A6C
+_ZNK3Mob22getInterpolatedHeadRotEf,Mob::getInterpolatedHeadRot(float),__int64 __fastcall sub_24A9A84(__int64 a1),0x24A9A84
+_ZNK3Mob22getInterpolatedBodyYawEf,Mob::getInterpolatedBodyYaw(float),__int64 __fastcall sub_24A9A9C(__int64 a1),0x24A9A9C
+_ZNK3Mob29getYawSpeedInDegreesPerSecondEv,Mob::getYawSpeedInDegreesPerSecond(void),__int64 __fastcall sub_24A3B24(__int64 a1),0x24A3B24
+_ZNK5Actor28getInterpolatedWalkAnimSpeedEf,Actor::getInterpolatedWalkAnimSpeed(float),__int64 __fastcall sub_24D4E10(__int64 a1),0x24D4E10
+_ZNK5Actor27getInterpolatedRidingOffsetEf,Actor::getInterpolatedRidingOffset(float),__int64 __fastcall sub_24D4E2C(__int64 a1),0x24D4E2C
+_ZN5Actor20checkBlockCollisionsERK4AABBSt8functionIFvR11BlockSourceRK5BlockRK8BlockPosRS_EE,"Actor::checkBlockCollisions(AABB const&,std::function<void ()(BlockSource &,Block const&,BlockPos const&,Actor&)>)",__int64 __fastcall sub_24E9438(__int64 a1),0x24E9438
+_ZN5Actor20checkBlockCollisionsEv,Actor::checkBlockCollisions(void),__int64 __fastcall sub_24E909C(__int64 a1),0x24E909C
+_ZNK5Actor12isFireImmuneEv,Actor::isFireImmune(void),__int64 __fastcall sub_24E9374(__int64 a1),0x24E9374
+_ZNK5Actor19breaksFallingBlocksEv,Actor::breaksFallingBlocks(void),__int64 __fastcall sub_24F1AA8(__int64 a1),0x24F1AA8
+_ZN3Mob15blockedByShieldERK17ActorDamageSourceR5Actor,"Mob::blockedByShield(ActorDamageSource const&,Actor &)",__int64 __fastcall sub_24A8274(__int64 a1),0x24A8274
+_ZN3Mob10teleportToERK4Vec3bii,"Mob::teleportTo(Vec3 const&,bool,int,int)",__int64 __fastcall sub_24A8FB8(__int64 a1),0x24A8FB8
+_ZN5Actor13tryTeleportToERK4Vec3bbii,"Actor::tryTeleportTo(Vec3 const&,bool,bool,int,int)",__int64 __fastcall sub_24D9CCC(__int64 a1),0x24D9CCC
+_ZN5Actor19chorusFruitTeleportER4Vec3,Actor::chorusFruitTeleport(Vec3 &),__int64 __fastcall sub_24D9FB0(__int64 a1),0x24D9FB0
+_ZN3Mob6lerpToERK4Vec3RK4Vec2i,"Mob::lerpTo(Vec3 const&,Vec2 const&,int)",__int64 __fastcall sub_249C314(__int64 a1),0x249C314
+_ZN5Actor10lerpMotionERK4Vec3,Actor::lerpMotion(Vec3 const&),__int64 __fastcall sub_24DE040(__int64 a1),0x24DE040
+_ZN5Actor23tryCreateAddActorPacketEv,Actor::tryCreateAddActorPacket(void),__int64 __fastcall sub_24D4E40(__int64 a1),0x24D4E40
+_ZN3Mob10normalTickEv,Mob::normalTick(void),__int64 __fastcall sub_248B558(__int64 a1),0x248B558
+_ZN3Mob8baseTickEv,Mob::baseTick(void),__int64 __fastcall sub_249B0FC(__int64 a1),0x249B0FC
+_ZN3Mob8rideTickEv,Mob::rideTick(void),__int64 __fastcall sub_24A81C8(__int64 a1),0x24A81C8
+_ZN5Actor13positionRiderERS_f,"Actor::positionRider(Actor&,float)",__int64 __fastcall sub_24D73B4(__int64 a1),0x24D73B4
+_ZN5Actor15getRidingHeightEv,Actor::getRidingHeight(void),__int64 __fastcall sub_24D7C8C(__int64 a1),0x24D7C8C
+_ZN3Mob11startRidingER5Actor,Mob::startRiding(Actor &),__int64 __fastcall sub_24A2FE0(__int64 a1),0x24A2FE0
+_ZN3Mob8addRiderER5Actor,Mob::addRider(Actor &),__int64 __fastcall sub_24A2ED0(__int64 a1),0x24A2ED0
+_ZN5Actor17flagRiderToRemoveERS_,Actor::flagRiderToRemove(Actor&),__int64 __fastcall sub_24D82F4(__int64 a1),0x24D82F4
+_ZNK5Actor10getExitTipERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9InputMode,"Actor::getExitTip(std::string const&,InputMode)",__int64 __fastcall sub_24D8364(__int64 a1),0x24D8364
+_ZNK5Actor10intersectsERK4Vec3S2_,"Actor::intersects(Vec3 const&,Vec3 const&)",__int64 __fastcall sub_24DD644(__int64 a1),0x24DD644
+_ZN5Actor6isFreeERK4Vec3f,"Actor::isFree(Vec3 const&,float)",__int64 __fastcall sub_24D0D44(__int64 a1),0x24D0D44
+_ZN5Actor6isFreeERK4Vec3,Actor::isFree(Vec3 const&),__int64 __fastcall sub_24D0DF4(__int64 a1),0x24D0DF4
+_ZNK5Actor8isInWallEv,Actor::isInWall(void),__int64 __fastcall sub_24D071C(__int64 a1),0x24D071C
+_ZNK5Actor11isInvisibleEv,Actor::isInvisible(void),__int64 __fastcall sub_24E7708(__int64 a1),0x24E7708
+_ZNK5Actor14canShowNameTagEv,Actor::canShowNameTag(void),__int64 __fastcall sub_24E7730(__int64 a1),0x24E7730
+_ZNK5Actor18canExistInPeacefulEv,Actor::canExistInPeaceful(void),__int64 __fastcall sub_24E7700(__int64 a1),0x24E7700
+_ZN5Actor17setNameTagVisibleEb,Actor::setNameTagVisible(bool),__int64 __fastcall sub_24E7758(__int64 a1),0x24E7758
+_ZNK5Actor10getNameTagB5cxx11Ev,Actor::getNameTag(void),__int64 __fastcall sub_24E7768(__int64 a1),0x24E7768
+_ZNK5Actor16getNameTagAsHashEv,Actor::getNameTagAsHash(void),__int64 __fastcall sub_24E7774(__int64 a1),0x24E7774
+_ZNK5Actor19getFormattedNameTagB5cxx11Ev,Actor::getFormattedNameTag(void),__int64 __fastcall sub_24E777C(__int64 a1),0x24E777C
+_ZN5Actor22filterFormattedNameTagERK18UIProfanityContext,Actor::filterFormattedNameTag(UIProfanityContext const&),__int64 __fastcall sub_24E77B0(__int64 a1),0x24E77B0
+_ZN5Actor10setNameTagERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Actor::setNameTag(std::string const&),__int64 __fastcall sub_24E7888(__int64 a1),0x24E7888
+_ZNK5Actor20getAlwaysShowNameTagEv,Actor::getAlwaysShowNameTag(void),__int64 __fastcall sub_24E79C4(__int64 a1),0x24E79C4
+_ZN5Actor11setScoreTagERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Actor::setScoreTag(std::string const&),__int64 __fastcall sub_24E79CC(__int64 a1),0x24E79CC
+_ZNK5Actor11getScoreTagB5cxx11Ev,Actor::getScoreTag(void),__int64 __fastcall sub_24E7A04(__int64 a1),0x24E7A04
+_ZNK5Actor9isInWaterEv,Actor::isInWater(void),__int64 __fastcall sub_24D090C(__int64 a1),0x24D090C
+_ZNK5Actor15hasEnteredWaterEv,Actor::hasEnteredWater(void),__int64 __fastcall sub_24D0914(__int64 a1),0x24D0914
+_ZNK5Actor17isImmersedInWaterEv,Actor::isImmersedInWater(void),__int64 __fastcall sub_24D07D4(__int64 a1),0x24D07D4
+_ZNK5Actor15isInWaterOrRainEv,Actor::isInWaterOrRain(void),__int64 __fastcall sub_24D091C(__int64 a1),0x24D091C
+_ZNK5Actor8isInLavaEv,Actor::isInLava(void),__int64 __fastcall sub_24D0C24(__int64 a1),0x24D0C24
+_ZNK5Actor13isUnderLiquidE12MaterialType,Actor::isUnderLiquid(MaterialType),__int64 __fastcall sub_24D38F4(__int64 a1),0x24D38F4
+_ZNK5Actor11isOverWaterEv,Actor::isOverWater(void),__int64 __fastcall sub_24D39C0(__int64 a1),0x24D39C0
+_ZN5Actor34setBlockMovementSlowdownMultiplierERK4Vec3,Actor::setBlockMovementSlowdownMultiplier(Vec3 const&),__int64 __fastcall sub_24D3858(__int64 a1),0x24D3858
+_ZN5Actor36resetBlockMovementSlowdownMultiplierEv,Actor::resetBlockMovementSlowdownMultiplier(void),__int64 __fastcall sub_24D38D4(__int64 a1),0x24D38D4
+_ZNK5Actor15getCameraOffsetEv,Actor::getCameraOffset(void),__int64 __fastcall sub_24D9844(__int64 a1),0x24D9844
+_ZN5Actor19getShadowHeightOffsEv,Actor::getShadowHeightOffs(void),__int64 __fastcall sub_24DD7DC(__int64 a1),0x24DD7DC
+_ZNK5Actor15getShadowRadiusEv,Actor::getShadowRadius(void),__int64 __fastcall sub_24DD7EC(__int64 a1),0x24DD7EC
+_ZN5Actor17getHeadLookVectorEf,Actor::getHeadLookVector(float),__int64 __fastcall sub_1E56F34(__int64 a1),0x1E56F34
+_ZNK5Actor15canSeeInvisibleEv,Actor::canSeeInvisible(void),__int64 __fastcall sub_1E56F38(__int64 a1),0x1E56F38
+_ZNK5Actor6canSeeERKS_,Actor::canSee(Actor const&),__int64 __fastcall sub_24E8E6C(__int64 a1),0x24E8E6C
+_ZNK5Actor6canSeeERK4Vec3,Actor::canSee(Vec3 const&),__int64 __fastcall sub_24E8F3C(__int64 a1),0x24E8F3C
+_ZN5Actor8isSkyLitEf,Actor::isSkyLit(float),__int64 __fastcall sub_24D4540(__int64 a1),0x24D4540
+_ZNK5Actor13getBrightnessEf,Actor::getBrightness(float),__int64 __fastcall sub_24D46A0(__int64 a1),0x24D46A0
+_ZN5Actor22interactPreventDefaultEv,Actor::interactPreventDefault(void),__int64 __fastcall sub_24E76F8(__int64 a1),0x24E76F8
+_ZN5Actor11playerTouchER6Player,Actor::playerTouch(Player &),__int64 __fastcall sub_1305(__int64 a1),0x1305
+_ZN5Actor19onAboveBubbleColumnEb,Actor::onAboveBubbleColumn(bool),__int64 __fastcall sub_24DA28C(__int64 a1),0x24DA28C
+_ZN5Actor20onInsideBubbleColumnEb,Actor::onInsideBubbleColumn(bool),__int64 __fastcall sub_24DA310(__int64 a1),0x24DA310
+_ZNK3Mob10isImmobileEv,Mob::isImmobile(void),__int64 __fastcall sub_24A273C(__int64 a1),0x24A273C
+_ZN5Actor8isSilentEv,Actor::isSilent(void),__int64 __fastcall sub_24E7A4C(__int64 a1),0x24E7A4C
+_ZN3Mob10isPickableEv,Mob::isPickable(void),__int64 __fastcall sub_2489B94(__int64 a1),0x2489B94
+_ZNK5Actor10isFishableEv,Actor::isFishable(void),__int64 __fastcall sub_24DD6B8(__int64 a1),0x24DD6B8
+_ZNK3Mob10isSleepingEv,Mob::isSleeping(void),__int64 __fastcall sub_24AA2C8(__int64 a1),0x24AA2C8
+_ZN3Mob11isShootableEv,Mob::isShootable(void),__int64 __fastcall sub_24A0E98(__int64 a1),0x24A0E98
+_ZN5Actor11setSneakingEb,Actor::setSneaking(bool),__int64 __fastcall sub_24DEFD0(__int64 a1),0x24DEFD0
+_ZNK3Mob10isBlockingEv,Mob::isBlocking(void),__int64 __fastcall sub_24A443C(__int64 a1),0x24A443C
+_ZNK5Actor15isDamageBlockedERK17ActorDamageSource,Actor::isDamageBlocked(ActorDamageSource const&),__int64 __fastcall sub_24DF034(__int64 a1),0x24DF034
+_ZNK3Mob7isAliveEv,Mob::isAlive(void),__int64 __fastcall sub_24A1C7C(__int64 a1),0x24A1C7C
+_ZNK5Actor8isOnFireEv,Actor::isOnFire(void),__int64 __fastcall sub_24E76B0(__int64 a1),0x24E76B0
+_ZNK5Actor12isOnHotBlockEv,Actor::isOnHotBlock(void),__int64 __fastcall sub_24E76F0(__int64 a1),0x24E76F0
+_ZN5Actor21isCreativeModeAllowedEv,Actor::isCreativeModeAllowed(void),__int64 __fastcall sub_24DD7B4(__int64 a1),0x24DD7B4
+_ZNK3Mob12isSurfaceMobEv,Mob::isSurfaceMob(void),__int64 __fastcall sub_24A9440(__int64 a1),0x24A9440
+_ZNK5Actor12isTargetableEv,Actor::isTargetable(void),__int64 __fastcall sub_24DD7C4(__int64 a1),0x24DD7C4
+_ZNK5Actor13isLocalPlayerEv,Actor::isLocalPlayer(void),__int64 __fastcall sub_24DD7CC(__int64 a1),0x24DD7CC
+_ZNK5Actor8isPlayerEv,Actor::isPlayer(void),__int64 __fastcall sub_24DD7D4(__int64 a1),0x24DD7D4
+_ZNK5Actor9canAttackEPS_b,"Actor::canAttack(Actor*,bool)",__int64 __fastcall sub_24CF8A4(__int64 a1),0x24CF8A4
+_ZN3Mob9setTargetEP5Actor,Mob::setTarget(Actor *),__int64 __fastcall sub_24A8430(__int64 a1),0x24A8430
+_ZN5Actor16findAttackTargetEv,Actor::findAttackTarget(void),__int64 __fastcall sub_24CFD88(__int64 a1),0x24CFD88
+_ZNK5Actor13isValidTargetEPS_,Actor::isValidTarget(Actor*),__int64 __fastcall sub_24CFD90(__int64 a1),0x24CFD90
+_ZN3Mob6attackER5Actor,Mob::attack(Actor &),__int64 __fastcall sub_24A8728(__int64 a1),0x24A8728
+_ZN5Actor19performRangedAttackERS_f,"Actor::performRangedAttack(Actor&,float)",__int64 __fastcall sub_24CFDDC(__int64 a1),0x24CFDDC
+_ZNK5Actor18adjustDamageAmountERi,Actor::adjustDamageAmount(int &),__int64 __fastcall sub_1303(__int64 a1),0x1303
+_ZNK5Actor17getEquipmentCountEv,Actor::getEquipmentCount(void),__int64 __fastcall sub_24D0238(__int64 a1),0x24D0238
+_ZN5Actor8setOwnerE13ActorUniqueID,Actor::setOwner(ActorUniqueID),__int64 __fastcall sub_24D0638(__int64 a1),0x24D0638
+_ZN5Actor10setSittingEb,Actor::setSitting(bool),__int64 __fastcall sub_24D06D4(__int64 a1),0x24D06D4
+_ZN5Actor6onTameEv,Actor::onTame(void),__int64 __fastcall sub_7812(__int64 a1),0x7812
+_ZN5Actor12onFailedTameEv,Actor::onFailedTame(void),__int64 __fastcall sub_1306(__int64 a1),0x1306
+_ZNK5Actor16getInventorySizeEv,Actor::getInventorySize(void),__int64 __fastcall sub_24DBD64(__int64 a1),0x24DBD64
+_ZNK5Actor13getEquipSlotsEv,Actor::getEquipSlots(void),__int64 __fastcall sub_24DBDA4(__int64 a1),0x24DBDA4
+_ZNK5Actor13getChestSlotsEv,Actor::getChestSlots(void),__int64 __fastcall sub_24DBE34(__int64 a1),0x24DBE34
+_ZN5Actor11setStandingEb,Actor::setStanding(bool),__int64 __fastcall sub_24DBB50(__int64 a1),0x24DBB50
+_ZNK3Mob12canPowerJumpEv,Mob::canPowerJump(void),__int64 __fastcall sub_24AA1BC(__int64 a1),0x24AA1BC
+_ZN5Actor15setCanPowerJumpEb,Actor::setCanPowerJump(bool),__int64 __fastcall sub_24DBBF8(__int64 a1),0x24DBBF8
+_ZNK3Mob9isJumpingEv,Mob::isJumping(void),__int64 __fastcall sub_24A3A70(__int64 a1),0x24A3A70
+_ZNK5Actor11isEnchantedEv,Actor::isEnchanted(void),__int64 __fastcall sub_24DBC08(__int64 a1),0x24DBC08
+_ZN5Actor10rideJumpedEv,Actor::rideJumped(void),__int64 __fastcall sub_620(__int64 a1),0x620
+_ZN5Actor10rideLandedERK4Vec3S2_,"Actor::rideLanded(Vec3 const&,Vec3 const&)",__int64 __fastcall sub_1307(__int64 a1),0x1307
+_ZNK5Actor12shouldRenderEv,Actor::shouldRender(void),__int64 __fastcall sub_24DD6D4(__int64 a1),0x24DD6D4
+_ZNK5Actor16isInvulnerableToERK17ActorDamageSource,Actor::isInvulnerableTo(ActorDamageSource const&),__int64 __fastcall sub_24DA73C(__int64 a1),0x24DA73C
+_ZNK3Mob19getBlockDamageCauseERK5Block,Mob::getBlockDamageCause(Block const&),__int64 __fastcall sub_24A8A64(__int64 a1),0x24A8A64
+_ZN3Mob12actuallyHurtEiRK17ActorDamageSourceb,"Mob::actuallyHurt(int,ActorDamageSource const&,bool)",__int64 __fastcall sub_249D4F0(__int64 a1),0x249D4F0
+_ZN3Mob11animateHurtEv,Mob::animateHurt(void),__int64 __fastcall sub_24A1C6C(__int64 a1),0x24A1C6C
+_ZN3Mob10doFireHurtEi,Mob::doFireHurt(int),__int64 __fastcall sub_249C8EC(__int64 a1),0x249C8EC
+_ZN5Actor14onLightningHitEv,Actor::onLightningHit(void),__int64 __fastcall sub_7E3A060(__int64 a1),0x7E3A060
+_ZN5Actor15onBounceStartedERK8BlockPosRK5Block,"Actor::onBounceStarted(BlockPos const&,Block const&)",__int64 __fastcall sub_1174(__int64 a1),0x1174
+_ZN5Actor4feedEi,Actor::feed(int),__int64 __fastcall sub_24DD488(__int64 a1),0x24DD488
+_ZN3Mob17handleEntityEventE10ActorEventi,"Mob::handleEntityEvent(ActorEvent,int)",__int64 __fastcall sub_24A3518(__int64 a1),0x24A3518
+_ZN5Actor13getPickRadiusEv,Actor::getPickRadius(void),__int64 __fastcall sub_24DD840(__int64 a1),0x24DD840
+_ZNK5Actor18getActorRendererIdEv,Actor::getActorRendererId(void),__int64 __fastcall sub_24DD8A0(__int64 a1),0x24DD8A0
+_ZN5Actor15spawnAtLocationEii,"Actor::spawnAtLocation(int,int)",__int64 __fastcall sub_24E65F4(__int64 a1),0x24E65F4
+_ZN5Actor15spawnAtLocationEiif,"Actor::spawnAtLocation(int,int,float)",__int64 __fastcall sub_24E6604(__int64 a1),0x24E6604
+_ZN5Actor15spawnAtLocationERK5Blocki,"Actor::spawnAtLocation(Block const&,int)",__int64 __fastcall sub_24E692C(__int64 a1),0x24E692C
+_ZN5Actor15spawnAtLocationERK5Blockif,"Actor::spawnAtLocation(Block const&,int,float)",__int64 __fastcall sub_24E693C(__int64 a1),0x24E693C
+_ZN5Actor15spawnAtLocationERK9ItemStackf,"Actor::spawnAtLocation(ItemStack const&,float)",__int64 __fastcall sub_24E6D10(__int64 a1),0x24E6D10
+_ZN5Actor7despawnEv,Actor::despawn(void),__int64 __fastcall sub_24E6DBC(__int64 a1),0x24E6DBC
+_ZN5Actor6killedERS_,Actor::killed(Actor&),__int64 __fastcall sub_24E6EC0(__int64 a1),0x24E6EC0
+_ZN5Actor14awardKillScoreERS_i,"Actor::awardKillScore(Actor&,int)",__int64 __fastcall sub_1308(__int64 a1),0x1308
+_ZN5Actor8setArmorE9ArmorSlotRK9ItemStack,"Actor::setArmor(ArmorSlot,ItemStack const&)",__int64 __fastcall sub_24DE1A8(__int64 a1),0x24DE1A8
+_ZNK5Actor8getArmorE9ArmorSlot,Actor::getArmor(ArmorSlot),__int64 __fastcall sub_24DE3A0(__int64 a1),0x24DE3A0
+_ZNK3Mob26getArmorMaterialTypeInSlotE9ArmorSlot,Mob::getArmorMaterialTypeInSlot(ArmorSlot),__int64 __fastcall sub_24A5B00(__int64 a1),0x24A5B00
+_ZNK3Mob33getArmorMaterialTextureTypeInSlotE9ArmorSlot,Mob::getArmorMaterialTextureTypeInSlot(ArmorSlot),__int64 __fastcall sub_24A5BAC(__int64 a1),0x24A5BAC
+_ZNK3Mob19getArmorColorInSlotE9ArmorSloti,"Mob::getArmorColorInSlot(ArmorSlot,int)",__int64 __fastcall sub_24A5C10(__int64 a1),0x24A5C10
+_ZNK5Actor15getEquippedSlotE13EquipmentSlot,Actor::getEquippedSlot(EquipmentSlot),__int64 __fastcall sub_24DEF7C(__int64 a1),0x24DEF7C
+_ZN3Mob15setEquippedSlotE13EquipmentSlotRK9ItemStack,"Mob::setEquippedSlot(EquipmentSlot,ItemStack const&)",__int64 __fastcall sub_24A4F30(__int64 a1),0x24A4F30
+_ZNK5Actor14getCarriedItemEv,Actor::getCarriedItem(void),__int64 __fastcall sub_24DE3F4(__int64 a1),0x24DE3F4
+_ZN5Actor14setCarriedItemERK9ItemStack,Actor::setCarriedItem(ItemStack const&),__int64 __fastcall sub_24DE410(__int64 a1),0x24DE410
+_ZN5Actor14setOffhandSlotERK9ItemStack,Actor::setOffhandSlot(ItemStack const&),__int64 __fastcall sub_24DE790(__int64 a1),0x24DE790
+_ZNK5Actor16getEquippedTotemEv,Actor::getEquippedTotem(void),__int64 __fastcall sub_24DEB90(__int64 a1),0x24DEB90
+_ZN5Actor12consumeTotemEv,Actor::consumeTotem(void),__int64 __fastcall sub_24DEC74(__int64 a1),0x24DEC74
+_ZN5Actor4saveER11CompoundTag,Actor::save(CompoundTag &),__int64 __fastcall sub_24DF100(__int64 a1),0x24DF100
+_ZN5Actor13saveWithoutIdER11CompoundTag,Actor::saveWithoutId(CompoundTag &),__int64 __fastcall sub_24E02D0(__int64 a1),0x24E02D0
+_ZN5Actor4loadERK11CompoundTagR14DataLoadHelper,"Actor::load(CompoundTag const&,DataLoadHelper &)",__int64 __fastcall sub_24E2544(__int64 a1),0x24E2544
+_ZN5Actor9loadLinksERK11CompoundTagRSt6vectorI9ActorLinkSaIS4_EER14DataLoadHelper,"Actor::loadLinks(CompoundTag const&,std::vector<ActorLink> &,DataLoadHelper &)",__int64 __fastcall sub_24E6398(__int64 a1),0x24E6398
+_ZNK5Actor15getEntityTypeIdEv,Actor::getEntityTypeId(void),__int64 __fastcall sub_24E65D0(__int64 a1),0x24E65D0
+_ZNK5Actor19queryEntityRendererEv,Actor::queryEntityRenderer(void),__int64 __fastcall sub_7E3A158(__int64 a1),0x7E3A158
+_ZNK5Actor17getSourceUniqueIDEv,Actor::getSourceUniqueID(void),__int64 __fastcall sub_24E7A74(__int64 a1),0x24E7A74
+_ZN3Mob9setOnFireEi,Mob::setOnFire(int),__int64 __fastcall sub_24A5E9C(__int64 a1),0x24A5E9C
+_ZN5Actor14extinguishFireEv,Actor::extinguishFire(void),__int64 __fastcall sub_24E96D0(__int64 a1),0x24E96D0
+_ZN5Actor16thawFreezeEffectEv,Actor::thawFreezeEffect(void),__int64 __fastcall sub_24E9764(__int64 a1),0x24E9764
+_ZNK5Actor18getHandleWaterAABBEv,Actor::getHandleWaterAABB(void),__int64 __fastcall sub_24ED1A4(__int64 a1),0x24ED1A4
+_ZN5Actor18handleInsidePortalERK8BlockPos,Actor::handleInsidePortal(BlockPos const&),__int64 __fastcall sub_24ED208(__int64 a1),0x24ED208
+_ZNK5Actor17getPortalCooldownEv,Actor::getPortalCooldown(void),__int64 __fastcall sub_24ED298(__int64 a1),0x24ED298
+_ZNK5Actor17getPortalWaitTimeEv,Actor::getPortalWaitTime(void),__int64 __fastcall sub_24ED2A0(__int64 a1),0x24ED2A0
+_ZNK5Actor14getDimensionIdEv,Actor::getDimensionId(void),__int64 __fastcall sub_24ED2B0(__int64 a1),0x24ED2B0
+_ZNK5Actor19canChangeDimensionsEv,Actor::canChangeDimensions(void),__int64 __fastcall sub_24ED2B8(__int64 a1),0x24ED2B8
+_ZN5Actor15changeDimensionE11AutomaticIDI9DimensioniEb,"Actor::changeDimension(AutomaticID<Dimension,int>,bool)",__int64 __fastcall sub_24ED2C0(__int64 a1),0x24ED2C0
+_ZN5Actor15changeDimensionERK21ChangeDimensionPacket,Actor::changeDimension(ChangeDimensionPacket const&),__int64 __fastcall sub_1312(__int64 a1),0x1312
+_ZNK5Actor20getControllingPlayerEv,Actor::getControllingPlayer(void),__int64 __fastcall sub_24ED588(__int64 a1),0x24ED588
+_ZN5Actor15checkFallDamageEfb,"Actor::checkFallDamage(float,bool)",__int64 __fastcall sub_24D940C(__int64 a1),0x24D940C
+_ZN3Mob15causeFallDamageEff,"Mob::causeFallDamage(float,float)",__int64 __fastcall sub_249EA78(__int64 a1),0x249EA78
+_ZN5Actor26handleFallDistanceOnServerEffb,"Actor::handleFallDistanceOnServer(float,float,bool)",__int64 __fastcall sub_24D97BC(__int64 a1),0x24D97BC
+_ZN5Actor21playSynchronizedSoundE15LevelSoundEventRK4Vec3RK5Blockb,"Actor::playSynchronizedSound(LevelSoundEvent,Vec3 const&,Block const&,bool)",__int64 __fastcall sub_24E7DD4(__int64 a1),0x24E7DD4
+_ZN5Actor21playSynchronizedSoundE15LevelSoundEventRK4Vec3ib,"Actor::playSynchronizedSound(LevelSoundEvent,Vec3 const&,int,bool)",__int64 __fastcall sub_24E7E28(__int64 a1),0x24E7E28
+_ZN5Actor19onSynchedDataUpdateEi,Actor::onSynchedDataUpdate(int),__int64 __fastcall sub_24E7EE8(__int64 a1),0x24E7EE8
+_ZNK5Actor11canAddRiderERS_,Actor::canAddRider(Actor&),__int64 __fastcall sub_24E986C(__int64 a1),0x24E986C
+_ZNK5Actor13canPickupItemERK9ItemStack,Actor::canPickupItem(ItemStack const&),__int64 __fastcall sub_24E9AF4(__int64 a1),0x24E9AF4
+_ZNK3Mob22canBePulledIntoVehicleEv,Mob::canBePulledIntoVehicle(void),__int64 __fastcall sub_24A9A64(__int64 a1),0x24A9A64
+_ZNK3Mob9inCaravanEv,Mob::inCaravan(void),__int64 __fastcall sub_24A8184(__int64 a1),0x24A8184
+_ZN5Actor15isLeashableTypeEv,Actor::isLeashableType(void),__int64 __fastcall sub_1E56F4C(__int64 a1),0x1E56F4C
+_ZN5Actor9tickLeashEv,Actor::tickLeash(void),__int64 __fastcall sub_24EA354(__int64 a1),0x24EA354
+_ZN5Actor24sendMotionPacketIfNeededEv,Actor::sendMotionPacketIfNeeded(void),__int64 __fastcall sub_24EA5D4(__int64 a1),0x24EA5D4
+_ZNK5Actor23canSynchronizeNewEntityEv,Actor::canSynchronizeNewEntity(void),__int64 __fastcall sub_24EAA48(__int64 a1),0x24EAA48
+_ZN3Mob10stopRidingEbbb,"Mob::stopRiding(bool,bool,bool)",__int64 __fastcall sub_24A3010(__int64 a1),0x24A3010
+_ZN5Actor13startSwimmingEv,Actor::startSwimming(void),__int64 __fastcall sub_7E3A240(__int64 a1),0x7E3A240
+_ZN5Actor12stopSwimmingEv,Actor::stopSwimming(void),__int64 __fastcall sub_24D8C44(__int64 a1),0x24D8C44
+_ZNK3Mob14buildDebugInfoERNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Mob::buildDebugInfo(std::string &),__int64 __fastcall sub_24A916C(__int64 a1),0x24A916C
+_ZNK5Actor25getCommandPermissionLevelEv,Actor::getCommandPermissionLevel(void),__int64 __fastcall sub_24D78B8(__int64 a1),0x24D78B8
+_ZN5Actor19getMutableAttributeERK9Attribute,Actor::getMutableAttribute(Attribute const&),__int64 __fastcall sub_24ED660(__int64 a1),0x24ED660
+_ZNK5Actor12getAttributeERK9Attribute,Actor::getAttribute(Attribute const&),__int64 __fastcall sub_24ED668(__int64 a1),0x24ED668
+_ZNK3Mob12getDeathTimeEv,Mob::getDeathTime(void),__int64 __fastcall sub_24A5CA8(__int64 a1),0x24A5CA8
+_ZN5Actor4healEi,Actor::heal(int),__int64 __fastcall sub_24ED784(__int64 a1),0x24ED784
+_ZNK5Actor21isInvertedHealAndHarmEv,Actor::isInvertedHealAndHarm(void),__int64 __fastcall sub_24ED864(__int64 a1),0x24ED864
+_ZNK5Actor13canBeAffectedEi,Actor::canBeAffected(int),__int64 __fastcall sub_24EE0D8(__int64 a1),0x24EE0D8
+_ZNK5Actor13canBeAffectedERK17MobEffectInstance,Actor::canBeAffected(MobEffectInstance const&),__int64 __fastcall sub_24EE0A4(__int64 a1),0x24EE0A4
+_ZNK5Actor20canBeAffectedByArrowERK17MobEffectInstance,Actor::canBeAffectedByArrow(MobEffectInstance const&),__int64 __fastcall sub_24EE1E4(__int64 a1),0x24EE1E4
+_ZN5Actor13onEffectAddedER17MobEffectInstance,Actor::onEffectAdded(MobEffectInstance &),__int64 __fastcall sub_24EE360(__int64 a1),0x24EE360
+_ZN5Actor15onEffectUpdatedERK17MobEffectInstance,Actor::onEffectUpdated(MobEffectInstance const&),__int64 __fastcall sub_7E3A2A8(__int64 a1),0x7E3A2A8
+_ZN5Actor15onEffectRemovedER17MobEffectInstance,Actor::onEffectRemoved(MobEffectInstance &),__int64 __fastcall sub_7E3A2B0(__int64 a1),0x7E3A2B0
+_ZN5Actor21getAnimationComponentEv,Actor::getAnimationComponent(void),__int64 __fastcall sub_24EEE88(__int64 a1),0x24EEE88
+_ZN5Actor22openContainerComponentER6Player,Actor::openContainerComponent(Player &),__int64 __fastcall sub_24EF2E0(__int64 a1),0x24EF2E0
+_ZN3Mob5swingEv,Mob::swing(void),__int64 __fastcall sub_24A43E0(__int64 a1),0x24A43E0
+_ZN5Actor7useItemER13ItemStackBase13ItemUseMethodb,"Actor::useItem(ItemStackBase &,ItemUseMethod,bool)",__int64 __fastcall sub_24EF384(__int64 a1),0x24EF384
+_ZNK5Actor15hasOutputSignalEh,Actor::hasOutputSignal(uchar),__int64 __fastcall sub_24EF228(__int64 a1),0x24EF228
+_ZNK5Actor15getOutputSignalEv,Actor::getOutputSignal(void),__int64 __fastcall sub_24EF230(__int64 a1),0x24EF230
+_ZN5Actor12getDebugTextERSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS6_EE,Actor::getDebugText(std::vector<std::string> &),__int64 __fastcall sub_24EF574(__int64 a1),0x24EF574
+_ZNK5Actor24getMapDecorationRotationEv,Actor::getMapDecorationRotation(void),__int64 __fastcall sub_24F04C0(__int64 a1),0x24F04C0
+_ZNK5Actor17getRiderYRotationERKS_,Actor::getRiderYRotation(Actor const&),__int64 __fastcall sub_24F04C8(__int64 a1),0x24F04C8
+_ZNK3Mob11getYHeadRotEv,Mob::getYHeadRot(void),__int64 __fastcall sub_24A3918(__int64 a1),0x24A3918
+_ZN5Actor14isWorldBuilderEv,Actor::isWorldBuilder(void),__int64 __fastcall sub_24F04D8(__int64 a1),0x24F04D8
+_ZNK5Actor10isCreativeEv,Actor::isCreative(void),__int64 __fastcall sub_24F04E0(__int64 a1),0x24F04E0
+_ZNK5Actor11isAdventureEv,Actor::isAdventure(void),__int64 __fastcall sub_24F04E8(__int64 a1),0x24F04E8
+_ZN5Actor3addER9ItemStack,Actor::add(ItemStack &),__int64 __fastcall sub_24F04F0(__int64 a1),0x24F04F0
+_ZN5Actor4dropERK9ItemStackb,"Actor::drop(ItemStack const&,bool)",__int64 __fastcall sub_24F05A0(__int64 a1),0x24F05A0
+_ZN5Actor14getInteractionER6PlayerR16ActorInteractionRK4Vec3,"Actor::getInteraction(Player &,ActorInteraction &,Vec3 const&)",__int64 __fastcall sub_24F0E6C(__int64 a1),0x24F0E6C
+_ZNK5Actor15canDestroyBlockERK5Block,Actor::canDestroyBlock(Block const&),__int64 __fastcall sub_24D325C(__int64 a1),0x24D325C
+_ZN5Actor11setAuxValueEi,Actor::setAuxValue(int),__int64 __fastcall sub_621(__int64 a1),0x621
+_ZN5Actor7setSizeEff,"Actor::setSize(float,float)",__int64 __fastcall sub_24D4AEC(__int64 a1),0x24D4AEC
+_ZNK5Actor11getLifeSpanEv,Actor::getLifeSpan(void),__int64 __fastcall sub_24F21BC(__int64 a1),0x24F21BC
+_ZN5Actor8onOrphanEv,Actor::onOrphan(void),__int64 __fastcall sub_24F2548(__int64 a1),0x24F2548
+_ZN5Actor6wobbleEv,Actor::wobble(void),__int64 __fastcall sub_24F2764(__int64 a1),0x24F2764
+_ZN5Actor7wasHurtEv,Actor::wasHurt(void),__int64 __fastcall sub_24DA574(__int64 a1),0x24DA574
+_ZN5Actor15startSpinAttackEv,Actor::startSpinAttack(void),__int64 __fastcall sub_21C4304(__int64 a1),0x21C4304
+_ZN5Actor14stopSpinAttackEv,Actor::stopSpinAttack(void),__int64 __fastcall sub_1176(__int64 a1),0x1176
+_ZN5Actor19setDamageNearbyMobsEb,Actor::setDamageNearbyMobs(bool),__int64 __fastcall sub_24DB870(__int64 a1),0x24DB870
+_ZN3Mob22renderDebugServerStateERK7Options,Mob::renderDebugServerState(Options const&),__int64 __fastcall sub_1288(__int64 a1),0x1288
+_ZN5Actor15reloadLootTableEv,Actor::reloadLootTable(void),__int64 __fastcall sub_24EC43C(__int64 a1),0x24EC43C
+_ZN5Actor15reloadLootTableERK24EquipmentTableDefinition,Actor::reloadLootTable(EquipmentTableDefinition const&),__int64 __fastcall sub_24EC488(__int64 a1),0x24EC488
+_ZNK5Actor27getDeletionDelayTimeSecondsEv,Actor::getDeletionDelayTimeSeconds(void),__int64 __fastcall sub_1E56F58(__int64 a1),0x1E56F58
+_ZN3Mob4killEv,Mob::kill(void),__int64 __fastcall sub_249D87C(__int64 a1),0x249D87C
+_ZN3Mob3dieERK17ActorDamageSource,Mob::die(ActorDamageSource const&),__int64 __fastcall sub_249D934(__int64 a1),0x249D934
+_ZNK5Actor10shouldTickEv,Actor::shouldTick(void),__int64 __fastcall sub_24F28B8(__int64 a1),0x24F28B8
+_ZN3Mob19createMovementProxyEv,Mob::createMovementProxy(void),__int64 __fastcall sub_24A2DF0(__int64 a1),0x24A2DF0
+_ZN5Actor11getNextStepEf,Actor::getNextStep(float),__int64 __fastcall sub_24D28B4(__int64 a1),0x24D28B4
+_ZN3Mob35updateEntitySpecificMolangVariablesER12RenderParams,Mob::updateEntitySpecificMolangVariables(RenderParams &),__int64 __fastcall sub_24AA2D0(__int64 a1),0x24AA2D0
+_ZN5Actor22shouldTryMakeStepSoundEv,Actor::shouldTryMakeStepSound(void),__int64 __fastcall sub_24D28AC(__int64 a1),0x24D28AC
+_ZNK5Actor16canMakeStepSoundEv,Actor::canMakeStepSound(void),__int64 __fastcall sub_24D28A4(__int64 a1),0x24D28A4
+_ZN3Mob10outOfWorldEv,Mob::outOfWorld(void),__int64 __fastcall sub_24A346C(__int64 a1),0x24A346C
+_ZN3Mob5_hurtERK17ActorDamageSourceibb,"Mob::_hurt(ActorDamageSource const&,int,bool,bool)",__int64 __fastcall sub_249CA44(__int64 a1),0x249CA44
+_ZN5Actor8markHurtEv,Actor::markHurt(void),__int64 __fastcall sub_24DA394(__int64 a1),0x24DA394
+_ZN3Mob22readAdditionalSaveDataERK11CompoundTagR14DataLoadHelper,"Mob::readAdditionalSaveData(CompoundTag const&,DataLoadHelper &)",__int64 __fastcall sub_2489198(__int64 a1),0x2489198
+_ZN3Mob21addAdditionalSaveDataER11CompoundTag,Mob::addAdditionalSaveData(CompoundTag &),__int64 __fastcall sub_2488690(__int64 a1),0x2488690
+_ZN3Mob14_playStepSoundERK8BlockPosRK5Block,"Mob::_playStepSound(BlockPos const&,Block const&)",__int64 __fastcall sub_249D5F8(__int64 a1),0x249D5F8
+_ZN5Actor13_playFlySoundERK8BlockPosRK5Block,"Actor::_playFlySound(BlockPos const&,Block const&)",__int64 __fastcall sub_24E7CE4(__int64 a1),0x24E7CE4
+_ZNK5Actor13_makeFlySoundEv,Actor::_makeFlySound(void),__int64 __fastcall sub_24E7DCC(__int64 a1),0x24E7DCC
+_ZN5Actor17checkInsideBlocksEf,Actor::checkInsideBlocks(float),__int64 __fastcall sub_24EAA84(__int64 a1),0x24EAA84
+_ZN5Actor15pushOutOfBlocksERK4Vec3,Actor::pushOutOfBlocks(Vec3 const&),__int64 __fastcall sub_24EABE0(__int64 a1),0x24EABE0
+_ZN5Actor16updateWaterStateEv,Actor::updateWaterState(void),__int64 __fastcall sub_24EB12C(__int64 a1),0x24EB12C
+_ZN5Actor19doWaterSplashEffectEv,Actor::doWaterSplashEffect(void),__int64 __fastcall sub_7E3A440(__int64 a1),0x7E3A440
+_ZN5Actor17spawnTrailBubblesEv,Actor::spawnTrailBubbles(void),__int64 __fastcall sub_24EB900(__int64 a1),0x24EB900
+_ZN5Actor17updateInsideBlockEv,Actor::updateInsideBlock(void),__int64 __fastcall sub_24EBEF8(__int64 a1),0x24EBEF8
+_ZN5Actor12getLootTableEv,Actor::getLootTable(void),__int64 __fastcall sub_24F0448(__int64 a1),0x24F0448
+_ZN5Actor19getDefaultLootTableEv,Actor::getDefaultLootTable(void),__int64 __fastcall sub_1E56F60(__int64 a1),0x1E56F60
+_ZN3Mob12_removeRiderERK13ActorUniqueIDbbb,"Mob::_removeRider(ActorUniqueID const&,bool,bool,bool)",__int64 __fastcall sub_24AA0C0(__int64 a1),0x24AA0C0
+_ZN3Mob14_onSizeUpdatedEv,Mob::_onSizeUpdated(void),__int64 __fastcall sub_24AA20C(__int64 a1),0x24AA20C
+_ZN5Actor20_doAutoAttackOnTouchERS_,Actor::_doAutoAttackOnTouch(Actor&),__int64 __fastcall sub_7811(__int64 a1),0x7811
+_ZN3Mob9knockbackEP5Actorifffff,"Mob::knockback(Actor *,int,float,float,float,float,float)",__int64 __fastcall sub_249D6A4(__int64 a1),0x249D6A4
+_ZN3Mob16resolveDeathLootEiRK17ActorDamageSource,"Mob::resolveDeathLoot(int,ActorDamageSource const&)",__int64 __fastcall sub_249E5D8(__int64 a1),0x249E5D8
+_ZN3Mob9spawnAnimEv,Mob::spawnAnim(void),__int64 __fastcall sub_1283(__int64 a1),0x1283
+_ZN3Mob11setSleepingEb,Mob::setSleeping(bool),__int64 __fastcall sub_249C198(__int64 a1),0x249C198
+_ZN3Mob12setSprintingEb,Mob::setSprinting(bool),__int64 __fastcall sub_24A3E28(__int64 a1),0x24A3E28
+_ZN3Mob16playAmbientSoundEv,Mob::playAmbientSound(void),__int64 __fastcall sub_249AFA4(__int64 a1),0x249AFA4
+_ZN3Mob15getAmbientSoundEv,Mob::getAmbientSound(void),__int64 __fastcall sub_249B034(__int64 a1),0x249B034
+_ZN3Mob28getAmbientSoundPostponeTicksEv,Mob::getAmbientSoundPostponeTicks(void),__int64 __fastcall sub_249A9D0(__int64 a1),0x249A9D0
+_ZN3Mob33getAmbientSoundPostponeTicksRangeEv,Mob::getAmbientSoundPostponeTicksRange(void),__int64 __fastcall sub_249AA2C(__int64 a1),0x249AA2C
+_ZN3Mob17getItemInHandIconERK9ItemStacki,"Mob::getItemInHandIcon(ItemStack const&,int)",__int64 __fastcall sub_24A7D7C(__int64 a1),0x24A7D7C
+_ZNK3Mob8getSpeedEv,Mob::getSpeed(void),__int64 __fastcall sub_24A38A8(__int64 a1),0x24A38A8
+_ZN3Mob8setSpeedEf,Mob::setSpeed(float),__int64 __fastcall sub_24A38FC(__int64 a1),0x24A38FC
+_ZNK3Mob12getJumpPowerEv,Mob::getJumpPower(void),__int64 __fastcall sub_24A3A84(__int64 a1),0x24A3A84
+_ZN3Mob11hurtEffectsERK17ActorDamageSourceibb,"Mob::hurtEffects(ActorDamageSource const&,int,bool,bool)",__int64 __fastcall sub_249CC88(__int64 a1),0x249CC88
+_ZN3Mob25getMeleeWeaponDamageBonusEPS_,Mob::getMeleeWeaponDamageBonus(Mob*),__int64 __fastcall sub_249C938(__int64 a1),0x249C938
+_ZN3Mob22getMeleeKnockbackBonusEv,Mob::getMeleeKnockbackBonus(void),__int64 __fastcall sub_249C9C0(__int64 a1),0x249C9C0
+_ZN3Mob6travelEfff,"Mob::travel(float,float,float)",__int64 __fastcall sub_249F398(__int64 a1),0x249F398
+_ZNK3Mob6travelER17IMobMovementProxyfff,"Mob::travel(IMobMovementProxy &,float,float,float)",__int64 __fastcall sub_24A094C(__int64 a1),0x24A094C
+_ZN3Mob18applyFinalFrictionEfb,"Mob::applyFinalFriction(float,bool)",__int64 __fastcall sub_24A0CFC(__int64 a1),0x24A0CFC
+_ZN3Mob14updateWalkAnimEv,Mob::updateWalkAnim(void),__int64 __fastcall sub_24A0D58(__int64 a1),0x24A0D58
+_ZN3Mob6aiStepEv,Mob::aiStep(void),__int64 __fastcall sub_24A2358(__int64 a1),0x24A2358
+_ZNK3Mob6aiStepER17IMobMovementProxy,Mob::aiStep(IMobMovementProxy &),__int64 __fastcall sub_24A2120(__int64 a1),0x24A2120
+_ZN3Mob10pushActorsEv,Mob::pushActors(void),__int64 __fastcall sub_24A8C70(__int64 a1),0x24A8C70
+_ZN3Mob6lookAtEP5Actorff,"Mob::lookAt(Actor *,float,float)",__int64 __fastcall sub_24A30DC(__int64 a1),0x24A30DC
+_ZN3Mob19isLookingAtAnEntityEv,Mob::isLookingAtAnEntity(void),__int64 __fastcall sub_24A3240(__int64 a1),0x24A3240
+_ZN3Mob15checkSpawnRulesEb,Mob::checkSpawnRules(bool),__int64 __fastcall sub_24A3250(__int64 a1),0x24A3250
+_ZNK3Mob21checkSpawnObstructionEv,Mob::checkSpawnObstruction(void),__int64 __fastcall sub_24A33F8(__int64 a1),0x24A33F8
+_ZN3Mob13getAttackAnimEf,Mob::getAttackAnim(float),__int64 __fastcall sub_24A34F4(__int64 a1),0x24A34F4
+_ZN3Mob18getItemUseDurationEv,Mob::getItemUseDuration(void),__int64 __fastcall sub_24A3814(__int64 a1),0x24A3814
+_ZN3Mob25getItemUseStartupProgressEv,Mob::getItemUseStartupProgress(void),__int64 __fastcall sub_24A381C(__int64 a1),0x24A381C
+_ZN3Mob26getItemUseIntervalProgressEv,Mob::getItemUseIntervalProgress(void),__int64 __fastcall sub_24A3824(__int64 a1),0x24A3824
+_ZN3Mob22getItemuseIntervalAxisEv,Mob::getItemuseIntervalAxis(void),__int64 __fastcall sub_24A382C(__int64 a1),0x24A382C
+_ZNK3Mob17getTimeAlongSwingEv,Mob::getTimeAlongSwing(void),__int64 __fastcall sub_1E56F68(__int64 a1),0x1E56F68
+_ZN3Mob3ateEv,Mob::ate(void),__int64 __fastcall sub_1286(__int64 a1),0x1286
+_ZN3Mob14getMaxHeadXRotEv,Mob::getMaxHeadXRot(void),__int64 __fastcall sub_24A30D0(__int64 a1),0x24A30D0
+_ZN3Mob16getLastHurtByMobEv,Mob::getLastHurtByMob(void),__int64 __fastcall sub_24A8318(__int64 a1),0x24A8318
+_ZN3Mob16setLastHurtByMobEPS_,Mob::setLastHurtByMob(Mob*),__int64 __fastcall sub_24A83B4(__int64 a1),0x24A83B4
+_ZN3Mob19getLastHurtByPlayerEv,Mob::getLastHurtByPlayer(void),__int64 __fastcall sub_24A84EC(__int64 a1),0x24A84EC
+_ZN3Mob19setLastHurtByPlayerEP6Player,Mob::setLastHurtByPlayer(Player *),__int64 __fastcall sub_24A853C(__int64 a1),0x24A853C
+_ZN3Mob14getLastHurtMobEv,Mob::getLastHurtMob(void),__int64 __fastcall sub_24A86D8(__int64 a1),0x24A86D8
+_ZN3Mob14setLastHurtMobEP5Actor,Mob::setLastHurtMob(Actor *),__int64 __fastcall sub_24A8640(__int64 a1),0x24A8640
+_ZN3Mob10isAlliedToEPS_,Mob::isAlliedTo(Mob*),__int64 __fastcall sub_24A87D8(__int64 a1),0x24A87D8
+_ZN3Mob12doHurtTargetEP5Actor,Mob::doHurtTarget(Actor *),__int64 __fastcall sub_24A87E0(__int64 a1),0x24A87E0
+_ZN3Mob22canBeControlledByRiderEv,Mob::canBeControlledByRider(void),__int64 __fastcall sub_24A7DEC(__int64 a1),0x24A7DEC
+_ZN3Mob12leaveCaravanEv,Mob::leaveCaravan(void),__int64 __fastcall sub_24A7DF4(__int64 a1),0x24A7DF4
+_ZN3Mob11joinCaravanEPS_,Mob::joinCaravan(Mob*),__int64 __fastcall sub_24A8014(__int64 a1),0x24A8014
+_ZNK3Mob14hasCaravanTailEv,Mob::hasCaravanTail(void),__int64 __fastcall sub_24A8148(__int64 a1),0x24A8148
+_ZNK3Mob14getCaravanHeadEv,Mob::getCaravanHead(void),__int64 __fastcall sub_24A81C0(__int64 a1),0x24A81C0
+_ZN3Mob13getArmorValueEv,Mob::getArmorValue(void),__int64 __fastcall sub_24A4864(__int64 a1),0x24A4864
+_ZNK3Mob23getArmorCoverPercentageEv,Mob::getArmorCoverPercentage(void),__int64 __fastcall sub_24A494C(__int64 a1),0x24A494C
+_ZN3Mob9hurtArmorERK17ActorDamageSourcei,"Mob::hurtArmor(ActorDamageSource const&,int)",__int64 __fastcall sub_24A50A0(__int64 a1),0x24A50A0
+_ZN3Mob9hurtArmorERK17ActorDamageSourceiRKSt6bitsetILm4EE,"Mob::hurtArmor(ActorDamageSource const&,int,std::bitset<4ul> const&)",__int64 __fastcall sub_24A50F8(__int64 a1),0x24A50F8
+_ZN3Mob13hurtArmorSlotERK17ActorDamageSourcei9ArmorSlot,"Mob::hurtArmorSlot(ActorDamageSource const&,int,ArmorSlot)",__int64 __fastcall sub_24A5824(__int64 a1),0x24A5824
+_ZN3Mob15setDamagedArmorE9ArmorSlotRK9ItemStack,"Mob::setDamagedArmor(ArmorSlot,ItemStack const&)",__int64 __fastcall sub_24A5894(__int64 a1),0x24A5894
+_ZN3Mob15sendArmorDamageERKSt6bitsetILm4EE,Mob::sendArmorDamage(std::bitset<4ul> const&),__int64 __fastcall sub_1287(__int64 a1),0x1287
+_ZN3Mob9sendArmorERKSt6bitsetILm4EE,Mob::sendArmor(std::bitset<4ul> const&),__int64 __fastcall sub_24A5974(__int64 a1),0x24A5974
+_ZN3Mob16containerChangedEi,Mob::containerChanged(int),__int64 __fastcall sub_24A66F0(__int64 a1),0x24A66F0
+_ZN3Mob15updateEquipmentEv,Mob::updateEquipment(void),__int64 __fastcall sub_24A69CC(__int64 a1),0x24A69CC
+_ZN3Mob14clearEquipmentEv,Mob::clearEquipment(void),__int64 __fastcall sub_24A6B78(__int64 a1),0x24A6B78
+_ZNK3Mob11getAllArmorEv,Mob::getAllArmor(void),__int64 __fastcall sub_24A4A30(__int64 a1),0x24A4A30
+_ZNK3Mob13getAllArmorIDEv,Mob::getAllArmorID(void),__int64 __fastcall sub_24A4A5C(__int64 a1),0x24A4A5C
+_ZNK3Mob10getAllHandEv,Mob::getAllHand(void),__int64 __fastcall sub_24A4B98(__int64 a1),0x24A4B98
+_ZNK3Mob15getAllEquipmentEv,Mob::getAllEquipment(void),__int64 __fastcall sub_24A4D78(__int64 a1),0x24A4D78
+_ZN3Mob16getArmorTypeHashEv,Mob::getArmorTypeHash(void),__int64 __fastcall sub_24A5CB0(__int64 a1),0x24A5CB0
+_ZN3Mob20dropEquipmentOnDeathERK17ActorDamageSourcei,"Mob::dropEquipmentOnDeath(ActorDamageSource const&,int)",__int64 __fastcall sub_24A7344(__int64 a1),0x24A7344
+_ZN3Mob20dropEquipmentOnDeathEv,Mob::dropEquipmentOnDeath(void),__int64 __fastcall sub_24A7038(__int64 a1),0x24A7038
+_ZN3Mob32clearVanishEnchantedItemsOnDeathEv,Mob::clearVanishEnchantedItemsOnDeath(void),__int64 __fastcall sub_24A7A70(__int64 a1),0x24A7A70
+_ZN3Mob13sendInventoryEb,Mob::sendInventory(bool),__int64 __fastcall sub_24A5F0C(__int64 a1),0x24A5F0C
+_ZN3Mob25getDamageAfterMagicAbsorbERK17ActorDamageSourcei,"Mob::getDamageAfterMagicAbsorb(ActorDamageSource const&,int)",__int64 __fastcall sub_24A465C(__int64 a1),0x24A465C
+_ZN3Mob13createAIGoalsEv,Mob::createAIGoals(void),__int64 __fastcall sub_249A4D8(__int64 a1),0x249A4D8
+_ZN3Mob6onBornER5ActorS1_,"Mob::onBorn(Actor &,Actor &)",__int64 __fastcall sub_1284(__int64 a1),0x1284
+_ZN3Mob11setItemSlotE13EquipmentSlotRK9ItemStack,"Mob::setItemSlot(EquipmentSlot,ItemStack const&)",__int64 __fastcall sub_24A4760(__int64 a1),0x24A4760
+_ZN3Mob23setTransitioningSittingEb,Mob::setTransitioningSitting(bool),__int64 __fastcall sub_24A3978(__int64 a1),0x24A3978
+_ZN3Mob15attackAnimationEP5Actorf,"Mob::attackAnimation(Actor *,float)",__int64 __fastcall sub_24A9018(__int64 a1),0x24A9018
+_ZN3Mob13getAttackTimeEv,Mob::getAttackTime(void),__int64 __fastcall sub_24A90AC(__int64 a1),0x24A90AC
+_ZN3Mob19_getWalkTargetValueERK8BlockPos,Mob::_getWalkTargetValue(BlockPos const&),__int64 __fastcall sub_24A90B4(__int64 a1),0x24A90B4
+_ZNK3Mob23canExistWhenDisallowMobEv,Mob::canExistWhenDisallowMob(void),__int64 __fastcall sub_24A9008(__int64 a1),0x24A9008
+_ZNK3Mob8useNewAiEv,Mob::useNewAi(void),__int64 __fastcall sub_24A4298(__int64 a1),0x24A4298
+_ZN3Mob12ascendLadderEv,Mob::ascendLadder(void),__int64 __fastcall sub_24AAF18(__int64 a1),0x24AAF18
+_ZN3Mob17ascendScaffoldingEv,Mob::ascendScaffolding(void),__int64 __fastcall sub_24AAF38(__int64 a1),0x24AAF38
+_ZN3Mob20ascendBlockByJumpingEv,Mob::ascendBlockByJumping(void),__int64 __fastcall sub_24AAF58(__int64 a1),0x24AAF58
+_ZN3Mob18descendScaffoldingEv,Mob::descendScaffolding(void),__int64 __fastcall sub_24AAF78(__int64 a1),0x24AAF78
+_ZNK3Mob30canAscendCurrentBlockByJumpingEv,Mob::canAscendCurrentBlockByJumping(void),__int64 __fastcall sub_24AAFA8(__int64 a1),0x24AAFA8
+_ZN3Mob13dropContainerEv,Mob::dropContainer(void),__int64 __fastcall sub_24A9BF0(__int64 a1),0x24A9BF0
+_ZN3Mob15initBodyControlEv,Mob::initBodyControl(void),__int64 __fastcall sub_2499604(__int64 a1),0x2499604
+_ZN3Mob14jumpFromGroundEv,Mob::jumpFromGround(void),__int64 __fastcall sub_24A2A18(__int64 a1),0x24A2A18
+_ZNK3Mob14jumpFromGroundER17IMobMovementProxy,Mob::jumpFromGround(IMobMovementProxy &),__int64 __fastcall sub_24A2CC4(__int64 a1),0x24A2CC4
+_ZN3Mob8updateAiEv,Mob::updateAi(void),__int64 __fastcall sub_24A247C(__int64 a1),0x24A247C
+_ZN3Mob15newServerAiStepEv,Mob::newServerAiStep(void),__int64 __fastcall sub_24A2728(__int64 a1),0x24A2728
+_ZN3Mob16_serverAiMobStepEv,Mob::_serverAiMobStep(void),__int64 __fastcall sub_1285(__int64 a1),0x1285
+_ZN3Mob30getDamageAfterEnchantReductionERK17ActorDamageSourcei,"Mob::getDamageAfterEnchantReduction(ActorDamageSource const&,int)",__int64 __fastcall sub_24A4444(__int64 a1),0x24A4444
+_ZN3Mob25getDamageAfterArmorAbsorbERK17ActorDamageSourcei,"Mob::getDamageAfterArmorAbsorb(ActorDamageSource const&,int)",__int64 __fastcall sub_24A4508(__int64 a1),0x24A4508
+_ZN3Mob8dropBagsEv,Mob::dropBags(void),__int64 __fastcall sub_24A9CE4(__int64 a1),0x24A9CE4
+_ZN3Mob9tickDeathEv,Mob::tickDeath(void),__int64 __fastcall sub_249C1A4(__int64 a1),0x249C1A4
+_ZN3Mob13updateGlidingEv,Mob::updateGliding(void),__int64 __fastcall sub_24A9A14(__int64 a1),0x24A9A14
+_ZNK3Mob26_allowAscendingScaffoldingEv,Mob::_allowAscendingScaffolding(void),__int64 __fastcall sub_24AB044(__int64 a1),0x24AB044
+_ZN8GameModeD2Ev,GameMode::~GameMode(),__int64 __fastcall sub_20EAB0C(__int64 a1),0x20EAB0C
+_ZN8GameModeD0Ev,GameMode::~GameMode(),__int64 __fastcall sub_20EAB6C(__int64 a1),0x20EAB6C
+_ZN8GameMode17startDestroyBlockERK8BlockPoshRb,"GameMode::startDestroyBlock(BlockPos const&,uchar,bool &)",__int64 __fastcall sub_20EB488(__int64 a1),0x20EB488
+_ZN8GameMode12destroyBlockERK8BlockPosh,"GameMode::destroyBlock(BlockPos const&,uchar)",__int64 __fastcall sub_7DE3BF0(__int64 a1),0x7DE3BF0
+_ZN8GameMode20continueDestroyBlockERK8BlockPoshRK4Vec3Rb,"GameMode::continueDestroyBlock(BlockPos const&,uchar,Vec3 const&,bool &)",__int64 __fastcall sub_20EBB8C(__int64 a1),0x20EBB8C
+_ZN8GameMode16stopDestroyBlockERK8BlockPos,GameMode::stopDestroyBlock(BlockPos const&),__int64 __fastcall sub_20EC4D0(__int64 a1),0x20EC4D0
+_ZN8GameMode15startBuildBlockERK8BlockPosh,"GameMode::startBuildBlock(BlockPos const&,uchar)",__int64 __fastcall sub_20EC52C(__int64 a1),0x20EC52C
+_ZN8GameMode10buildBlockERK8BlockPosh,"GameMode::buildBlock(BlockPos const&,uchar)",__int64 __fastcall sub_7DE3C10(__int64 a1),0x7DE3C10
+_ZN8GameMode18continueBuildBlockERK8BlockPosh,"GameMode::continueBuildBlock(BlockPos const&,uchar)",__int64 __fastcall sub_20ECA24(__int64 a1),0x20ECA24
+_ZN8GameMode14stopBuildBlockEv,GameMode::stopBuildBlock(void),__int64 __fastcall sub_20ECDDC(__int64 a1),0x20ECDDC
+_ZN8GameMode4tickEv,GameMode::tick(void),__int64 __fastcall sub_20EE208(__int64 a1),0x20EE208
+_ZN8GameMode12getPickRangeERK9InputModeb,"GameMode::getPickRange(InputMode const&,bool)",__int64 __fastcall sub_20EDBDC(__int64 a1),0x20EDBDC
+_ZN8GameMode7useItemER9ItemStack,GameMode::useItem(ItemStack &),__int64 __fastcall sub_20ED9EC(__int64 a1),0x20ED9EC
+_ZN8GameMode9useItemOnER9ItemStackRK8BlockPoshRK4Vec3PK5Block,"GameMode::useItemOn(ItemStack &,BlockPos const&,uchar,Vec3 const&,Block const*)",__int64 __fastcall sub_20ECE1C(__int64 a1),0x20ECE1C
+_ZN8GameMode8interactER5ActorRK4Vec3,"GameMode::interact(Actor &,Vec3 const&)",__int64 __fastcall sub_20EABC8(__int64 a1),0x20EABC8
+_ZN8GameMode6attackER5Actor,GameMode::attack(Actor &),__int64 __fastcall sub_20EB04C(__int64 a1),0x20EB04C
+_ZN8GameMode16releaseUsingItemEv,GameMode::releaseUsingItem(void),__int64 __fastcall sub_20EDCE0(__int64 a1),0x20EDCE0
+_ZN8GameMode12setTrialModeEb,GameMode::setTrialMode(bool),__int64 __fastcall sub_912(__int64 a1),0x912
+_ZN8GameMode13isInTrialModeEv,GameMode::isInTrialMode(void),__int64 __fastcall sub_20EE1F8(__int64 a1),0x20EE1F8
+_ZN8GameMode28registerUpsellScreenCallbackESt8functionIFvbEE,GameMode::registerUpsellScreenCallback(std::function<void ()(bool)>),__int64 __fastcall sub_913(__int64 a1),0x913
+_ZN5BlockD2Ev,Block::~Block(),__int64 __fastcall sub_2D67C80(__int64 a1),0x2D67C80
+_ZN5BlockD0Ev,Block::~Block(),__int64 __fastcall sub_2D67D08(__int64 a1),0x2D67D08
+_ZNK5Block14getRenderLayerEv,Block::getRenderLayer(void),__int64 __fastcall sub_2D5C63C(__int64 a1),0x2D5C63C
+_ZN11BlockSourceD2Ev,BlockSource::~BlockSource(),__int64 __fastcall sub_2E775E0(__int64 a1),0x2E775E0
+_ZN11BlockSourceD0Ev,BlockSource::~BlockSource(),__int64 __fastcall sub_2E776F4(__int64 a1),0x2E776F4
+_ZN5LevelD2Ev,Level::~Level(),__int64 __fastcall sub_2E99474(__int64 a1),0x2E99474
+_ZN5LevelD0Ev,Level::~Level(),__int64 __fastcall sub_2E9A7E4(__int64 a1),0x2E9A7E4
+_ZN5Level10initializeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK13LevelSettingsP9LevelDataRK11ExperimentsPS6_,"Level::initialize(std::string const&,LevelSettings const&,LevelData *,Experiments const&,std::string const*)",__int64 __fastcall sub_2E976BC(__int64 a1),0x2E976BC
+_ZN5Level20postProcessResourcesEv,Level::postProcessResources(void),__int64 __fastcall sub_2E9946C(__int64 a1),0x2E9946C
+_ZN5Level14startLeaveGameEv,Level::startLeaveGame(void),__int64 __fastcall sub_2E9A7F0(__int64 a1),0x2E9A7F0
+_ZN5Level15isLeaveGameDoneEv,Level::isLeaveGameDone(void),__int64 __fastcall sub_2E9AE3C(__int64 a1),0x2E9AE3C
+_ZN5Level15createDimensionE11AutomaticIDI9DimensioniE,"Level::createDimension(AutomaticID<Dimension,int>)",__int64 __fastcall sub_2E9AEA4(__int64 a1),0x2E9AEA4
+_ZNK5Level12getDimensionE11AutomaticIDI9DimensioniE,"Level::getDimension(AutomaticID<Dimension,int>)",__int64 __fastcall sub_2E9B028(__int64 a1),0x2E9B028
+_ZN5Level16forEachDimensionESt8functionIFbR9DimensionEE,Level::forEachDimension(std::function<bool ()(Dimension &)>),__int64 __fastcall sub_2E9B0E8(__int64 a1),0x2E9B0E8
+_ZNK5Level16forEachDimensionESt8functionIFbRK9DimensionEE,Level::forEachDimension(std::function<bool ()(Dimension const&)>),__int64 __fastcall sub_2E9B134(__int64 a1),0x2E9B134
+_ZNK5Level17getChunkTickRangeEv,Level::getChunkTickRange(void),__int64 __fastcall sub_2E9B180(__int64 a1),0x2E9B180
+_ZN5Level15getPortalForcerEv,Level::getPortalForcer(void),__int64 __fastcall sub_2E9B19C(__int64 a1),0x2E9B19C
+_ZN5Level28requestPlayerChangeDimensionER6PlayerSt10unique_ptrI22ChangeDimensionRequestSt14default_deleteIS3_EE,"Level::requestPlayerChangeDimension(Player &,std::unique_ptr<ChangeDimensionRequest>)",__int64 __fastcall sub_2E9B1A4(__int64 a1),0x2E9B1A4
+_ZN5Level21entityChangeDimensionER5Actor11AutomaticIDI9DimensioniE,"Level::entityChangeDimension(Actor &,AutomaticID<Dimension,int>)",__int64 __fastcall sub_2E9B674(__int64 a1),0x2E9B674
+_ZNK5Level10getSpawnerEv,Level::getSpawner(void),__int64 __fastcall sub_2EA73C4(__int64 a1),0x2EA73C4
+_ZNK5Level20getProjectileFactoryEv,Level::getProjectileFactory(void),__int64 __fastcall sub_2EA73CC(__int64 a1),0x2EA73CC
+_ZNK5Level20getEntityDefinitionsEv,Level::getEntityDefinitions(void),__int64 __fastcall sub_2EA73D4(__int64 a1),0x2EA73D4
+_ZNK5Level22getActorAnimationGroupEv,Level::getActorAnimationGroup(void),__int64 __fastcall sub_2EA73F4(__int64 a1),0x2EA73F4
+_ZNK5Level32getActorAnimationControllerGroupEv,Level::getActorAnimationControllerGroup(void),__int64 __fastcall sub_2EA73FC(__int64 a1),0x2EA73FC
+_ZNK5Level19getBlockDefinitionsEv,Level::getBlockDefinitions(void),__int64 __fastcall sub_2EA73DC(__int64 a1),0x2EA73DC
+_ZN5Level24getBlockComponentFactoryEv,Level::getBlockComponentFactory(void),__int64 __fastcall sub_2EA73E4(__int64 a1),0x2EA73E4
+_ZNK5Level24getBlockComponentFactoryEv,Level::getBlockComponentFactory(void),__int64 __fastcall sub_2EA73EC(__int64 a1),0x2EA73EC
+_ZNK5Level13getSpawnRulesEv,Level::getSpawnRules(void),__int64 __fastcall sub_2EA7404(__int64 a1),0x2EA7404
+_ZNK5Level21getSpawnGroupRegistryEv,Level::getSpawnGroupRegistry(void),__int64 __fastcall sub_2EA740C(__int64 a1),0x2EA740C
+_ZNK5Level20getSpawnRulesMutableEv,Level::getSpawnRulesMutable(void),__int64 __fastcall sub_2EA7414(__int64 a1),0x2EA7414
+_ZNK5Level16getSpawnSettingsEv,Level::getSpawnSettings(void),__int64 __fastcall sub_2EA741C(__int64 a1),0x2EA741C
+_ZN5Level16setSpawnSettingsERK13SpawnSettings,Level::setSpawnSettings(SpawnSettings const&),__int64 __fastcall sub_2EA7428(__int64 a1),0x2EA7428
+_ZNK5Level20getBehaviorTreeGroupEv,Level::getBehaviorTreeGroup(void),__int64 __fastcall sub_2EA7490(__int64 a1),0x2EA7490
+_ZNK5Level18getBehaviorFactoryEv,Level::getBehaviorFactory(void),__int64 __fastcall sub_2EA7498(__int64 a1),0x2EA7498
+_ZNK5Level13getDifficultyEv,Level::getDifficulty(void),__int64 __fastcall sub_2EA8508(__int64 a1),0x2EA8508
+_ZNK5Level26getDimensionConversionDataEv,Level::getDimensionConversionData(void),__int64 __fastcall sub_2E9BAA0(__int64 a1),0x2E9BAA0
+_ZNK5Level20getSpecialMultiplierE11AutomaticIDI9DimensioniE,"Level::getSpecialMultiplier(AutomaticID<Dimension,int>)",__int64 __fastcall sub_2EA8578(__int64 a1),0x2EA8578
+_ZNK5Level18hasCommandsEnabledEv,Level::hasCommandsEnabled(void),__int64 __fastcall sub_2EA8520(__int64 a1),0x2EA8520
+_ZNK5Level19useMsaGamertagsOnlyEv,Level::useMsaGamertagsOnly(void),__int64 __fastcall sub_2EA8538(__int64 a1),0x2EA8538
+_ZN5Level19setMsaGamertagsOnlyEb,Level::setMsaGamertagsOnly(bool),__int64 __fastcall sub_2EA8550(__int64 a1),0x2EA8550
+_ZN5Level9addEntityER11BlockSourceSt10unique_ptrI5ActorSt14default_deleteIS3_EE,"Level::addEntity(BlockSource &,std::unique_ptr<Actor>)",__int64 __fastcall sub_2EA0138(__int64 a1),0x2EA0138
+_ZN5Level15addGlobalEntityER11BlockSourceSt10unique_ptrI5ActorSt14default_deleteIS3_EE,"Level::addGlobalEntity(BlockSource &,std::unique_ptr<Actor>)",__int64 __fastcall sub_2E9FF4C(__int64 a1),0x2E9FF4C
+_ZN5Level19addAutonomousEntityER11BlockSourceSt10unique_ptrI5ActorSt14default_deleteIS3_EE,"Level::addAutonomousEntity(BlockSource &,std::unique_ptr<Actor>)",__int64 __fastcall sub_2EA0030(__int64 a1),0x2EA0030
+_ZN5Level9addPlayerESt10unique_ptrI6PlayerSt14default_deleteIS1_EE,Level::addPlayer(std::unique_ptr<Player>),__int64 __fastcall sub_2EA05F4(__int64 a1),0x2EA05F4
+_ZN5Level13suspendPlayerER6Player,Level::suspendPlayer(Player &),__int64 __fastcall sub_2EA0C84(__int64 a1),0x2EA0C84
+_ZN5Level12resumePlayerER6Player,Level::resumePlayer(Player &),__int64 __fastcall sub_2EA0DAC(__int64 a1),0x2EA0DAC
+_ZNK5Level17isPlayerSuspendedER6Player,Level::isPlayerSuspended(Player &),__int64 __fastcall sub_2EA0EDC(__int64 a1),0x2EA0EDC
+_ZN5Level10takeEntityE13ActorUniqueID,Level::takeEntity(ActorUniqueID),__int64 __fastcall sub_2EA114C(__int64 a1),0x2EA114C
+_ZN5Level12borrowEntityE13ActorUniqueIDP10LevelChunk,"Level::borrowEntity(ActorUniqueID,LevelChunk *)",__int64 __fastcall sub_2EA11F0(__int64 a1),0x2EA11F0
+_ZNK5Level11fetchEntityE13ActorUniqueIDb,"Level::fetchEntity(ActorUniqueID,bool)",__int64 __fastcall sub_2EA10F4(__int64 a1),0x2EA10F4
+_ZNK5Level16getRuntimeEntityE14ActorRuntimeIDb,"Level::getRuntimeEntity(ActorRuntimeID,bool)",__int64 __fastcall sub_2EA127C(__int64 a1),0x2EA127C
+_ZNK5Level6getMobE13ActorUniqueID,Level::getMob(ActorUniqueID),__int64 __fastcall sub_2EA1A30(__int64 a1),0x2EA1A30
+_ZNK5Level9getPlayerERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::getPlayer(std::string const&),__int64 __fastcall sub_2EA5210(__int64 a1),0x2EA5210
+_ZNK5Level9getPlayerERKN3mce4UUIDE,Level::getPlayer(mce::UUID const&),__int64 __fastcall sub_2EA52E4(__int64 a1),0x2EA52E4
+_ZNK5Level15getPlayerByXuidERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::getPlayerByXuid(std::string const&),__int64 __fastcall sub_2EA53B8(__int64 a1),0x2EA53B8
+_ZNK5Level30getPlayerFromUnknownIdentifierERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::getPlayerFromUnknownIdentifier(std::string const&),__int64 __fastcall sub_2EA548C(__int64 a1),0x2EA548C
+_ZNK5Level9getPlayerE13ActorUniqueID,Level::getPlayer(ActorUniqueID),__int64 __fastcall sub_2EA5820(__int64 a1),0x2EA5820
+_ZNK5Level17getPlatformPlayerERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::getPlatformPlayer(std::string const&),__int64 __fastcall sub_2EA5860(__int64 a1),0x2EA5860
+_ZNK5Level21getPlayerFromServerIdERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::getPlayerFromServerId(std::string const&),__int64 __fastcall sub_2EA5934(__int64 a1),0x2EA5934
+_ZNK5Level16getRuntimePlayerE14ActorRuntimeID,Level::getRuntimePlayer(ActorRuntimeID),__int64 __fastcall sub_2EA5A08(__int64 a1),0x2EA5A08
+_ZN5Level13getNextPlayerERK13ActorUniqueIDb,"Level::getNextPlayer(ActorUniqueID const&,bool)",__int64 __fastcall sub_2EA5598(__int64 a1),0x2EA5598
+_ZN5Level13getPrevPlayerERK13ActorUniqueIDb,"Level::getPrevPlayer(ActorUniqueID const&,bool)",__int64 __fastcall sub_2EA5690(__int64 a1),0x2EA5690
+_ZN5Level19getNumRemotePlayersEv,Level::getNumRemotePlayers(void),__int64 __fastcall sub_2EA5750(__int64 a1),0x2EA5750
+_ZNK5Level21getPrimaryLocalPlayerEv,Level::getPrimaryLocalPlayer(void),__int64 __fastcall sub_2EA5A48(__int64 a1),0x2EA5A48
+_ZN5Level15getRandomPlayerEv,Level::getRandomPlayer(void),__int64 __fastcall sub_2EA5B1C(__int64 a1),0x2EA5B1C
+_ZNK5Level14getNewPlayerIdEv,Level::getNewPlayerId(void),__int64 __fastcall sub_2EA5D54(__int64 a1),0x2EA5D54
+_ZN5Level11getEventingEv,Level::getEventing(void),__int64 __fastcall sub_2EA5B88(__int64 a1),0x2EA5B88
+_ZNK5Level14getPlayerColorERK6Player,Level::getPlayerColor(Player const&),__int64 __fastcall sub_2EA5F0C(__int64 a1),0x2EA5F0C
+_ZNK5Level14getCurrentTickEv,Level::getCurrentTick(void),__int64 __fastcall sub_2EA8DD0(__int64 a1),0x2EA8DD0
+_ZNK5Level20getCurrentServerTickEv,Level::getCurrentServerTick(void),__int64 __fastcall sub_2EA8DE8(__int64 a1),0x2EA8DE8
+_ZN5Level26removeAllNonPlayerEntitiesE13ActorUniqueID,Level::removeAllNonPlayerEntities(ActorUniqueID),__int64 __fastcall sub_2EA0F7C(__int64 a1),0x2EA0F7C
+_ZNK5Level16getBiomeRegistryEv,Level::getBiomeRegistry(void),__int64 __fastcall sub_2EA5B90(__int64 a1),0x2EA5B90
+_ZN5Level16getBiomeRegistryEv,Level::getBiomeRegistry(void),__int64 __fastcall sub_2E83174(__int64 a1),0x2E83174
+_ZNK5Level15getBlockPaletteEv,Level::getBlockPalette(void),__int64 __fastcall sub_2EA5BA8(__int64 a1),0x2EA5BA8
+_ZN5Level15getBlockPaletteEv,Level::getBlockPalette(void),__int64 __fastcall sub_2EA5BB8(__int64 a1),0x2EA5BB8
+_ZNK5Level18getFeatureRegistryEv,Level::getFeatureRegistry(void),__int64 __fastcall sub_2EA5BC8(__int64 a1),0x2EA5BC8
+_ZN5Level18getFeatureRegistryEv,Level::getFeatureRegistry(void),__int64 __fastcall sub_2E98C94(__int64 a1),0x2E98C94
+_ZNK5Level21getFeatureTypeFactoryEv,Level::getFeatureTypeFactory(void),__int64 __fastcall sub_2EA5BE0(__int64 a1),0x2EA5BE0
+_ZN5Level21getFeatureTypeFactoryEv,Level::getFeatureTypeFactory(void),__int64 __fastcall sub_2EA5BF0(__int64 a1),0x2EA5BF0
+_ZNK5Level26getJigsawStructureRegistryEv,Level::getJigsawStructureRegistry(void),__int64 __fastcall sub_2EA5C00(__int64 a1),0x2EA5C00
+_ZN5Level26getJigsawStructureRegistryEv,Level::getJigsawStructureRegistry(void),__int64 __fastcall sub_2EA5C18(__int64 a1),0x2EA5C18
+_ZNK5Level19getStructureManagerEv,Level::getStructureManager(void),__int64 __fastcall sub_2EA5C30(__int64 a1),0x2EA5C30
+_ZN5Level19getStructureManagerEv,Level::getStructureManager(void),__int64 __fastcall sub_2EA5C88(__int64 a1),0x2EA5C88
+_ZNK5Level24getBiomeComponentFactoryEv,Level::getBiomeComponentFactory(void),__int64 __fastcall sub_2EA5CE0(__int64 a1),0x2EA5CE0
+_ZN5Level24getBiomeComponentFactoryEv,Level::getBiomeComponentFactory(void),__int64 __fastcall sub_2EA5CF0(__int64 a1),0x2EA5CF0
+_ZNK5Level25getSurfaceBuilderRegistryEv,Level::getSurfaceBuilderRegistry(void),__int64 __fastcall sub_2EA5D00(__int64 a1),0x2EA5D00
+_ZN5Level25getSurfaceBuilderRegistryEv,Level::getSurfaceBuilderRegistry(void),__int64 __fastcall sub_2E98C8C(__int64 a1),0x2E98C8C
+_ZNK5Level19getDimensionFactoryEv,Level::getDimensionFactory(void),__int64 __fastcall sub_2EA5D18(__int64 a1),0x2EA5D18
+_ZN5Level19getDimensionFactoryEv,Level::getDimensionFactory(void),__int64 __fastcall sub_2E9B01C(__int64 a1),0x2E9B01C
+_ZNK5Level34getLightTextureImageBuilderFactoryEv,Level::getLightTextureImageBuilderFactory(void),__int64 __fastcall sub_2EA5D3C(__int64 a1),0x2EA5D3C
+_ZN5Level34getLightTextureImageBuilderFactoryEv,Level::getLightTextureImageBuilderFactory(void),__int64 __fastcall sub_2EA5D48(__int64 a1),0x2EA5D48
+_ZN5Level11addListenerER13LevelListener,Level::addListener(LevelListener &),__int64 __fastcall sub_2EA1A70(__int64 a1),0x2EA1A70
+_ZN5Level14removeListenerER13LevelListener,Level::removeListener(LevelListener &),__int64 __fastcall sub_2EA1B7C(__int64 a1),0x2EA1B7C
+_ZN5Level12tickEntitiesEv,Level::tickEntities(void),__int64 __fastcall sub_2EA1C90(__int64 a1),0x2EA1C90
+_ZN5Level17tickEntitySystemsEv,Level::tickEntitySystems(void),__int64 __fastcall sub_2EA1FF4(__int64 a1),0x2EA1FF4
+_ZN5Level13onPlayerDeathER6PlayerRK17ActorDamageSource,"Level::onPlayerDeath(Player &,ActorDamageSource const&)",__int64 __fastcall sub_2E9D8CC(__int64 a1),0x2E9D8CC
+_ZN5Level4tickEv,Level::tick(void),__int64 __fastcall sub_2E9DCE0(__int64 a1),0x2E9DCE0
+_ZN5Level18directTickEntitiesER11BlockSource,Level::directTickEntities(BlockSource &),__int64 __fastcall sub_2293(__int64 a1),0x2293
+_ZN5Level11animateTickER5Actor,Level::animateTick(Actor &),__int64 __fastcall sub_2EA3384(__int64 a1),0x2EA3384
+_ZN5Level7explodeER11BlockSourceP5ActorRK4Vec3fbbfb,"Level::explode(BlockSource &,Actor *,Vec3 const&,float,bool,bool,float,bool)",__int64 __fastcall sub_2EA2470(__int64 a1),0x2EA2470
+_ZN5Level7explodeER9Explosion,Level::explode(Explosion &),__int64 __fastcall sub_2EA2578(__int64 a1),0x2EA2578
+_ZN5Level19spawnParticleEffectERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK4Vec3P9Dimension,"Level::spawnParticleEffect(std::string const&,Vec3 const&,Dimension *)",__int64 __fastcall sub_2EA25B8(__int64 a1),0x2EA25B8
+_ZN5Level19spawnParticleEffectERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK5ActorRK4Vec3,"Level::spawnParticleEffect(std::string const&,Actor const&,Vec3 const&)",__int64 __fastcall sub_2EA26A0(__int64 a1),0x2EA26A0
+_ZN5Level10denyEffectER11BlockSourceRK4Vec3,"Level::denyEffect(BlockSource &,Vec3 const&)",__int64 __fastcall sub_2EA27AC(__int64 a1),0x2EA27AC
+_ZN5Level12potionSplashERK4Vec3RKN3mce5ColorEb,"Level::potionSplash(Vec3 const&,mce::Color const&,bool)",__int64 __fastcall sub_2EA293C(__int64 a1),0x2EA293C
+_ZN5Level22checkAndHandleMaterialERK4AABB12MaterialTypeP5Actor,"Level::checkAndHandleMaterial(AABB const&,MaterialType,Actor *)",__int64 __fastcall sub_2E9CE7C(__int64 a1),0x2E9CE7C
+_ZN5Level13checkMaterialERK4AABB12MaterialTypeR11BlockSource,"Level::checkMaterial(AABB const&,MaterialType,BlockSource &)",__int64 __fastcall sub_2E9D2B8(__int64 a1),0x2E9D2B8
+_ZN5Level14extinguishFireER11BlockSourceRK8BlockPosh,"Level::extinguishFire(BlockSource &,BlockPos const&,uchar)",__int64 __fastcall sub_7F0C120(__int64 a1),0x7F0C120
+_ZN5Level8findPathER5ActoriiiR19NavigationComponent,"Level::findPath(Actor &,int,int,int,NavigationComponent &)",__int64 __fastcall sub_2E9F0AC(__int64 a1),0x2E9F0AC
+_ZN5Level8findPathER5ActorS1_R19NavigationComponent,"Level::findPath(Actor &,Actor &,NavigationComponent &)",__int64 __fastcall sub_2E9F178(__int64 a1),0x2E9F178
+_ZN5Level24updateSleepingPlayerListEv,Level::updateSleepingPlayerList(void),__int64 __fastcall sub_12056(__int64 a1),0x12056
+_ZNK5Level7getTimeEv,Level::getTime(void),__int64 __fastcall sub_2EA356C(__int64 a1),0x2EA356C
+_ZN5Level7setTimeEi,Level::setTime(int),__int64 __fastcall sub_2EA352C(__int64 a1),0x2EA352C
+_ZN5Level7getSeedEv,Level::getSeed(void),__int64 __fastcall sub_2EA3554(__int64 a1),0x2EA3554
+_ZNK5Level17getSharedSpawnPosEv,Level::getSharedSpawnPos(void),__int64 __fastcall sub_2EA3584(__int64 a1),0x2EA3584
+_ZN5Level15setDefaultSpawnERK8BlockPos,Level::setDefaultSpawn(BlockPos const&),__int64 __fastcall sub_2EA359C(__int64 a1),0x2EA359C
+_ZNK5Level15getDefaultSpawnEv,Level::getDefaultSpawn(void),__int64 __fastcall sub_2EA35C4(__int64 a1),0x2EA35C4
+_ZN5Level18setDefaultGameTypeE8GameType,Level::setDefaultGameType(GameType),__int64 __fastcall sub_2EA35DC(__int64 a1),0x2EA35DC
+_ZNK5Level18getDefaultGameTypeEv,Level::getDefaultGameType(void),__int64 __fastcall sub_2EA3674(__int64 a1),0x2EA3674
+_ZN5Level13setDifficultyE10Difficulty,Level::setDifficulty(Difficulty),__int64 __fastcall sub_2EA2DA8(__int64 a1),0x2EA2DA8
+_ZN5Level24setMultiplayerGameIntentEb,Level::setMultiplayerGameIntent(bool),__int64 __fastcall sub_2EA3004(__int64 a1),0x2EA3004
+_ZNK5Level24getMultiplayerGameIntentEv,Level::getMultiplayerGameIntent(void),__int64 __fastcall sub_2EA302C(__int64 a1),0x2EA302C
+_ZN5Level18setMultiplayerGameEb,Level::setMultiplayerGame(bool),__int64 __fastcall sub_2EA3044(__int64 a1),0x2EA3044
+_ZNK5Level17isMultiplayerGameEv,Level::isMultiplayerGame(void),__int64 __fastcall sub_2EA306C(__int64 a1),0x2EA306C
+_ZN5Level21setLANBroadcastIntentEb,Level::setLANBroadcastIntent(bool),__int64 __fastcall sub_2EA3084(__int64 a1),0x2EA3084
+_ZNK5Level21getLANBroadcastIntentEv,Level::getLANBroadcastIntent(void),__int64 __fastcall sub_2EA30AC(__int64 a1),0x2EA30AC
+_ZN5Level15setLANBroadcastEb,Level::setLANBroadcast(bool),__int64 __fastcall sub_2EA30C4(__int64 a1),0x2EA30C4
+_ZNK5Level15getLANBroadcastEv,Level::getLANBroadcast(void),__int64 __fastcall sub_2EA30EC(__int64 a1),0x2EA30EC
+_ZN5Level21setXBLBroadcastIntentEN6Social18GamePublishSettingE,Level::setXBLBroadcastIntent(Social::GamePublishSetting),__int64 __fastcall sub_2EA3104(__int64 a1),0x2EA3104
+_ZNK5Level21getXBLBroadcastIntentEv,Level::getXBLBroadcastIntent(void),__int64 __fastcall sub_2EA312C(__int64 a1),0x2EA312C
+_ZNK5Level21hasXBLBroadcastIntentEv,Level::hasXBLBroadcastIntent(void),__int64 __fastcall sub_2EA3144(__int64 a1),0x2EA3144
+_ZN5Level19setXBLBroadcastModeEN6Social18GamePublishSettingE,Level::setXBLBroadcastMode(Social::GamePublishSetting),__int64 __fastcall sub_2EA3168(__int64 a1),0x2EA3168
+_ZNK5Level19getXBLBroadcastModeEv,Level::getXBLBroadcastMode(void),__int64 __fastcall sub_2EA3190(__int64 a1),0x2EA3190
+_ZNK5Level15hasXBLBroadcastEv,Level::hasXBLBroadcast(void),__int64 __fastcall sub_2EA31A8(__int64 a1),0x2EA31A8
+_ZN5Level26setPlatformBroadcastIntentEN6Social18GamePublishSettingE,Level::setPlatformBroadcastIntent(Social::GamePublishSetting),__int64 __fastcall sub_2EA31CC(__int64 a1),0x2EA31CC
+_ZNK5Level26getPlatformBroadcastIntentEv,Level::getPlatformBroadcastIntent(void),__int64 __fastcall sub_2EA31F4(__int64 a1),0x2EA31F4
+_ZNK5Level26hasPlatformBroadcastIntentEv,Level::hasPlatformBroadcastIntent(void),__int64 __fastcall sub_2EA320C(__int64 a1),0x2EA320C
+_ZN5Level24setPlatformBroadcastModeEN6Social18GamePublishSettingE,Level::setPlatformBroadcastMode(Social::GamePublishSetting),__int64 __fastcall sub_2EA3230(__int64 a1),0x2EA3230
+_ZNK5Level24getPlatformBroadcastModeEv,Level::getPlatformBroadcastMode(void),__int64 __fastcall sub_2EA3258(__int64 a1),0x2EA3258
+_ZNK5Level20hasPlatformBroadcastEv,Level::hasPlatformBroadcast(void),__int64 __fastcall sub_2EA3270(__int64 a1),0x2EA3270
+_ZN5Level24setHasLockedBehaviorPackEb,Level::setHasLockedBehaviorPack(bool),__int64 __fastcall sub_2EA3294(__int64 a1),0x2EA3294
+_ZN5Level24setHasLockedResourcePackEb,Level::setHasLockedResourcePack(bool),__int64 __fastcall sub_2EA32BC(__int64 a1),0x2EA32BC
+_ZN5Level18setCommandsEnabledEb,Level::setCommandsEnabled(bool),__int64 __fastcall sub_2EA32E4(__int64 a1),0x2EA32E4
+_ZN5Level31setWorldTemplateOptionsUnlockedEv,Level::setWorldTemplateOptionsUnlocked(void),__int64 __fastcall sub_2EA3368(__int64 a1),0x2EA3368
+_ZNK5Level15hasLevelStorageEv,Level::hasLevelStorage(void),__int64 __fastcall sub_2EA4214(__int64 a1),0x2EA4214
+_ZN5Level15getLevelStorageEv,Level::getLevelStorage(void),__int64 __fastcall sub_2EA4224(__int64 a1),0x2EA4224
+_ZNK5Level15getLevelStorageEv,Level::getLevelStorage(void),__int64 __fastcall sub_2EA422C(__int64 a1),0x2EA422C
+_ZN5Level12getLevelDataEv,Level::getLevelData(void),__int64 __fastcall sub_2EA4234(__int64 a1),0x2EA4234
+_ZNK5Level12getLevelDataEv,Level::getLevelData(void),__int64 __fastcall sub_2EA423C(__int64 a1),0x2EA423C
+_ZN5Level15getPhotoStorageEv,Level::getPhotoStorage(void),__int64 __fastcall sub_2EA4244(__int64 a1),0x2EA4244
+_ZN5Level18createPhotoStorageEv,Level::createPhotoStorage(void),__int64 __fastcall sub_2EA9F5C(__int64 a1),0x2EA9F5C
+_ZN5Level25setEducationLevelSettingsE22EducationLevelSettings,Level::setEducationLevelSettings(EducationLevelSettings),__int64 __fastcall sub_2EAA37C(__int64 a1),0x2EAA37C
+_ZNK5Level25getEducationLevelSettingsEv,Level::getEducationLevelSettings(void),__int64 __fastcall sub_2EAA370(__int64 a1),0x2EAA370
+_ZN5Level4saveEv,Level::save(void),__int64 __fastcall sub_2EA7EB8(__int64 a1),0x2EA7EB8
+_ZN5Level26saveEducationLevelSettingsEv,Level::saveEducationLevelSettings(void),__int64 __fastcall sub_2EAA4B0(__int64 a1),0x2EAA4B0
+_ZN5Level13saveLevelDataEv,Level::saveLevelData(void),__int64 __fastcall sub_2EA4284(__int64 a1),0x2EA4284
+_ZN5Level12saveGameDataEv,Level::saveGameData(void),__int64 __fastcall sub_2EA47B0(__int64 a1),0x2EA47B0
+_ZN5Level12saveVillagesEv,Level::saveVillages(void),__int64 __fastcall sub_2EA49B0(__int64 a1),0x2EA49B0
+_ZN5Level11savePlayersEv,Level::savePlayers(void),__int64 __fastcall sub_2EA4364(__int64 a1),0x2EA4364
+_ZN5Level10savePlayerER6Player,Level::savePlayer(Player &),__int64 __fastcall sub_2EA4430(__int64 a1),0x2EA4430
+_ZN5Level13saveBiomeDataEv,Level::saveBiomeData(void),__int64 __fastcall sub_2EA49F4(__int64 a1),0x2EA49F4
+_ZN5Level15saveDirtyChunksEv,Level::saveDirtyChunks(void),__int64 __fastcall sub_2E9EF80(__int64 a1),0x2E9EF80
+_ZN5Level18saveAdditionalDataEv,Level::saveAdditionalData(void),__int64 __fastcall sub_2295(__int64 a1),0x2295
+_ZN5Level28requestTimedStorageDefermentEv,Level::requestTimedStorageDeferment(void),__int64 __fastcall sub_2EA49E4(__int64 a1),0x2EA49E4
+_ZN5Level17_checkUserStorageEv,Level::_checkUserStorage(void),__int64 __fastcall sub_2EA4C94(__int64 a1),0x2EA4C94
+_ZN5Level18getTickingAreasMgrEv,Level::getTickingAreasMgr(void),__int64 __fastcall sub_2EA4EA4(__int64 a1),0x2EA4EA4
+_ZNK5Level14getTickingAreaERKN3mce4UUIDE,Level::getTickingArea(mce::UUID const&),__int64 __fastcall sub_2EA4EAC(__int64 a1),0x2EA4EAC
+_ZN5Level11addParticleE12ParticleTypeRK4Vec3S3_iPK11CompoundTagb,"Level::addParticle(ParticleType,Vec3 const&,Vec3 const&,int,CompoundTag const*,bool)",__int64 __fastcall sub_2E9FE1C(__int64 a1),0x2E9FE1C
+_ZN5Level24sendServerLegacyParticleE12ParticleTypeRK4Vec3S3_i,"Level::sendServerLegacyParticle(ParticleType,Vec3 const&,Vec3 const&,int)",__int64 __fastcall sub_2E9FEC4(__int64 a1),0x2E9FEC4
+_ZN5Level9playSoundE15LevelSoundEventRK4Vec3iRK25ActorDefinitionIdentifierbb,"Level::playSound(LevelSoundEvent,Vec3 const&,int,ActorDefinitionIdentifier const&,bool,bool)",__int64 __fastcall sub_2E9F5B0(__int64 a1),0x2E9F5B0
+_ZN5Level9playSoundER11BlockSource15LevelSoundEventRK4Vec3iRK25ActorDefinitionIdentifierbb,"Level::playSound(BlockSource &,LevelSoundEvent,Vec3 const&,int,ActorDefinitionIdentifier const&,bool,bool)",__int64 __fastcall sub_2E9F4F0(__int64 a1),0x2E9F4F0
+_ZN5Level21playSynchronizedSoundER11BlockSource15LevelSoundEventRK4Vec3RK5BlockRK25ActorDefinitionIdentifierbb,"Level::playSynchronizedSound(BlockSource &,LevelSoundEvent,Vec3 const&,Block const&,ActorDefinitionIdentifier const&,bool,bool)",__int64 __fastcall sub_2E9F650(__int64 a1),0x2E9F650
+_ZN5Level21playSynchronizedSoundER11BlockSource15LevelSoundEventRK4Vec3iRK25ActorDefinitionIdentifierbb,"Level::playSynchronizedSound(BlockSource &,LevelSoundEvent,Vec3 const&,int,ActorDefinitionIdentifier const&,bool,bool)",__int64 __fastcall sub_2E9F6CC(__int64 a1),0x2E9F6CC
+_ZN5Level31setRemotePlayerEventCoordinatorEOSt10unique_ptrI22PlayerEventCoordinatorSt14default_deleteIS1_EE,Level::setRemotePlayerEventCoordinator(std::unique_ptr<PlayerEventCoordinator> &&),__int64 __fastcall sub_2EA368C(__int64 a1),0x2EA368C
+_ZN5Level31getRemotePlayerEventCoordinatorEv,Level::getRemotePlayerEventCoordinator(void),__int64 __fastcall sub_2EA36B4(__int64 a1),0x2EA36B4
+_ZN5Level31setServerPlayerEventCoordinatorEOSt10unique_ptrI28ServerPlayerEventCoordinatorSt14default_deleteIS1_EE,Level::setServerPlayerEventCoordinator(std::unique_ptr<ServerPlayerEventCoordinator> &&),__int64 __fastcall sub_2EA36BC(__int64 a1),0x2EA36BC
+_ZN5Level31getServerPlayerEventCoordinatorEv,Level::getServerPlayerEventCoordinator(void),__int64 __fastcall sub_2EA36E4(__int64 a1),0x2EA36E4
+_ZN5Level31setClientPlayerEventCoordinatorEOSt10unique_ptrI28ClientPlayerEventCoordinatorSt14default_deleteIS1_EE,Level::setClientPlayerEventCoordinator(std::unique_ptr<ClientPlayerEventCoordinator> &&),__int64 __fastcall sub_2EA36EC(__int64 a1),0x2EA36EC
+_ZN5Level31getClientPlayerEventCoordinatorEv,Level::getClientPlayerEventCoordinator(void),__int64 __fastcall sub_2EA3714(__int64 a1),0x2EA3714
+_ZN5Level24setActorEventCoordinatorEOSt10unique_ptrI21ActorEventCoordinatorSt14default_deleteIS1_EE,Level::setActorEventCoordinator(std::unique_ptr<ActorEventCoordinator> &&),__int64 __fastcall sub_2EA371C(__int64 a1),0x2EA371C
+_ZN5Level24getActorEventCoordinatorEv,Level::getActorEventCoordinator(void),__int64 __fastcall sub_2EA3744(__int64 a1),0x2EA3744
+_ZN5Level24setBlockEventCoordinatorEOSt10unique_ptrI21BlockEventCoordinatorSt14default_deleteIS1_EE,Level::setBlockEventCoordinator(std::unique_ptr<BlockEventCoordinator> &&),__int64 __fastcall sub_2EA374C(__int64 a1),0x2EA374C
+_ZN5Level24getBlockEventCoordinatorEv,Level::getBlockEventCoordinator(void),__int64 __fastcall sub_2EA3774(__int64 a1),0x2EA3774
+_ZN5Level23setItemEventCoordinatorEOSt10unique_ptrI20ItemEventCoordinatorSt14default_deleteIS1_EE,Level::setItemEventCoordinator(std::unique_ptr<ItemEventCoordinator> &&),__int64 __fastcall sub_2EA3784(__int64 a1),0x2EA3784
+_ZN5Level23getItemEventCoordinatorEv,Level::getItemEventCoordinator(void),__int64 __fastcall sub_2EA37AC(__int64 a1),0x2EA37AC
+_ZN5Level24getLevelEventCoordinatorEv,Level::getLevelEventCoordinator(void),__int64 __fastcall sub_2EAA690(__int64 a1),0x2EAA690
+_ZN5Level16handleLevelEventE10LevelEventRK4Vec3i,"Level::handleLevelEvent(LevelEvent,Vec3 const&,int)",__int64 __fastcall sub_2E9FB44(__int64 a1),0x2E9FB44
+_ZN5Level16handleLevelEventE10LevelEventRK11CompoundTag,"Level::handleLevelEvent(LevelEvent,CompoundTag const&)",__int64 __fastcall sub_2E9FBC4(__int64 a1),0x2E9FBC4
+_ZN5Level16handleSoundEventE15LevelSoundEventRK4Vec3iRK25ActorDefinitionIdentifierbb,"Level::handleSoundEvent(LevelSoundEvent,Vec3 const&,int,ActorDefinitionIdentifier const&,bool,bool)",__int64 __fastcall sub_2E9FC34(__int64 a1),0x2E9FC34
+_ZN5Level16handleSoundEventERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERK4Vec3ff,"Level::handleSoundEvent(std::string const&,Vec3 const&,float,float)",__int64 __fastcall sub_2E9FCD4(__int64 a1),0x2E9FCD4
+_ZN5Level20handleStopSoundEventERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::handleStopSoundEvent(std::string const&),__int64 __fastcall sub_2E9FD5C(__int64 a1),0x2E9FD5C
+_ZN5Level19handleStopAllSoundsEv,Level::handleStopAllSounds(void),__int64 __fastcall sub_2E9FDC4(__int64 a1),0x2E9FDC4
+_ZN5Level19broadcastLevelEventE10LevelEventRK4Vec3iP6Player,"Level::broadcastLevelEvent(LevelEvent,Vec3 const&,int,Player *)",__int64 __fastcall sub_2E9F2F4(__int64 a1),0x2E9F2F4
+_ZN5Level19broadcastLevelEventE10LevelEventRK11CompoundTagP6Player,"Level::broadcastLevelEvent(LevelEvent,CompoundTag const&,Player *)",__int64 __fastcall sub_7F0C3D0(__int64 a1),0x7F0C3D0
+_ZN5Level19broadcastLocalEventER11BlockSource10LevelEventRK4Vec3i,"Level::broadcastLocalEvent(BlockSource &,LevelEvent,Vec3 const&,int)",__int64 __fastcall sub_2E9FA34(__int64 a1),0x2E9FA34
+_ZN5Level19broadcastLocalEventER11BlockSource10LevelEventRK4Vec3RK5Block,"Level::broadcastLocalEvent(BlockSource &,LevelEvent,Vec3 const&,Block const&)",__int64 __fastcall sub_7F0C3E0(__int64 a1),0x7F0C3E0
+_ZN5Level19broadcastSoundEventER11BlockSource15LevelSoundEventRK4Vec3RK5BlockRK25ActorDefinitionIdentifierbb,"Level::broadcastSoundEvent(BlockSource &,LevelSoundEvent,Vec3 const&,Block const&,ActorDefinitionIdentifier const&,bool,bool)",__int64 __fastcall sub_2E9F7F8(__int64 a1),0x2E9F7F8
+_ZN5Level19broadcastSoundEventER11BlockSource15LevelSoundEventRK4Vec3iRK25ActorDefinitionIdentifierbb,"Level::broadcastSoundEvent(BlockSource &,LevelSoundEvent,Vec3 const&,int,ActorDefinitionIdentifier const&,bool,bool)",__int64 __fastcall sub_2E9F874(__int64 a1),0x2E9F874
+_ZN5Level19broadcastActorEventER5Actor10ActorEventi,"Level::broadcastActorEvent(Actor &,ActorEvent,int)",__int64 __fastcall sub_2EA37B4(__int64 a1),0x2EA37B4
+_ZN5Level20addBossEventListenerEP17BossEventListener,Level::addBossEventListener(BossEventListener *),__int64 __fastcall sub_7F0C400(__int64 a1),0x7F0C400
+_ZN5Level23removeBossEventListenerEP17BossEventListener,Level::removeBossEventListener(BossEventListener *),__int64 __fastcall sub_2EA38B8(__int64 a1),0x2EA38B8
+_ZN5Level18broadcastBossEventE19BossEventUpdateTypeRK13ActorUniqueIDRK15BossEventPacket,"Level::broadcastBossEvent(BossEventUpdateType,ActorUniqueID const&,BossEventPacket const&)",__int64 __fastcall sub_2EA3944(__int64 a1),0x2EA3944
+_ZN5Level18broadcastBossEventE19BossEventUpdateType,Level::broadcastBossEvent(BossEventUpdateType),__int64 __fastcall sub_2EA39AC(__int64 a1),0x2EA39AC
+_ZN5Level26areBossEventListenersReadyEv,Level::areBossEventListenersReady(void),__int64 __fastcall sub_2EA39FC(__int64 a1),0x2EA39FC
+_ZN5Level19addChunkViewTrackerESt8weak_ptrI15ChunkViewSourceE,Level::addChunkViewTracker(std::weak_ptr<ChunkViewSource>),__int64 __fastcall sub_2EA3A10(__int64 a1),0x2EA3A10
+_ZN5Level22pruneChunkViewTrackersEv,Level::pruneChunkViewTrackers(void),__int64 __fastcall sub_2EA3A90(__int64 a1),0x2EA3A90
+_ZN5Level13onChunkReloadERK6Bounds,Level::onChunkReload(Bounds const&),__int64 __fastcall sub_2EA3B7C(__int64 a1),0x2EA3B7C
+_ZN5Level14getPlayerNamesB5cxx11Ev,Level::getPlayerNames(void),__int64 __fastcall sub_2EA4F80(__int64 a1),0x2EA4F80
+_ZNK5Level20getActivePlayerCountEv,Level::getActivePlayerCount(void),__int64 __fastcall sub_2EA5200(__int64 a1),0x2EA5200
+_ZN5Level13forEachPlayerESt8functionIFbR6PlayerEE,Level::forEachPlayer(std::function<bool ()(Player &)>),__int64 __fastcall sub_2EA6D84(__int64 a1),0x2EA6D84
+_ZNK5Level13forEachPlayerESt8functionIFbRK6PlayerEE,Level::forEachPlayer(std::function<bool ()(Player const&)>),__int64 __fastcall sub_2EA6DF0(__int64 a1),0x2EA6DF0
+_ZNK5Level10findPlayerESt8functionIFbRK6PlayerEE,Level::findPlayer(std::function<bool ()(Player const&)>),__int64 __fastcall sub_2EA6E5C(__int64 a1),0x2EA6E5C
+_ZNK5Level12getUserCountEv,Level::getUserCount(void),__int64 __fastcall sub_2EA6EC0(__int64 a1),0x2EA6EC0
+_ZN5Level8getUsersEv,Level::getUsers(void),__int64 __fastcall sub_2EA6ED0(__int64 a1),0x2EA6ED0
+_ZNK5Level8getUsersEv,Level::getUsers(void),__int64 __fastcall sub_2EA6ED8(__int64 a1),0x2EA6ED8
+_ZN5Level13onChunkLoadedER11ChunkSourceR10LevelChunk,"Level::onChunkLoaded(ChunkSource &,LevelChunk &)",__int64 __fastcall sub_2EA65EC(__int64 a1),0x2EA65EC
+_ZN5Level16onChunkDiscardedER10LevelChunk,Level::onChunkDiscarded(LevelChunk &),__int64 __fastcall sub_2EA6B44(__int64 a1),0x2EA6B44
+_ZN5Level18queueEntityRemovalEOSt10unique_ptrI5ActorSt14default_deleteIS1_EEb,"Level::queueEntityRemoval(std::unique_ptr<Actor> &&,bool)",__int64 __fastcall sub_2EA1884(__int64 a1),0x2EA1884
+_ZN5Level22removeEntityReferencesER5Actorb,"Level::removeEntityReferences(Actor &,bool)",__int64 __fastcall sub_2EA1458(__int64 a1),0x2EA1458
+_ZN5Level17forceRemoveEntityER5Actor,Level::forceRemoveEntity(Actor &),__int64 __fastcall sub_2EA1730(__int64 a1),0x2EA1730
+_ZN5Level24forceFlushRemovedPlayersEv,Level::forceFlushRemovedPlayers(void),__int64 __fastcall sub_2EA1810(__int64 a1),0x2EA1810
+_ZN5Level19loadFunctionManagerEv,Level::loadFunctionManager(void),__int64 __fastcall sub_2294(__int64 a1),0x2294
+_ZN5Level30levelCleanupQueueEntityRemovalEOSt10unique_ptrI5ActorSt14default_deleteIS1_EEb,"Level::levelCleanupQueueEntityRemoval(std::unique_ptr<Actor> &&,bool)",__int64 __fastcall sub_2EA1818(__int64 a1),0x2EA1818
+_ZN5Level24registerTemporaryPointerER8_TickPtr,Level::registerTemporaryPointer(_TickPtr &),__int64 __fastcall sub_2EA1894(__int64 a1),0x2EA1894
+_ZN5Level26unregisterTemporaryPointerER8_TickPtr,Level::unregisterTemporaryPointer(_TickPtr &),__int64 __fastcall sub_2EA18EC(__int64 a1),0x2EA18EC
+_ZN5Level12destroyBlockER11BlockSourceRK8BlockPosb,"Level::destroyBlock(BlockSource &,BlockPos const&,bool)",__int64 __fastcall sub_2EA7178(__int64 a1),0x2EA7178
+_ZN5Level21upgradeStorageVersionE14StorageVersion,Level::upgradeStorageVersion(StorageVersion),__int64 __fastcall sub_2EA7E78(__int64 a1),0x2EA7E78
+_ZN5Level14suspendAndSaveEv,Level::suspendAndSave(void),__int64 __fastcall sub_2EA7F3C(__int64 a1),0x2EA7F3C
+_ZN5Level20waitAsyncSuspendWorkEv,Level::waitAsyncSuspendWork(void),__int64 __fastcall sub_2EA7FA8(__int64 a1),0x2EA7FA8
+_ZN5Level14_destroyEffectERK8BlockPosRK5Blocki,"Level::_destroyEffect(BlockPos const&,Block const&,int)",__int64 __fastcall sub_2EA8004(__int64 a1),0x2EA8004
+_ZN5Level17addParticleEffectERK12HashedStringRK4Vec3RK17MolangVariableMap,"Level::addParticleEffect(HashedString const&,Vec3 const&,MolangVariableMap const&)",__int64 __fastcall sub_2EA8240(__int64 a1),0x2EA8240
+_ZN5Level17addParticleEffectERK12HashedStringRK5ActorS2_RK4Vec3RK17MolangVariableMap,"Level::addParticleEffect(HashedString const&,Actor const&,HashedString const&,Vec3 const&,MolangVariableMap const&)",__int64 __fastcall sub_2EA82B8(__int64 a1),0x2EA82B8
+_ZN5Level24addTerrainParticleEffectERK8BlockPosRK5BlockRK4Vec3fff,"Level::addTerrainParticleEffect(BlockPos const&,Block const&,Vec3 const&,float,float,float)",__int64 __fastcall sub_2EA8348(__int64 a1),0x2EA8348
+_ZN5Level21addTerrainSlideEffectERK8BlockPosRK5BlockRK4Vec3fff,"Level::addTerrainSlideEffect(BlockPos const&,Block const&,Vec3 const&,float,float,float)",__int64 __fastcall sub_2EA83E8(__int64 a1),0x2EA83E8
+_ZN5Level29addBreakingItemParticleEffectERK4Vec312ParticleTypeRK22TextureUVCoordinateSetb,"Level::addBreakingItemParticleEffect(Vec3 const&,ParticleType,TextureUVCoordinateSet const&,bool)",__int64 __fastcall sub_2EA8488(__int64 a1),0x2EA8488
+_ZN5Level14getNewUniqueIDEv,Level::getNewUniqueID(void),__int64 __fastcall sub_2EA8678(__int64 a1),0x2EA8678
+_ZN5Level16getNextRuntimeIDEv,Level::getNextRuntimeID(void),__int64 __fastcall sub_2EA868C(__int64 a1),0x2EA868C
+_ZNK5Level17getTickingOffsetsEv,Level::getTickingOffsets(void),__int64 __fastcall sub_1E56E0C(__int64 a1),0x1E56E0C
+_ZNK5Level23getClientTickingOffsetsEv,Level::getClientTickingOffsets(void),__int64 __fastcall sub_1E56E14(__int64 a1),0x1E56E14
+_ZNK5Level11isExportingEv,Level::isExporting(void),__int64 __fastcall sub_2EA86A0(__int64 a1),0x2EA86A0
+_ZN5Level14setIsExportingEb,Level::setIsExporting(bool),__int64 __fastcall sub_2EA86AC(__int64 a1),0x2EA86AC
+_ZNK5Level12getSavedDataEv,Level::getSavedData(void),__int64 __fastcall sub_2EA86BC(__int64 a1),0x2EA86BC
+_ZN5Level15getMapSavedDataE13ActorUniqueID,Level::getMapSavedData(ActorUniqueID),__int64 __fastcall sub_2EA8E18(__int64 a1),0x2EA8E18
+_ZN5Level15getMapSavedDataERK11CompoundTag,Level::getMapSavedData(CompoundTag const&),__int64 __fastcall sub_2EA91B4(__int64 a1),0x2EA91B4
+_ZN5Level15getMapSavedDataEPK11CompoundTag,Level::getMapSavedData(CompoundTag const*),__int64 __fastcall sub_2EA91E8(__int64 a1),0x2EA91E8
+_ZN5Level14requestMapInfoE13ActorUniqueIDb,"Level::requestMapInfo(ActorUniqueID,bool)",__int64 __fastcall sub_2EA921C(__int64 a1),0x2EA921C
+_ZN5Level13expandMapByIDE13ActorUniqueIDb,"Level::expandMapByID(ActorUniqueID,bool)",__int64 __fastcall sub_7F0C578(__int64 a1),0x7F0C578
+_ZN5Level14copyAndLockMapE13ActorUniqueIDS0_,"Level::copyAndLockMap(ActorUniqueID,ActorUniqueID)",__int64 __fastcall sub_2EA99A8(__int64 a1),0x2EA99A8
+_ZN5Level18createMapSavedDataERK13ActorUniqueIDRK8BlockPos11AutomaticIDI9DimensioniEi,"Level::createMapSavedData(ActorUniqueID const&,BlockPos const&,AutomaticID<Dimension,int>,int)",__int64 __fastcall sub_7F0C588(__int64 a1),0x7F0C588
+_ZN5Level18createMapSavedDataERKSt6vectorI13ActorUniqueIDSaIS1_EERK8BlockPos11AutomaticIDI9DimensioniEi,"Level::createMapSavedData(std::vector<ActorUniqueID> const&,BlockPos const&,AutomaticID<Dimension,int>,int)",__int64 __fastcall sub_2EA97EC(__int64 a1),0x2EA97EC
+_ZNK5Level20getScreenshotsFolderB5cxx11Ev,Level::getScreenshotsFolder(void),__int64 __fastcall sub_2EA86C4(__int64 a1),0x2EA86C4
+_ZNK5Level10getLevelIdB5cxx11Ev,Level::getLevelId(void),__int64 __fastcall sub_2EA8D20(__int64 a1),0x2EA8D20
+_ZN5Level10setLevelIdENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::setLevelId(std::string),__int64 __fastcall sub_2EA8D30(__int64 a1),0x2EA8D30
+_ZN5Level17getSyncTasksGroupEv,Level::getSyncTasksGroup(void),__int64 __fastcall sub_1E56E1C(__int64 a1),0x1E56E1C
+_ZN5Level15getIOTasksGroupEv,Level::getIOTasksGroup(void),__int64 __fastcall sub_1E56E24(__int64 a1),0x1E56E24
+_ZNK5Level28getClientResourcePackManagerEv,Level::getClientResourcePackManager(void),__int64 __fastcall sub_2EA8DA8(__int64 a1),0x2EA8DA8
+_ZNK5Level28getServerResourcePackManagerEv,Level::getServerResourcePackManager(void),__int64 __fastcall sub_2EA8DB0(__int64 a1),0x2EA8DB0
+_ZN5Level14getTradeTablesEv,Level::getTradeTables(void),__int64 __fastcall sub_2EB6CB4(__int64 a1),0x2EB6CB4
+_ZN5Level18addEntryToTagCacheERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::addEntryToTagCache(std::string const&),__int64 __fastcall sub_2298(__int64 a1),0x2298
+_ZN5Level20addEntriesToTagCacheESt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS6_EE,Level::addEntriesToTagCache(std::vector<std::string>),__int64 __fastcall sub_2299(__int64 a1),0x2299
+_ZN5Level21dropEntryFromTagCacheERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,Level::dropEntryFromTagCache(std::string const&),__int64 __fastcall sub_2300(__int64 a1),0x2300
+_ZN5Level13clearTagCacheEv,Level::clearTagCache(void),__int64 __fastcall sub_2301(__int64 a1),0x2301
+_ZN5Level17decrementTagCacheERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER11TagRegistryI6IDTypeI14LevelTagIDTypeES9_I17LevelTagSetIDTypeEE,"Level::decrementTagCache(std::string const&,TagRegistry<IDType<LevelTagIDType>,IDType<LevelTagSetIDType>> &)",__int64 __fastcall sub_2302(__int64 a1),0x2302
+_ZN5Level17incrementTagCacheERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEER11TagRegistryI6IDTypeI14LevelTagIDTypeES9_I17LevelTagSetIDTypeEE,"Level::incrementTagCache(std::string const&,TagRegistry<IDType<LevelTagIDType>,IDType<LevelTagSetIDType>> &)",__int64 __fastcall sub_2303(__int64 a1),0x2303
+_ZNK5Level5isEduEv,Level::isEdu(void),__int64 __fastcall sub_2EA8D6C(__int64 a1),0x2EA8D6C
+_ZN5Level15getActorFactoryEv,Level::getActorFactory(void),__int64 __fastcall sub_2EA8D88(__int64 a1),0x2EA8D88
+_ZNK5Level15getActorFactoryEv,Level::getActorFactory(void),__int64 __fastcall sub_2EA8D94(__int64 a1),0x2EA8D94
+_ZN5Level20getActorInfoRegistryEv,Level::getActorInfoRegistry(void),__int64 __fastcall sub_1E56E2C(__int64 a1),0x1E56E2C
+_ZN5Level22getEntityRegistryOwnerEv,Level::getEntityRegistryOwner(void),__int64 __fastcall sub_1E56E34(__int64 a1),0x1E56E34
+_ZN5Level16getEntitySystemsEv,Level::getEntitySystems(void),__int64 __fastcall sub_1E56E3C(__int64 a1),0x1E56E3C
+_ZN5Level27_clientHandleAddOwnedEntityE11EntityNetId,Level::_clientHandleAddOwnedEntity(EntityNetId),__int64 __fastcall sub_2EA20FC(__int64 a1),0x2EA20FC
+_ZN5Level29_clientHandleAddWeakRefEntityE11EntityNetIdRK8WeakRefTI15EntityRefTraitsE,"Level::_clientHandleAddWeakRefEntity(EntityNetId,WeakRefT<EntityRefTraits> const&)",__int64 __fastcall sub_2EA2270(__int64 a1),0x2EA2270
+_ZN5Level30_clientHandleRemoveOwnedEntityE11EntityNetId,Level::_clientHandleRemoveOwnedEntity(EntityNetId),__int64 __fastcall sub_7F0C648(__int64 a1),0x7F0C648
+_ZN5Level32_clientHandleRemoveWeakRefEntityE11EntityNetId,Level::_clientHandleRemoveWeakRefEntity(EntityNetId),__int64 __fastcall sub_2EA241C(__int64 a1),0x2EA241C
+_ZN5Level10runCommandERK12HashedStringR13CommandOrigin19CommandOriginSystem17CurrentCmdVersion,"Level::runCommand(HashedString const&,CommandOrigin &,CommandOriginSystem,CurrentCmdVersion)",__int64 __fastcall sub_2296(__int64 a1),0x2296
+_ZN5Level10runCommandER7CommandR13CommandOrigin19CommandOriginSystem,"Level::runCommand(Command &,CommandOrigin &,CommandOriginSystem)",__int64 __fastcall sub_2297(__int64 a1),0x2297
+_ZN5Level14getTagRegistryEv,Level::getTagRegistry(void),__int64 __fastcall sub_2EAA368(__int64 a1),0x2EAA368
+_ZNK5Level25getPlayerMovementSettingsEv,Level::getPlayerMovementSettings(void),__int64 __fastcall sub_2EAA4D4(__int64 a1),0x2EAA4D4
+_ZN5Level25setPlayerMovementSettingsERK22PlayerMovementSettings,Level::setPlayerMovementSettings(PlayerMovementSettings const&),__int64 __fastcall sub_2EAA4EC(__int64 a1),0x2EAA4EC
+_ZNK5Level10canUseSkinERK14SerializedSkinRK17NetworkIdentifierRKN3mce4UUIDERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE,"Level::canUseSkin(SerializedSkin const&,NetworkIdentifier const&,mce::UUID const&,std::string const&)",__int64 __fastcall sub_2EAA688(__int64 a1),0x2EAA688
+_ZNK5Level26getPositionTrackerDBClientEv,Level::getPositionTrackerDBClient(void),__int64 __fastcall sub_2EAA554(__int64 a1),0x2EAA554
+_ZNK5Level26getPositionTrackerDBServerEv,Level::getPositionTrackerDBServer(void),__int64 __fastcall sub_2EB6CBC(__int64 a1),0x2EB6CBC
+_ZN5Level20flushRunTimeLightingEv,Level::flushRunTimeLighting(void),__int64 __fastcall sub_2EAA55C(__int64 a1),0x2EAA55C
+_ZN5Level24loadBlockDefinitionGroupERK11Experiments,Level::loadBlockDefinitionGroup(Experiments const&),__int64 __fastcall sub_2EAA58C(__int64 a1),0x2EAA58C
+_ZN5Level30initializeBlockDefinitionGroupEv,Level::initializeBlockDefinitionGroup(void),__int64 __fastcall sub_2EAA618(__int64 a1),0x2EAA618
+_ZN5Level27getUnknownBlockTypeRegistryEv,Level::getUnknownBlockTypeRegistry(void),__int64 __fastcall sub_2EAA65C(__int64 a1),0x2EAA65C
+__cxa_pure_virtual,__cxa_pure_virtual,__int64 __fastcall sub_7F0C6B8(__int64 a1),0x7F0C6B8
+_ZNK5Level12isClientSideEv,Level::isClientSide(void),__int64 __fastcall sub_2EA74C4(__int64 a1),0x2EA74C4
+_ZN5Level13getPlayerListEv,Level::getPlayerList(void),__int64 __fastcall sub_2EA74D0(__int64 a1),0x2EA74D0
+_ZNK5Level13getPlayerListEv,Level::getPlayerList(void),__int64 __fastcall sub_2EA74D8(__int64 a1),0x2EA74D8
+_ZNK5Level13getPlayerXUIDB5cxx11ERKN3mce4UUIDE,Level::getPlayerXUID(mce::UUID const&),__int64 __fastcall sub_2EA74E0(__int64 a1),0x2EA74E0
+_ZNK5Level25getPlayerPlatformOnlineIdB5cxx11ERKN3mce4UUIDE,Level::getPlayerPlatformOnlineId(mce::UUID const&),__int64 __fastcall sub_2EA75C8(__int64 a1),0x2EA75C8
+_ZNK5Level16getActivePlayersEv,Level::getActivePlayers(void),__int64 __fastcall sub_1E56E48(__int64 a1),0x1E56E48
+_ZN5Level17getGlobalEntitiesEv,Level::getGlobalEntities(void),__int64 __fastcall sub_2EA76B0(__int64 a1),0x2EA76B0
+_ZN5Level21getAutonomousEntitiesEv,Level::getAutonomousEntities(void),__int64 __fastcall sub_2EA76BC(__int64 a1),0x2EA76BC
+_ZNK5Level19getRuntimeActorListEv,Level::getRuntimeActorList(void),__int64 __fastcall sub_2EA7934(__int64 a1),0x2EA7934
+_ZNK5Level25getAutonomousActiveEntityE13ActorUniqueID,Level::getAutonomousActiveEntity(ActorUniqueID),__int64 __fastcall sub_2EA76C8(__int64 a1),0x2EA76C8
+_ZNK5Level27getAutonomousInactiveEntityE13ActorUniqueID,Level::getAutonomousInactiveEntity(ActorUniqueID),__int64 __fastcall sub_2EA7720(__int64 a1),0x2EA7720
+_ZNK5Level19getAutonomousEntityE13ActorUniqueID,Level::getAutonomousEntity(ActorUniqueID),__int64 __fastcall sub_2EA7784(__int64 a1),0x2EA7784
+_ZN5Level27getAutonomousLoadedEntitiesEv,Level::getAutonomousLoadedEntities(void),__int64 __fastcall sub_2EA7928(__int64 a1),0x2EA7928
+_ZN5Level22removeAutonomousEntityER5ActorP10LevelChunk,"Level::removeAutonomousEntity(Actor &,LevelChunk *)",__int64 __fastcall sub_2EA77D0(__int64 a1),0x2EA77D0
+_ZNK5Level15getPacketSenderEv,Level::getPacketSender(void),__int64 __fastcall sub_2EA7A04(__int64 a1),0x2EA7A04
+_ZN5Level15setPacketSenderEP12PacketSender,Level::setPacketSender(PacketSender *),__int64 __fastcall sub_2EA7A0C(__int64 a1),0x2EA7A0C
+_ZNK5Level19getNetEventCallbackEv,Level::getNetEventCallback(void),__int64 __fastcall sub_2EA7A2C(__int64 a1),0x2EA7A2C
+_ZN5Level19setNetEventCallbackEP16NetEventCallback,Level::setNetEventCallback(NetEventCallback *),__int64 __fastcall sub_2EA7A34(__int64 a1),0x2EA7A34
+_ZNK5Level9getRandomEv,Level::getRandom(void),__int64 __fastcall sub_2EA7A3C(__int64 a1),0x2EA7A3C
+_ZN5Level12getHitResultEv,Level::getHitResult(void),__int64 __fastcall sub_2EA7A44(__int64 a1),0x2EA7A44
+_ZN5Level18getLiquidHitResultEv,Level::getLiquidHitResult(void),__int64 __fastcall sub_2EA7A4C(__int64 a1),0x2EA7A4C
+_ZN5Level20getAdventureSettingsEv,Level::getAdventureSettings(void),__int64 __fastcall sub_2EA7A54(__int64 a1),0x2EA7A54
+_ZNK5Level12getGameRulesEv,Level::getGameRules(void),__int64 __fastcall sub_2EA7A6C(__int64 a1),0x2EA7A6C
+_ZN5Level12getGameRulesEv,Level::getGameRules(void),__int64 __fastcall sub_2EA7A84(__int64 a1),0x2EA7A84
+_ZNK5Level22hasStartWithMapEnabledEv,Level::hasStartWithMapEnabled(void),__int64 __fastcall sub_2EA7AB4(__int64 a1),0x2EA7AB4
+_ZN5Level19getDefaultAbilitiesEv,Level::getDefaultAbilities(void),__int64 __fastcall sub_2EA7A9C(__int64 a1),0x2EA7A9C
+_ZNK5Level14getTearingDownEv,Level::getTearingDown(void),__int64 __fastcall sub_2EA7ACC(__int64 a1),0x2EA7ACC
+_ZN5Level11takePictureERN2cg11ImageBufferEP5ActorS4_R17ScreenshotOptions,"Level::takePicture(cg::ImageBuffer &,Actor *,Actor *,ScreenshotOptions &)",__int64 __fastcall sub_2EA7E0C(__int64 a1),0x2EA7E0C
+_ZNK5Level14getSoundPlayerEv,Level::getSoundPlayer(void),__int64 __fastcall sub_1E56E50(__int64 a1),0x1E56E50
+_ZN5Level12setSimPausedEb,Level::setSimPaused(bool),__int64 __fastcall sub_1E56EEC(__int64 a1),0x1E56EEC
+_ZN5Level12getSimPausedEv,Level::getSimPaused(void),__int64 __fastcall sub_1E56EFC(__int64 a1),0x1E56EFC
+_ZN5Level23setFinishedInitializingEv,Level::setFinishedInitializing(void),__int64 __fastcall sub_2EA7AD8(__int64 a1),0x2EA7AD8
+_ZN5Level13getLootTablesEv,Level::getLootTables(void),__int64 __fastcall sub_2EA7B18(__int64 a1),0x2EA7B18
+_ZN5Level13updateWeatherEfifi,"Level::updateWeather(float,int,float,int)",__int64 __fastcall sub_2EA7B24(__int64 a1),0x2EA7B24
+_ZNK5Level14getNetherScaleEv,Level::getNetherScale(void),__int64 __fastcall sub_2EA9D08(__int64 a1),0x2EA9D08
+_ZN5Level13getScoreboardEv,Level::getScoreboard(void),__int64 __fastcall sub_2EA7B10(__int64 a1),0x2EA7B10
+_ZN5Level18getPlayerAbilitiesERK13ActorUniqueID,Level::getPlayerAbilities(ActorUniqueID const&),__int64 __fastcall sub_2EA9D20(__int64 a1),0x2EA9D20
+_ZN5Level18setPlayerAbilitiesERK13ActorUniqueID9Abilities,"Level::setPlayerAbilities(ActorUniqueID const&,Abilities)",__int64 __fastcall sub_2EA9E00(__int64 a1),0x2EA9E00
+_ZN5Level22sendAllPlayerAbilitiesERK6Player,Level::sendAllPlayerAbilities(Player const&),__int64 __fastcall sub_2EA9E70(__int64 a1),0x2EA9E70
+_ZN5Level27incrementSpawnableTickedMobEv,Level::incrementSpawnableTickedMob(void),__int64 __fastcall sub_7F0C7F8(__int64 a1),0x7F0C7F8
+_ZNK5Level34getSpawnableTickedMobCountPreviousEv,Level::getSpawnableTickedMobCountPrevious(void),__int64 __fastcall sub_2EA9F54(__int64 a1),0x2EA9F54
+_ZNK5Level10getRecipesEv,Level::getRecipes(void),__int64 __fastcall sub_2EAA1D4(__int64 a1),0x2EAA1D4
+_ZN5Level27digestServerBlockPropertiesERK15StartGamePacketj,"Level::digestServerBlockProperties(StartGamePacket const&,uint)",__int64 __fastcall sub_2EAA1E4(__int64 a1),0x2EAA1E4
+_ZN5Level26digestServerItemComponentsERK19ItemComponentPacket,Level::digestServerItemComponents(ItemComponentPacket const&),__int64 __fastcall sub_2EAA1DC(__int64 a1),0x2EAA1DC
+_ZNK5Level24getRegisteredBorderBlockEv,Level::getRegisteredBorderBlock(void),__int64 __fastcall sub_1E56F08(__int64 a1),0x1E56F08
+_ZN5Level7asLevelEv,Level::asLevel(void),__int64 __fastcall sub_619(__int64 a1),0x619
+_ZN6ILevel18asMultiPlayerLevelEv,ILevel::asMultiPlayerLevel(void),__int64 __fastcall sub_1E56F2C(__int64 a1),0x1E56F2C
+_ZN5Level15onSourceCreatedER11BlockSource,Level::onSourceCreated(BlockSource &),__int64 __fastcall sub_2EA6114(__int64 a1),0x2EA6114
+_ZN5Level17onSourceDestroyedER11BlockSource,Level::onSourceDestroyed(BlockSource &),__int64 __fastcall sub_2EA6314(__int64 a1),0x2EA6314
