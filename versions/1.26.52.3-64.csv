@@ -1,0 +1,100 @@
+mangled,demangled,address
+_ZN4AABBC1Effffff,"AABB::AABB(float, float, float, float, float, float)",0x1153ACFC
+_ZNK4AABB9getCenterEv,"AABB::getCenter() const",0x1153C05C
+_ZNK4AABB10intersectsERKS_,"AABB::intersects(AABB const&) const",0x1153B664
+_ZN9Abilities21_initDefaultAbilitiesEv,"Abilities::_initDefaultAbilities()",0xF9D5D7C
+_ZNK9Abilities7getBoolE14AbilitiesIndex,"Abilities::getBool(AbilitiesIndex) const",0xF9D7834
+_ZN9Abilities10getDefaultE14AbilitiesIndex,"Abilities::getDefault(AbilitiesIndex)",0xF9D651C
+_ZNK9Abilities8getFloatE14AbilitiesIndex,"Abilities::getFloat(AbilitiesIndex) const",0xF9D77FC
+_ZNK9Abilities15isAnyAbilitySetEv,"Abilities::isAnyAbilitySet() const",0xF9D7728
+_ZN9Abilities18nameToAbilityIndexERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE,"Abilities::nameToAbilityIndex(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&)",0xF9D7880
+_ZN9Abilities10setAbilityE14AbilitiesIndexb,"Abilities::setAbility(AbilitiesIndex, bool)",0xF9D72D0
+_ZN9Abilities14setAbilityDiffE14AbilitiesIndexbRb,"Abilities::setAbilityDiff(AbilitiesIndex, bool, bool&)",0xF9D76BC
+_ZN9Abilities5unSetE14AbilitiesIndex,"Abilities::unSet(AbilitiesIndex)",0xF9D77D0
+_ZN7AbilityC1Ev,"Ability::Ability()",0xF9D5E9C
+_ZN7AbilityC1EbNS_7OptionsE,"Ability::Ability(bool, Ability::Options)",0xF9D5EAC
+_ZNK7Ability7getBoolEv,"Ability::getBool() const",0xF9D5F6C
+_ZNK7Ability8getFloatEv,"Ability::getFloat() const",0xF9D5FA4
+_ZNK7AbilityneERKS_,"Ability::operator!=(Ability const&) const",0xF9D5EC0
+_ZN7Ability7setBoolEb,"Ability::setBool(bool)",0xF9D5F84
+_ZN7Ability8setFloatEf,"Ability::setFloat(float)",0xF9D5FBC
+_ZN5Actor22_initializeMaxAutoStepEf,"Actor::_initializeMaxAutoStep(float)",0xF58955C
+_ZN5Actor11_setPosPrevERK4Vec3,"Actor::_setPosPrev(Vec3 const&)",0xF564358
+_ZNK5Actor7getAABBEv,"Actor::getAABB() const",0xF568A84
+_ZNK5Actor10getAABBDimEv,"Actor::getAABBDim() const",0xF56A510
+_ZNK5Actor23getDimensionBlockSourceEv,"Actor::getDimensionBlockSource() const",0xF560600
+_ZNK5Actor15getEntityTypeIdEv,"Actor::getEntityTypeId() const",0xF56652C
+_ZNK5Actor9getHealthEv,"Actor::getHealth() const",0xF573FC4
+_ZNK5Actor8getLevelEv,"Actor::getLevel() const",0xF55FC50
+_ZNK5Actor14getMaxAutoStepEv,"Actor::getMaxAutoStep() const",0xF589490
+_ZNK5Actor12getMaxHealthEv,"Actor::getMaxHealth() const",0xF58A7F0
+_ZNK5Actor10getNameTagEv,"Actor::getNameTag() const",0xF57E528
+_ZN5Actor19getPosDeltaNonConstEv,"Actor::getPosDeltaNonConst()",0xF56B054
+_ZNK5Actor11getPositionEv,"Actor::getPosition() const",0xF564370
+_ZNK5Actor11getRotationEv,"Actor::getRotation() const",0xF564388
+_ZNK5Actor11getYHeadRotEv,"Actor::getYHeadRot() const",0xF58E3B4
+_ZNK5Actor23getYHeadRotationsNewOldEv,"Actor::getYHeadRotationsNewOld() const",0xF58E5F8
+_ZNK5Actor10intersectsERK4Vec3S2_,"Actor::intersects(Vec3 const&, Vec3 const&) const",0xF57873C
+_ZNK5Actor20isAttackableGamemodeEv,"Actor::isAttackableGamemode() const",0xF58E9D4
+_ZNK5Actor10isClimbingEv,"Actor::isClimbing() const",0xF5763B4
+_ZNK5Actor11isInvisibleEv,"Actor::isInvisible() const",0xF583434
+_ZNK5Actor6isTypeE9ActorType,"Actor::isType(ActorType) const",0xF566458
+_ZN5Actor10lerpMotionERK4Vec3,"Actor::lerpMotion(Vec3 const&)",0xF579220
+_ZN5Actor10setAABBDimERK4Vec2,"Actor::setAABBDim(Vec2 const&)",0xF56B060
+_ZN5Actor11setClimbingEb,"Actor::setClimbing(bool)",0xF5763C0
+_ZN5Actor12setInvisibleEb,"Actor::setInvisible(bool)",0xF58C818
+_ZN5Actor6setPosERK4Vec3,"Actor::setPos(Vec3 const&)",0xF56AF18
+_ZN5Actor11setPosDeltaERK4Vec3,"Actor::setPosDelta(Vec3 const&)",0xF56AFA8
+_ZN5Actor15setRotationPrevERK4Vec2,"Actor::setRotationPrev(Vec2 const&)",0xF564378
+_ZN5Actor16setRotationPrevXEf,"Actor::setRotationPrevX(float)",0xF56CC7C
+_ZN5Actor16setRotationPrevYEf,"Actor::setRotationPrevY(float)",0xF56CC88
+_ZN5Actor12setRotationXEf,"Actor::setRotationX(float)",0xF56CC64
+_ZN5Actor12setRotationYEf,"Actor::setRotationY(float)",0xF56CC70
+_ZN5Actor11setYHeadRotEf,"Actor::setYHeadRot(float)",0xF58E478
+_ZN5Actor17setYHeadRotationsEff,"Actor::setYHeadRotations(float, float)",0xF58E538
+_ZN5Actor10teleportToERK4Vec3biib,"Actor::teleportTo(Vec3 const&, bool, int, int, bool)",0xF5746BC
+_ZN14ActorAttribute9getHealthERK13EntityContext,"ActorAttribute::getHealth(EntityContext const&)",0xF9B5574
+_ZN14ActorAttribute12getMaxHealthERK13EntityContext,"ActorAttribute::getMaxHealth(EntityContext const&)",0xF9B565C
+_ZN14ActorCollision10isOnGroundERK13EntityContext,"ActorCollision::isOnGround(EntityContext const&)",0xF9B5F14
+_ZN13ActorMovement16setHasTeleportedER13EntityContextb,"ActorMovement::setHasTeleported(EntityContext&, bool)",0xF9B8C5C
+_ZN11ActorOffset15getHeightOffsetERK13EntityContext,"ActorOffset::getHeightOffset(EntityContext const&)",0xF9B93B8
+_ZN15ActorPermission19getUnmappedGameTypeERK13EntityContext,"ActorPermission::getUnmappedGameType(EntityContext const&)",0xF9BA104
+_ZN15ActorPermission19setUnmappedGameTypeER13EntityContext8GameType,"ActorPermission::setUnmappedGameType(EntityContext&, GameType)",0xF9BA048
+_ZN17ActorSetPosSystem11setPositionER13EntityContextRK4Vec3b,"ActorSetPosSystem::setPosition(EntityContext&, Vec3 const&, bool)",0xBC8FDD8
+_ZN20ActorValueValidation20validateVec3PositionERK4Vec3PKc,"ActorValueValidation::validateVec3Position(Vec3 const&, char const*)",0xF2FB390
+_ZNK16BaseAttributeMap11getInstanceERK9Attribute,"BaseAttributeMap::getInstance(Attribute const&) const",0xF9A6E28
+_ZN14ClientInstance4initEO27ClientInstanceInitArguments,"ClientInstance::init(ClientInstanceInitArguments&&)",0x97FD6F0
+_ZN14ClientInstance12preFrameTickEv,"ClientInstance::preFrameTick()",0x98033D4
+_ZN14ClientInstance4tickEv,"ClientInstance::tick()",0x98033D0
+_ZN13EntitySystems19_singleTickCategoryEN7Bedrock8typeid_tI14SystemCategoryEER13EntityContext,"EntitySystems::_singleTickCategory(Bedrock::typeid_t<SystemCategory>, EntityContext&)",0xBBD1E40
+_ZNK16LayeredAbilities10getAbilityE14AbilitiesIndex,"LayeredAbilities::getAbility(AbilitiesIndex) const",0xF9DBDBC
+_ZN16LayeredAbilities10getAbilityE14AbilitiesLayer14AbilitiesIndex,"LayeredAbilities::getAbility(AbilitiesLayer, AbilitiesIndex)",0xF9DCDBC
+_ZN16LayeredAbilities8getLayerE14AbilitiesLayer,"LayeredAbilities::getLayer(AbilitiesLayer)",0xF9D8224
+_ZNK16LayeredAbilities8getLayerE14AbilitiesLayer,"LayeredAbilities::getLayer(AbilitiesLayer) const",0xF9DC888
+_ZNK16LayeredAbilities10isOperatorEv,"LayeredAbilities::isOperator() const",0xF9DCEB0
+_ZN16LayeredAbilities10setAbilityE14AbilitiesIndexb,"LayeredAbilities::setAbility(AbilitiesIndex, bool)",0xF9DCE04
+_ZN16LayeredAbilities10setAbilityE14AbilitiesIndexf,"LayeredAbilities::setAbility(AbilitiesIndex, float)",0xF9DCE48
+_ZN5Level16getEntitySystemsEv,"Level::getEntitySystems()",0xFB35CBC
+_ZN11LocalPlayer10normalTickEv,"LocalPlayer::normalTick()",0xAAC7DD8
+_ZN11LocalPlayer5swingE16ActorSwingSource,"LocalPlayer::swing(ActorSwingSource)",0xAACA7AC
+_ZN11LocalPlayer10teleportToERK4Vec3biib,"LocalPlayer::teleportTo(Vec3 const&, bool, int, int, bool)",0xAACA734
+_ZN3mce4Math4ceilEf,"mce::Math::ceil(float)",0x1285D2CC
+_ZN3Mob14jumpFromGroundEv,"Mob::jumpFromGround()",0xF2866A0
+_ZN3Mob10teleportToERK4Vec3biib,"Mob::teleportTo(Vec3 const&, bool, int, int, bool)",0xF28DFA4
+_ZN7MobJump14getNoJumpDelayERK13EntityContext,"MobJump::getNoJumpDelay(EntityContext const&)",0xF9BBC88
+_ZN7MobJump14setNoJumpDelayER13EntityContexti,"MobJump::setNoJumpDelay(EntityContext&, int)",0xF9BBE34
+_ZN21NetworkChunkPublisher17resetInitialSpawnEv,"NetworkChunkPublisher::resetInitialSpawn()",0xED39B84
+_ZN6Player7canJumpEv,"Player::canJump()",0xFA00AB8
+_ZN6Player12getAbilitiesEv,"Player::getAbilities()",0xF9D8154
+_ZNK6Player8getSpeedEv,"Player::getSpeed() const",0xF9E32E8
+_ZN6Player26resetPublisherInitialSpawnEv,"Player::resetPublisherInitialSpawn()",0xFA01950
+_ZN6Player10teleportToERK4Vec3biib,"Player::teleportTo(Vec3 const&, bool, int, int, bool)",0xF9E2F08
+_ZN21PlayerGameTypeUtility11isAdventureE8GameTypeS0_,"PlayerGameTypeUtility::isAdventure(GameType, GameType)",0xC731F40
+_ZN21PlayerGameTypeUtility10isCreativeE8GameTypeS0_,"PlayerGameTypeUtility::isCreative(GameType, GameType)",0xC731ED8
+_ZN21PlayerGameTypeUtility11isSpectatorE8GameTypeS0_,"PlayerGameTypeUtility::isSpectator(GameType, GameType)",0xC731F24
+_ZN21PlayerGameTypeUtility10isSurvivalE8GameTypeS0_,"PlayerGameTypeUtility::isSurvival(GameType, GameType)",0xC731EF4
+_ZN20ScriptModuleGameTest21ScriptSimulatedPlayer4jumpER15SimulatedPlayer,"ScriptModuleGameTest::ScriptSimulatedPlayer::jump(SimulatedPlayer&)",0xE3B3D00
+_ZN15SimulatedPlayer12simulateJumpEv,"SimulatedPlayer::simulateJump()",0xEC526C8
+_ZN22SynchedActorDataAccess12getActorFlagERK13EntityContext10ActorFlags,"SynchedActorDataAccess::getActorFlag(EntityContext const&, ActorFlags)",0x11538B3C
+_ZN22SynchedActorDataAccess12setActorFlagER13EntityContext10ActorFlagsb,"SynchedActorDataAccess::setActorFlag(EntityContext&, ActorFlags, bool)",0x11538CB0
+_ZNK29SynchedActorDataEntityWrapper9getStringEt,"SynchedActorDataEntityWrapper::getString(unsigned short) const",0xF29FCFC
