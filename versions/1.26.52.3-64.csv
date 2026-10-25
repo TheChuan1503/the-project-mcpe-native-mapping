@@ -22,6 +22,7 @@ _ZN5Actor22_initializeMaxAutoStepEf,"Actor::_initializeMaxAutoStep(float)",0xF58
 _ZN5Actor11_setPosPrevERK4Vec3,"Actor::_setPosPrev(Vec3 const&)",0xF564358
 _ZNK5Actor7getAABBEv,"Actor::getAABB() const",0xF568A84
 _ZNK5Actor10getAABBDimEv,"Actor::getAABBDim() const",0xF56A510
+_ZN5Actor13getAttributesEv,"Actor::getAttributes()",0xF56481C
 _ZNK5Actor23getDimensionBlockSourceEv,"Actor::getDimensionBlockSource() const",0xF560600
 _ZNK5Actor15getEntityTypeIdEv,"Actor::getEntityTypeId() const",0xF56652C
 _ZNK5Actor9getHealthEv,"Actor::getHealth() const",0xF573FC4
@@ -32,11 +33,13 @@ _ZNK5Actor10getNameTagEv,"Actor::getNameTag() const",0xF57E528
 _ZN5Actor19getPosDeltaNonConstEv,"Actor::getPosDeltaNonConst()",0xF56B054
 _ZNK5Actor11getPositionEv,"Actor::getPosition() const",0xF564370
 _ZNK5Actor11getRotationEv,"Actor::getRotation() const",0xF564388
+_ZNK5Actor13getStatusFlagE10ActorFlags,"Actor::getStatusFlag(ActorFlags) const",0xF56A0C8
 _ZNK5Actor11getYHeadRotEv,"Actor::getYHeadRot() const",0xF58E3B4
 _ZNK5Actor23getYHeadRotationsNewOldEv,"Actor::getYHeadRotationsNewOld() const",0xF58E5F8
 _ZNK5Actor10intersectsERK4Vec3S2_,"Actor::intersects(Vec3 const&, Vec3 const&) const",0xF57873C
 _ZNK5Actor20isAttackableGamemodeEv,"Actor::isAttackableGamemode() const",0xF58E9D4
 _ZNK5Actor10isClimbingEv,"Actor::isClimbing() const",0xF5763B4
+_ZNK5Actor10isCreativeEv,"Actor::isCreative() const",0xF58E894
 _ZNK5Actor11isInvisibleEv,"Actor::isInvisible() const",0xF583434
 _ZNK5Actor6isTypeE9ActorType,"Actor::isType(ActorType) const",0xF566458
 _ZN5Actor10lerpMotionERK4Vec3,"Actor::lerpMotion(Vec3 const&)",0xF579220
@@ -60,13 +63,38 @@ _ZN13ActorMovement16setHasTeleportedER13EntityContextb,"ActorMovement::setHasTel
 _ZN11ActorOffset15getHeightOffsetERK13EntityContext,"ActorOffset::getHeightOffset(EntityContext const&)",0xF9B93B8
 _ZN15ActorPermission19getUnmappedGameTypeERK13EntityContext,"ActorPermission::getUnmappedGameType(EntityContext const&)",0xF9BA104
 _ZN15ActorPermission19setUnmappedGameTypeER13EntityContext8GameType,"ActorPermission::setUnmappedGameType(EntityContext&, GameType)",0xF9BA048
+_ZNK21ActorRuntimeIDManager21getRuntimeActorEntityE14ActorRuntimeIDb,"ActorRuntimeIDManager::getRuntimeActorEntity(ActorRuntimeID, bool) const",0xFB82D64
+_ZNK21ActorRuntimeIDManager19getRuntimeActorListEv,"ActorRuntimeIDManager::getRuntimeActorList() const",0xFB8300C
 _ZN17ActorSetPosSystem11setPositionER13EntityContextRK4Vec3b,"ActorSetPosSystem::setPosition(EntityContext&, Vec3 const&, bool)",0xBC8FDD8
 _ZN20ActorValueValidation20validateVec3PositionERK4Vec3PKc,"ActorValueValidation::validateVec3Position(Vec3 const&, char const*)",0xF2FB390
 _ZNK16BaseAttributeMap11getInstanceERK9Attribute,"BaseAttributeMap::getInstance(Attribute const&) const",0xF9A6E28
 _ZN14ClientInstance4initEO27ClientInstanceInitArguments,"ClientInstance::init(ClientInstanceInitArguments&&)",0x97FD6F0
 _ZN14ClientInstance12preFrameTickEv,"ClientInstance::preFrameTick()",0x98033D4
 _ZN14ClientInstance4tickEv,"ClientInstance::tick()",0x98033D0
+_ZN10EDUSystems17onClientLevelExitEv,"EDUSystems::onClientLevelExit()",0x976B208
 _ZN13EntitySystems19_singleTickCategoryEN7Bedrock8typeid_tI14SystemCategoryEER13EntityContext,"EntitySystems::_singleTickCategory(Bedrock::typeid_t<SystemCategory>, EntityContext&)",0xBBD1E40
+_ZN8GameMode6attackER5Actor,"GameMode::attack(Actor&)",0xF89FA74
+_ZN8GameMode10buildBlockERK8BlockPoshb,"GameMode::buildBlock(BlockPos const&, unsigned char, bool)",0xF8A117C
+_ZN8GameMode18continueBuildBlockERK8BlockPosh,"GameMode::continueBuildBlock(BlockPos const&, unsigned char)",0xF8A16EC
+_ZN8GameMode20continueDestroyBlockERK8BlockPoshRK4Vec3Rb,"GameMode::continueDestroyBlock(BlockPos const&, unsigned char, Vec3 const&, bool&)",0xF8A073C
+_ZN8GameMode12destroyBlockERK8BlockPosh,"GameMode::destroyBlock(BlockPos const&, unsigned char)",0xF8A03AC
+_ZN8GameMode15getMaxPickRangeEv,"GameMode::getMaxPickRange()",0xF8A3560
+_ZN8GameMode18getMaxPickRangeSqrEv,"GameMode::getMaxPickRangeSqr()",0xF8A3590
+_ZN8GameMode12getPickRangeERK9InputMode,"GameMode::getPickRange(InputMode const&)",0xF8A34FC
+_ZN8GameMode8interactER5ActorRK4Vec3,"GameMode::interact(Actor&, Vec3 const&)",0xF89F57C
+_ZN8GameMode13isInTrialModeEv,"GameMode::isInTrialMode()",0xF8A38E8
+_ZN8GameMode28registerUpsellScreenCallbackENSt3__18functionIFvbEEE,"GameMode::registerUpsellScreenCallback(std::__1::function<void (bool)>)",0xF8A3924
+_ZN8GameMode16releaseUsingItemEv,"GameMode::releaseUsingItem()",0xF8A35C4
+_ZN8GameMode12setTrialModeEb,"GameMode::setTrialMode(bool)",0xF8A38E4
+_ZN8GameMode15startBuildBlockERK8BlockPosh,"GameMode::startBuildBlock(BlockPos const&, unsigned char)",0xF8A1168
+_ZN8GameMode17startDestroyBlockERK8BlockPoshRb,"GameMode::startDestroyBlock(BlockPos const&, unsigned char, bool&)",0xF89FE18
+_ZN8GameMode14stopBuildBlockEv,"GameMode::stopBuildBlock()",0xF8A1B98
+_ZN8GameMode16stopDestroyBlockERK8BlockPos,"GameMode::stopDestroyBlock(BlockPos const&)",0xF8A112C
+_ZN8GameMode4tickEv,"GameMode::tick()",0xF8A38F0
+_ZN8GameMode7useItemER9ItemStack,"GameMode::useItem(ItemStack&)",0xF8A2EB0
+_ZN8GameMode15useItemAsAttackER9ItemStackRK4Vec3,"GameMode::useItemAsAttack(ItemStack&, Vec3 const&)",0xF8A33EC
+_ZN8GameMode9useItemOnER9ItemStackRK8BlockPoshRK4Vec3PK5Blockb,"GameMode::useItemOn(ItemStack&, BlockPos const&, unsigned char, Vec3 const&, Block const*, bool)",0xF8A2084
+_ZN7GuiData20displayClientMessageERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEERKNS0_8optionalIS6_EEb,"GuiData::displayClientMessage(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, std::__1::optional<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>> const&, bool)",0x960FFEC
 _ZNK16LayeredAbilities10getAbilityE14AbilitiesIndex,"LayeredAbilities::getAbility(AbilitiesIndex) const",0xF9DBDBC
 _ZN16LayeredAbilities10getAbilityE14AbilitiesLayer14AbilitiesIndex,"LayeredAbilities::getAbility(AbilitiesLayer, AbilitiesIndex)",0xF9DCDBC
 _ZN16LayeredAbilities8getLayerE14AbilitiesLayer,"LayeredAbilities::getLayer(AbilitiesLayer)",0xF9D8224
@@ -74,12 +102,22 @@ _ZNK16LayeredAbilities8getLayerE14AbilitiesLayer,"LayeredAbilities::getLayer(Abi
 _ZNK16LayeredAbilities10isOperatorEv,"LayeredAbilities::isOperator() const",0xF9DCEB0
 _ZN16LayeredAbilities10setAbilityE14AbilitiesIndexb,"LayeredAbilities::setAbility(AbilitiesIndex, bool)",0xF9DCE04
 _ZN16LayeredAbilities10setAbilityE14AbilitiesIndexf,"LayeredAbilities::setAbility(AbilitiesIndex, float)",0xF9DCE48
+_ZN10LessonInfo15clearLessonInfoEv,"LessonInfo::clearLessonInfo()",0x9FEB068
+_ZNK5Level14getActiveUsersEv,"Level::getActiveUsers() const",0xFB3A5D4
 _ZN5Level16getEntitySystemsEv,"Level::getEntitySystems()",0xFB35CBC
+_ZNK5Level19getRuntimeActorListEv,"Level::getRuntimeActorList() const",0xFB3A5EC
+_ZN11LocalPlayer20displayClientMessageERKNSt3__112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEENS0_8optionalIS6_EE,"LocalPlayer::displayClientMessage(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, std::__1::optional<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>>>)",0xAACC55C
 _ZN11LocalPlayer10normalTickEv,"LocalPlayer::normalTick()",0xAAC7DD8
+_ZN11LocalPlayer12setSprintingEb,"LocalPlayer::setSprinting(bool)",0xAACAA2C
 _ZN11LocalPlayer5swingE16ActorSwingSource,"LocalPlayer::swing(ActorSwingSource)",0xAACA7AC
 _ZN11LocalPlayer10teleportToERK4Vec3biib,"LocalPlayer::teleportTo(Vec3 const&, bool, int, int, bool)",0xAACA734
 _ZN3mce4Math4ceilEf,"mce::Math::ceil(float)",0x1285D2CC
+_ZN17MinecraftEventing28fireEventMultiplayerRoundEndEP6Playeri,"MinecraftEventing::fireEventMultiplayerRoundEnd(Player*, int)",0xB955800
+_ZN13MinecraftGame17onClientLevelExitER15IClientInstancej,"MinecraftGame::onClientLevelExit(IClientInstance&, unsigned int)",0x995759C
+_ZNK3Mob11isSprintingEv,"Mob::isSprinting() const",0xF2889A0
 _ZN3Mob14jumpFromGroundEv,"Mob::jumpFromGround()",0xF2866A0
+_ZN3Mob12setSprintingER16BaseAttributeMap22SynchedActorDataWriterb,"Mob::setSprinting(BaseAttributeMap&, SynchedActorDataWriter, bool)",0xF288494
+_ZN3Mob12setSprintingEb,"Mob::setSprinting(bool)",0xF28871C
 _ZN3Mob10teleportToERK4Vec3biib,"Mob::teleportTo(Vec3 const&, bool, int, int, bool)",0xF28DFA4
 _ZN7MobJump14getNoJumpDelayERK13EntityContext,"MobJump::getNoJumpDelay(EntityContext const&)",0xF9BBC88
 _ZN7MobJump14setNoJumpDelayER13EntityContexti,"MobJump::setNoJumpDelay(EntityContext&, int)",0xF9BBE34
@@ -95,6 +133,10 @@ _ZN21PlayerGameTypeUtility11isSpectatorE8GameTypeS0_,"PlayerGameTypeUtility::isS
 _ZN21PlayerGameTypeUtility10isSurvivalE8GameTypeS0_,"PlayerGameTypeUtility::isSurvival(GameType, GameType)",0xC731EF4
 _ZN20ScriptModuleGameTest21ScriptSimulatedPlayer4jumpER15SimulatedPlayer,"ScriptModuleGameTest::ScriptSimulatedPlayer::jump(SimulatedPlayer&)",0xE3B3D00
 _ZN15SimulatedPlayer12simulateJumpEv,"SimulatedPlayer::simulateJump()",0xEC526C8
+_ZN6Social25MultiplayerServiceManager23onAllClientsExitedLevelEj,"Social::MultiplayerServiceManager::onAllClientsExitedLevel(unsigned int)",0xADFBE44
+_ZN6Social25MultiplayerServiceManager11onExitLevelERNS_4UserE,"Social::MultiplayerServiceManager::onExitLevel(Social::User&)",0xADFBD58
+_ZN12SurvivalMode12destroyBlockERK8BlockPosh,"SurvivalMode::destroyBlock(BlockPos const&, unsigned char)",0xF8A4028
 _ZN22SynchedActorDataAccess12getActorFlagERK13EntityContext10ActorFlags,"SynchedActorDataAccess::getActorFlag(EntityContext const&, ActorFlags)",0x11538B3C
 _ZN22SynchedActorDataAccess12setActorFlagER13EntityContext10ActorFlagsb,"SynchedActorDataAccess::setActorFlag(EntityContext&, ActorFlags, bool)",0x11538CB0
 _ZNK29SynchedActorDataEntityWrapper9getStringEt,"SynchedActorDataEntityWrapper::getString(unsigned short) const",0xF29FCFC
+_ZN13WebviewSystem17stopAllInterfacesEv,"WebviewSystem::stopAllInterfaces()",0x97300C8
